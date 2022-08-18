@@ -30,10 +30,10 @@ Workflow[^1] executa backup de dados e rotinas de manutenção do sistema.
 - Sobre
 
 ## :desktop_computer: Requisitos de Sistema
-- [Windows](https://www.microsoft.com/windows) 10 Build 18363
+- [Windows](https://www.microsoft.com/windows) 10 Build 19041
 - [Terminal](https://www.github.com/microsoft/terminal) _recomendado_
 - [PowerShell](https://www.github.com/powershell/powershell) 7.2.0
-- [7-Zip](https://www.7-zip.org) 21.07
+- [7-Zip](https://www.7-zip.org) 22.00
 - Elevação de privilégios
 
 ## :package: Conteúdo do Pacote
@@ -69,7 +69,7 @@ Get-Item Workflow.ps1 | Unblock-File
 > :warning: Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
 
 ## :clap: Atribuição
-Wallpaper por [Paul Hanaoka](https://unsplash.com/photos/DKnXlH_r3x4)
+Wallpaper por [Jelena Senicic](https://unsplash.com/photos/_0TCLRTUOTo)
 
 [^1]:Este é um projeto pessoal
 [^2]:[EVE Online](https://www.eveonline.com)
