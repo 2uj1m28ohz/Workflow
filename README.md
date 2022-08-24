@@ -11,6 +11,8 @@ Agilize processos e libere-se de tarefas repetitivas com a automação de Workfl
 
 - **Manutenção do Sistema:** Atualize aplicativos e verifique a integridade da instalação do sistema operacional com apenas um comando.
 
+- **Informações:** Consulte informações detalhadas do seu dispositivo como BIOS, processador, memória, armazenamento, GPU, bateria e mais.
+
 ## :shield: Segurança primeiro!
 Workflow verifica, baixa e instala atualizações automaticamente, trazendo correções, otimizações e novos recursos na velocidade da luz. O terminal app também é capaz de verificar automaticamente a integridade dos pacotes de instalação e atualização, bem como detectar e corrigir alterações ilegais em seu algoritmo a partir da instalação local.
 
