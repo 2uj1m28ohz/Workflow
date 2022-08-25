@@ -3,18 +3,18 @@
 ## :sparkles: Porque automatizar?
 Agilize processos e libere-se de tarefas repetitivas com a automação de Workflow[^1]. CLI intuitivo, sem código e baseado em comandos simples para que você possa se concentrar em atividades de maior valor.
 
-- **Backup e Restauração:** Automatize backups e restaurações de dados dos seus games favoritos mantendo-os em um local seguro, longe de ameaças digitais.
+- **Backup e Restauração:** Automatize backups e restaurações de dados dos seus games favoritos mantendo-os em local seguro, longe de ameaças digitais.
 
 - **Depuração do Sistema:** Otimize o desempenho do sistema operacional removendo arquivos temporários antigos e sem uso a nível de sistema, usuário e outros aplicativos.
 
-- **Diagnóstico do Sistema:** Com os relatórios da bateria, eficiência energética, saúde dos drives e da integridade do sistema de arquivos você pode tomar ações preventivas e manter seu dispositivo operacional por mais tempo.
+- **Diagnóstico do Sistema:** Verifique relatórios da bateria, eficiência energética, saúde dos drives e da integridade do sistema de arquivos para tomar ações preventivas e manter seu dispositivo operacional por mais tempo.
 
-- **Manutenção do Sistema:** Atualize aplicativos e verifique a integridade da instalação do sistema operacional com apenas um comando.
+- **Manutenção do Sistema:** Atualize aplicativos, verifique e restaure a integridade da instalação do sistema operacional com apenas um comando.
 
 - **Informações:** Consulte informações detalhadas do seu dispositivo como BIOS, processador, memória, armazenamento, GPU, bateria e mais.
 
 ## :shield: Segurança primeiro!
-Workflow verifica, baixa e instala atualizações automaticamente, trazendo correções, otimizações e novos recursos na velocidade da luz. O terminal app também é capaz de verificar automaticamente a integridade dos pacotes de instalação e atualização, bem como detectar e corrigir alterações ilegais em seu algoritmo a partir da instalação local.
+Workflow verifica, baixa e instala atualizações automaticamente, trazendo correções, otimizações e novos recursos na velocidade da luz. O terminal app também é capaz de verificar a integridade dos pacotes de instalação e atualização, bem como detectar e corrigir alterações ilegais em seu algoritmo a partir da instalação local.
 
 ## :desktop_computer: Requisitos de sistema
 - [Windows](https://www.microsoft.com/windows) 10 Build 19041
@@ -53,8 +53,7 @@ Get-Item Workflow.ps1 | Unblock-File
 - [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md)
 - [Licença de Software](https://github.com/2uj1m28ohz/workflow/blob/main/LICENSE)
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
-
-> :warning: Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
+> :information_source: Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
 
 ## :clap: Atribuição
 Wallpaper por [Jelena Senicic](https://unsplash.com/photos/_0TCLRTUOTo)
