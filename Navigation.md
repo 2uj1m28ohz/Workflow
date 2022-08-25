@@ -61,9 +61,8 @@ Menu
 │   │   ├─ Sistema
 │   │   └─ Usuários
 │   ├─ Configurações
-│   │   ├─ Registro de Eventos
-│   │   │   ├─ Habilitar Registro de Eventos
-│   │   │   └─ Desabilitar Registro de Eventos
+│   │   ├─ Habilitar Registro de Eventos
+│   │   └─ Desabilitar Registro de Eventos
 │   ├─ Suporte
 │   │   ├─ Visualizar Registro de Eventos
 │   │   ├─ Empacotar Software
