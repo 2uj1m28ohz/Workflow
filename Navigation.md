@@ -1,5 +1,4 @@
 ## :compass: Navegação
-
 ```
 Menu
 ├─ Backup e Restauração
@@ -72,3 +71,4 @@ Menu
 ├─ Reiniciar
 └─ Encerrar
 ```
+> :information_source: Esta é uma representação da árvore de menus da versão de software mais recente.
