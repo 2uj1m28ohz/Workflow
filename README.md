@@ -16,8 +16,6 @@ Agilize processos e libere-se de tarefas repetitivas com a automação de Workfl
 ## :shield: Segurança primeiro!
 Workflow verifica, baixa e instala atualizações automaticamente, trazendo correções, otimizações e novos recursos na velocidade da luz. O terminal app também é capaz de verificar automaticamente a integridade dos pacotes de instalação e atualização, bem como detectar e corrigir alterações ilegais em seu algoritmo a partir da instalação local.
 
-Quer verificar o código-fonte? Clique [aqui](https://github.com/2uj1m28ohz/workflow/blob/main/SourceCode.md).
-
 ## :desktop_computer: Requisitos de sistema
 - [Windows](https://www.microsoft.com/windows) 10 Build 19041
 - [Terminal](https://www.github.com/microsoft/terminal) _recomendado_
@@ -50,6 +48,8 @@ Get-Item Workflow.ps1 | Unblock-File
 > :warning: Certifique-se de informar o local correto do script.
 
 ## :notebook_with_decorative_cover: Documentação
+- [Navegação](https://github.com/2uj1m28ohz/workflow/blob/main/Navigation.md)
+- [Código-fonte](https://github.com/2uj1m28ohz/workflow/blob/main/SourceCode.md)
 - [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md)
 - [Licença de Software](https://github.com/2uj1m28ohz/workflow/blob/main/LICENSE)
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
@@ -60,7 +60,3 @@ Get-Item Workflow.ps1 | Unblock-File
 Wallpaper por [Jelena Senicic](https://unsplash.com/photos/_0TCLRTUOTo)
 
 [^1]:Este é um projeto pessoal
-[^2]:[EVE Online](https://www.eveonline.com)
-[^3]:[Suviving Mars](https://www.survivingmars.com)
-[^4]:[Aven Colony](https://www.team17.com/games/aven-colony)
-[^5]:[Industries of Titan](https://braceyourselfgames.com/industries-of-titan)
