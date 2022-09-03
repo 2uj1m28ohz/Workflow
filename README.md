@@ -16,45 +16,33 @@ Agilize processos e libere-se de tarefas repetitivas com a automação de Workfl
 ## :shield: Segurança primeiro!
 Workflow verifica, baixa e instala atualizações automaticamente, trazendo correções, otimizações e novos recursos na velocidade da luz. O terminal app também é capaz de verificar a integridade dos pacotes de instalação e atualização, bem como detectar e corrigir alterações ilegais em seu algoritmo a partir da instalação local.
 
-## :desktop_computer: Requisitos de sistema
-- [Windows](https://www.microsoft.com/windows) 10 Build 19041
-- [Terminal](https://www.github.com/microsoft/terminal) _recomendado_
-- [PowerShell](https://www.github.com/powershell/powershell) 7.2.0
-- [7-Zip](https://www.7-zip.org) 22.00
-- Elevação de privilégios
-
-## :package: Conteúdo do pacote
-|Item|Arquivo|Status|
-|:---|:---|:---:|
-|Software|Workflow.ps1|:white_check_mark:|
-|Licença|License.html|:white_check_mark:|
-|Leia-me|Readme.html|:white_check_mark:|
-
 ## :arrow_down: Como instalar
-1. Descomprima o pacote
-2. Abra o PowerShell
-3. [Habilite](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy) a execução de scripts para o usuário atual:
+1. Baixe a versão de software mais recente disponível no [repositório](https://github.com/2uj1m28ohz/workflow/releases)
+2. Descomprima o pacote
+3. Execute o PowerShell
+4. [Habilite](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy) a execução de scripts para o usuário atual:
 ```
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 ```
-4. [Desbloqueie](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/unblock-file) o script:
+5. [Desbloqueie](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/unblock-file) o script:
 ```
 Get-Item Workflow.ps1 | Unblock-File
 ```
-5. Execute o script:
+6. Execute o script:
 ```
 .\Workflow.ps1
 ```
-> :warning: Certifique-se de informar o local correto do script.
+> **NOTA:** Certifique-se de informar o local correto do script.
 
 ## :notebook_with_decorative_cover: Documentação
 - [Navegação](https://github.com/2uj1m28ohz/workflow/blob/main/Navigation.md)
 - [Evolução](https://github.com/2uj1m28ohz/workflow/blob/main/Evolution.md)
 - [Código-fonte](https://github.com/2uj1m28ohz/workflow/blob/main/SourceCode.md)
+- [Contribuindo](https://github.com/2uj1m28ohz/Workflow/blob/main/CONTRIBUTING.md)
 - [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md)
 - [Licença de Software](https://github.com/2uj1m28ohz/workflow/blob/main/LICENSE)
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
-> :information_source: Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
+> **NOTA:** Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
 
 ## :clap: Atribuição
 Wallpaper por [Jelena Senicic](https://unsplash.com/photos/_0TCLRTUOTo)
