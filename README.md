@@ -1,6 +1,6 @@
 ![](https://github.com/2uj1m28ohz/workflow/blob/main/Screenshot.png)
 
-## :sparkles: Porque automatizar?
+## :mechanical_arm: Automação
 Agilize processos e libere-se de tarefas repetitivas com a automação de Workflow[^1]. CLI intuitivo, sem código e baseado em comandos simples para que você possa se concentrar em atividades de maior valor.
 
 - **Backup e Restauração:** Automatize backups e restaurações de dados dos seus games favoritos mantendo-os em local seguro, longe de ameaças digitais.
@@ -13,13 +13,19 @@ Agilize processos e libere-se de tarefas repetitivas com a automação de Workfl
 
 - **Informações:** Consulte informações detalhadas do seu dispositivo como BIOS, processador, memória, armazenamento, GPU, bateria e mais.
 
-## :shield: Segurança primeiro!
-Workflow verifica, baixa e instala atualizações automaticamente, trazendo correções, otimizações e novos recursos na velocidade da luz. O terminal app também é capaz de verificar a integridade dos pacotes de instalação e atualização, bem como detectar e corrigir alterações ilegais em seu algoritmo a partir da instalação local.
+## :sparkles: Recursos
+- **Segurança:** Workflow verifica a integridade dos pacotes de software, baixa e instala atualizações automaticamente para entregar correções, otimizações e novos recursos na velocidade da luz, além de detectar alterações ilegais de algoritmo e corrigi-lo.
 
-## :arrow_down: Como instalar
-1. Baixe a versão de software mais recente disponível no [repositório](https://github.com/2uj1m28ohz/workflow/releases)
-2. Descomprima o pacote
-3. Execute o PowerShell
+- **Notificações:** Receba notificações importantes sobre a execução do software no seu desktop.
+
+- **Personalização:** Escolha entre cinco temas diferentes pra deixar o seu setup com aquele brilho cintilante.
+
+- **Modo Rollback:** Execute versões anteriores de software temporariamente sem comprometer as configurações da versão atual.
+
+## :arrow_down: Como Instalar
+1. Baixe a versão de software mais recente disponível no [repositório](https://github.com/2uj1m28ohz/workflow/releases);
+2. Descomprima o pacote;
+3. Execute o PowerShell;
 4. [Habilite](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy) a execução de scripts para o usuário atual:
 ```
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
@@ -45,6 +51,6 @@ Get-Item Workflow.ps1 | Unblock-File
 > **NOTA:** Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
 
 ## :clap: Atribuição
-Wallpaper por [Jelena Senicic](https://unsplash.com/photos/_0TCLRTUOTo)
+Wallpaper por [Neil Mark Thomas](https://unsplash.com/photos/1euFcqLsPWA)
 
 [^1]:Este é um projeto pessoal
