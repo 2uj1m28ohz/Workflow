@@ -1,6 +1,6 @@
 ## :compass: Navegação
 ```
-Menu
+Home
 ├─ Backup e Restauração
 │   ├─ EVE Online
 │   │   ├─ Criar Backup
@@ -60,10 +60,18 @@ Menu
 │   │   ├─ Sistema
 │   │   └─ Usuários
 │   ├─ Configurações
-│   │   ├─ Habilitar Registro de Eventos
-│   │   └─ Desabilitar Registro de Eventos
+│   │   ├─ Temas
+│   │   │   ├─ Violet Pixel
+│   │   │   ├─ Blue Pixel
+│   │   │   ├─ Green Pixel
+│   │   │   ├─ Yellow Pixel
+│   │   │   └─ Red Pixel
+│   │   ├─ Registro de Eventos
+│   │   │   ├─ Exibir
+│   │   │   ├─ Habilitar
+│   │   │   └─ Desabilitar
+│   │   └─ Restaurar Configurações
 │   ├─ Suporte
-│   │   ├─ Visualizar Registro de Eventos
 │   │   ├─ Empacotar Software
 │   │   └─ Desinstalar Software
 │   ├─ Ajuda
@@ -71,4 +79,4 @@ Menu
 ├─ Reiniciar
 └─ Encerrar
 ```
-> :information_source: Esta é uma representação da árvore de menus da versão de software mais recente.
+> **NOTA:** Esta é uma representação da árvore de menus da versão de software mais recente.
