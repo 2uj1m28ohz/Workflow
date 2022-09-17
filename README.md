@@ -14,19 +14,13 @@ Agilize processos e libere-se de tarefas repetitivas com a automação de Workfl
 - **Informações:** Consulte informações detalhadas do seu dispositivo como BIOS, processador, memória, armazenamento, GPU, bateria e mais.
 
 ## :sparkles: Recursos
-- **Segurança:** Workflow verifica a integridade dos pacotes de software, baixa e instala atualizações automaticamente para entregar correções, otimizações e novos recursos na velocidade da luz, além de detectar alterações ilegais de algoritmo e corrigi-lo.
+- **Segurança:** Workflow verifica a integridade dos pacotes de software, baixa e instala atualizações automaticamente, além de detectar alterações ilegais de algoritmo e corrigi-lo.
 
 - **Notificações:** Receba notificações importantes sobre a execução do software no seu desktop.
 
 - **Personalização:** Escolha entre cinco temas diferentes pra deixar o seu setup com aquele brilho cintilante.
 
 - **Modo Rollback:** Execute versões anteriores de software temporariamente sem comprometer as configurações da versão atual.
-
-## :eight_pointed_black_star: O que está por vir
-- Design refinado, atualização de layout e elementos visuais
-- Velocidade de carregamento e download de pacotes de software aprimorada
-- Redução no consumo de memória para operações de compactação de dados
-- Unificação do menu de configurações
 
 ## :arrow_down: Como Instalar
 1. Baixe a versão de software mais recente disponível no [repositório](https://github.com/2uj1m28ohz/workflow/releases);
@@ -57,6 +51,6 @@ Get-Item Workflow.ps1 | Unblock-File
 > **NOTA:** Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
 
 ## :clap: Atribuição
-Wallpaper por [Neil Mark Thomas](https://unsplash.com/photos/1euFcqLsPWA)
+Wallpaper por [Alexey Turenkov](https://unsplash.com/photos/LZp01Y9g-zo)
 
 [^1]:Este é um projeto pessoal
