@@ -22,6 +22,12 @@ Agilize processos e libere-se de tarefas repetitivas com a automação de Workfl
 
 - **Modo Rollback:** Execute versões anteriores de software temporariamente sem comprometer as configurações da versão atual.
 
+## :eight_pointed_black_star: O que está por vir
+- Design refinado, atualização de layout e elementos visuais
+- Velocidade de carregamento e download de pacotes de software aprimorada
+- Redução no consumo de memória para operações de compactação de dados
+- Unificação do menu de configurações
+
 ## :arrow_down: Como Instalar
 1. Baixe a versão de software mais recente disponível no [repositório](https://github.com/2uj1m28ohz/workflow/releases);
 2. Descomprima o pacote;
