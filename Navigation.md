@@ -70,7 +70,7 @@ Home
 │   │   ├─ Software
 │   │   │   ├─ Habilitar
 │   │   │   └─ Desabilitar
-│   │   └─ Sistema Operacional
+│   │   └─ Sistema
 │   │       ├─ Habilitar
 │   │       └─ Desabilitar
 │   ├─ Registro de Eventos
