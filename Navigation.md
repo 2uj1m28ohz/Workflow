@@ -30,10 +30,10 @@ Home
 │   └─ Verificar Sistema de Arquivos
 ├─ Manutenção do Sistema
 │   ├─ Gerenciar Aplicativos
-│   │   ├─ Listar Aplicativos
-│   │   ├─ Atualizar Aplicativos
-│   │   ├─ Exportar Lista de Aplicativos
-│   │   └─ Importar Lista de Aplicativos
+│   │   ├─ Listar
+│   │   ├─ Atualizar
+│   │   ├─ Exportar
+│   │   └─ Importar
 │   ├─ Desfragmentar
 │   │   ├─ Analisar
 │   │   ├─ Otimizar
@@ -49,33 +49,46 @@ Home
 │   └─ Verificar Instalação do Sistema
 ├─ Informações
 │   ├─ Dispositivo
-│   │   ├─ Geral
-│   │   ├─ BIOS
-│   │   ├─ Processador
-│   │   ├─ Memória
-│   │   ├─ Armazenamento
-│   │   ├─ Display
-│   │   ├─ GPU
-│   │   ├─ Bateria
-│   │   ├─ Sistema
-│   │   └─ Usuários
-│   ├─ Configurações
-│   │   ├─ Temas
-│   │   │   ├─ Violet Pixel
-│   │   │   ├─ Blue Pixel
-│   │   │   ├─ Green Pixel
-│   │   │   ├─ Yellow Pixel
-│   │   │   └─ Red Pixel
-│   │   ├─ Registro de Eventos
-│   │   │   ├─ Exibir
+│   ├─ Geral
+│   ├─ BIOS
+│   ├─ Processador
+│   ├─ Memória
+│   ├─ Armazenamento
+│   ├─ Display
+│   ├─ GPU
+│   ├─ Bateria
+│   ├─ Sistema
+│   └─ Usuários
+├─ Configurações
+│   ├─ Temas
+│   │   ├─ Violet Pixel
+│   │   ├─ Blue Pixel
+│   │   ├─ Green Pixel
+│   │   ├─ Yellow Pixel
+│   │   └─ Red Pixel
+│   ├─ Notificações
+│   │   ├─ Software
 │   │   │   ├─ Habilitar
 │   │   │   └─ Desabilitar
-│   │   └─ Restaurar Configurações
-│   ├─ Suporte
-│   │   ├─ Empacotar Software
-│   │   └─ Desinstalar Software
-│   ├─ Ajuda
-│   └─ Sobre
+│   │   └─ Sistema Operacional
+│   │       ├─ Habilitar
+│   │       └─ Desabilitar
+│   ├─ Registro de Eventos
+│   │   ├─ Exibição
+│   │   │   ├─ Exibir Arquivo
+│   │   │   └─ Exibir Diretório
+│   │   ├─ Status
+│   │   │   ├─ Habilitar
+│   │   │   └─ Desabilitar
+│   │   └ Período
+│   │       ├─ 30 Dias
+│   │       ├─ 60 Dias
+│   │       └─ 90 Dias
+│   ├─ Restaurar Configurações
+│   ├─ Empacotar
+│   └─ Desinstalar
+├─ Ajuda
+├─ Sobre
 ├─ Reiniciar
 └─ Encerrar
 ```
