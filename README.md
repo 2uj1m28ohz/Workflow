@@ -3,24 +3,22 @@
 ## :mechanical_arm: Automação
 Agilize processos e libere-se de tarefas repetitivas com a automação de Workflow[^1]. CLI intuitivo, sem código e baseado em comandos simples para que você possa se concentrar em atividades de maior valor.
 
-- **Backup e Restauração:** Automatize backups e restaurações de dados dos seus games favoritos mantendo-os em local seguro, longe de ameaças digitais.
+- **Backup e Restauração:** Automatize o backup de dados do usuário local, da nuvem[^2], jogos selecionados e drivers de sistema mantendo-os em local seguro, longe de ameaças digitais.
 
-- **Depuração do Sistema:** Otimize o desempenho do sistema operacional removendo arquivos temporários antigos e sem uso a nível de sistema, usuário e outros aplicativos.
+- **Depuração do Sistema:** Otimize o desempenho do sistema operacional removendo arquivos temporários obsoletos a nível de sistema, usuário e softwares selecionados.
 
-- **Diagnóstico do Sistema:** Verifique relatórios da bateria, eficiência energética, saúde dos drives e da integridade do sistema de arquivos para tomar ações preventivas e manter seu dispositivo operacional por mais tempo.
+- **Diagnóstico do Sistema:** Consulte relatórios de bateria, eficiência energética, saúde dos drives e integridade do sistema de arquivos. Tome ações preventivas para manter seu dispositivo operacional por mais tempo.
 
-- **Manutenção do Sistema:** Atualize aplicativos, verifique e restaure a integridade da instalação do sistema operacional com apenas um comando.
+- **Manutenção do Sistema:** Atualize aplicativos e restaure a integridade da instalação do sistema operacional com apenas um comando.
 
-- **Informações:** Consulte informações detalhadas do seu dispositivo como BIOS, processador, memória, armazenamento, GPU, bateria e mais.
+- **Informações:** Consulte informações detalhadas de hardware como BIOS, processador, memória, armazenamento, GPU, bateria e mais.
 
 ## :sparkles: Recursos
-- **Segurança:** Workflow verifica a integridade dos pacotes de software, baixa e instala atualizações automaticamente, além de detectar alterações ilegais de algoritmo e corrigi-lo.
-
-- **Notificações:** Receba notificações importantes sobre a execução do software no seu desktop.
+- **Segurança:** Workflow verifica a integridade dos pacotes de software, baixa e instala atualizações automaticamente, além de detectar e corrigir alterações ilegais de algoritmo.
 
 - **Personalização:** Escolha entre cinco temas diferentes pra deixar o seu setup com aquele brilho cintilante.
 
-- **Modo Rollback:** Execute versões anteriores de software temporariamente sem comprometer as configurações da versão atual.
+- **Notificações:** Receba notificações importantes sobre a execução do software na área de trabalho.
 
 ## :arrow_down: Como Instalar
 1. Baixe a versão de software mais recente disponível no [repositório](https://github.com/2uj1m28ohz/workflow/releases);
@@ -43,14 +41,16 @@ Get-Item Workflow.ps1 | Unblock-File
 ## :notebook_with_decorative_cover: Documentação
 - [Navegação](https://github.com/2uj1m28ohz/workflow/blob/main/Navigation.md)
 - [Evolução](https://github.com/2uj1m28ohz/workflow/blob/main/Evolution.md)
+- [Estrutura](https://github.com/2uj1m28ohz/workflow/blob/main/Structure.md)
 - [Código-fonte](https://github.com/2uj1m28ohz/workflow/blob/main/SourceCode.md)
-- [Contribuindo](https://github.com/2uj1m28ohz/Workflow/blob/main/CONTRIBUTING.md)
+- [Contribuindo](https://github.com/2uj1m28ohz/workflow/blob/main/CONTRIBUTING.md)
 - [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md)
 - [Licença de Software](https://github.com/2uj1m28ohz/workflow/blob/main/LICENSE)
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
 > **NOTA:** Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
 
 ## :clap: Atribuição
-Wallpaper por [Alexey Turenkov](https://unsplash.com/photos/LZp01Y9g-zo)
+Imagem por [Jan Kopřiva](https://unsplash.com/photos/f17PV9v8xOw).
 
-[^1]:Este é um projeto pessoal
+[^1]:Este é um projeto pessoal que tem como objetivo atender exclusivamente as demandas do desenvolvedor, podendo eventualmente ser útil a outros contextos. Verifique a Licença de Software para mais informações.
+[^2]:Recurso disponível apenas para o OneDrive.
