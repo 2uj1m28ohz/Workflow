@@ -50,7 +50,7 @@ Get-Item Workflow.ps1 | Unblock-File
 > **NOTA:** Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
 
 ## :clap: Atribuição
-Imagem por [Jan Kopřiva](https://unsplash.com/photos/f17PV9v8xOw).
+Imagem por [John Baker](https://unsplash.com/photos/O0TJxneMyts).
 
 [^1]:Este é um projeto pessoal que tem como objetivo atender exclusivamente as demandas do desenvolvedor, podendo eventualmente ser útil a outros contextos. Verifique a Licença de Software para mais informações.
 [^2]:Recurso disponível apenas para o OneDrive.
