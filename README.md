@@ -39,6 +39,7 @@ Get-Item Workflow.ps1 | Unblock-File
 > **NOTA:** Certifique-se de informar o local correto do script.
 
 ## :notebook_with_decorative_cover: Documentação
+- [Ajuda](https://github.com/2uj1m28ohz/workflow/blob/main/HELP.md)
 - [Navegação](https://github.com/2uj1m28ohz/workflow/blob/main/Navigation.md)
 - [Evolução](https://github.com/2uj1m28ohz/workflow/blob/main/Evolution.md)
 - [Estrutura](https://github.com/2uj1m28ohz/workflow/blob/main/Structure.md)
