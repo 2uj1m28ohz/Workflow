@@ -13,23 +13,23 @@
 |`■`|Pixel|Exibe a palheta de cores da Interface|
 
 ### Atualização de software
-#### Como atualizar o software?
+#### 1. Como atualizar o software?
 
 Workflow verifica, baixa e instala atualizações automaticamente, trazendo correções, otimizações e novos recursos na velocidade da luz. Basta executá-lo regularmente para manter o software atualizado.
 
-#### Como corrigir o erro *Hash incompatível*?
+#### 2. Como corrigir o erro *Hash incompatível*?
 
-Durante a instalação ou atualização de software Workflow verifica a integridade dos pacotes de software baixados da Internet. Este erro também pode ser exibido se uma alteração ilegal for detectada no algoritmo do software. Em todos os cenários você não precisa tomar qualquer ação, os pacotes de software não são aplicados e a integridade do software é restaurada automaticamente.
+Este erro pode ser exibido durante a instalação ou atualização de software, quando Workflow verifica a integridade dos pacotes de software baixados da Internet, ou ainda caso uma alteração ilegal seja detectada no algoritmo do software. Em todos os cenários você não precisa tomar qualquer ação, os pacotes de software não são aplicados e a integridade de Workflow é restaurada automaticamente.
 
 ### Modo Rollback
-#### O que é o Modo RollBack?
+#### 3. O que é o Modo RollBack?
 
 O Modo Rollback é um recurso desenhado para impedir que a execução de uma versão de software inferior comprometa as configurações de software da versão atual. Quando ativado, qualquer alteração nas configurações são perdidadas ao encerrar o software.
 
-#### Como ativar o Modo Rollback?
+#### 4. Como ativar o Modo Rollback?
 
 O Modo Rollback é ativado automaticamente caso você execute manualmente uma versão de software inferior a versão disponível.
 
-#### Como desativar o Modo Rollback?
+#### 5. Como desativar o Modo Rollback?
 
 Não é possível desativar o Modo Rollback manualmente. Para retornar ao modo de execução normal basta executar o software a partir do local de instalação, sinalizado no atalho criado no desktop do usuário.
