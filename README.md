@@ -24,11 +24,11 @@ Agilize processos e libere-se de tarefas repetitivas com a automação de Workfl
 1. Baixe a versão de software mais recente disponível no [repositório](https://github.com/2uj1m28ohz/workflow/releases);
 2. Descomprima o pacote;
 3. Execute o PowerShell;
-4. [Habilite](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy) a execução de scripts para o usuário atual:
+4. Habilite a execução de scripts para o usuário atual:
 ```
 Set-ExecutionPolicy Unrestricted -Scope CurrentUser -Force
 ```
-5. [Desbloqueie](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/unblock-file) o script:
+5. Desbloqueie o script:
 ```
 Get-Item Workflow.ps1 | Unblock-File
 ```
@@ -51,7 +51,7 @@ Get-Item Workflow.ps1 | Unblock-File
 > **NOTA:** Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
 
 ## :clap: Atribuição
-Imagem por [Martin Adams](https://unsplash.com/photos/MpTdvXlAsVE).
+Imagem por [Alexis Antoine](https://unsplash.com/photos/lbIgR6AwLfw).
 
 [^1]:Este é um projeto pessoal que tem como objetivo atender exclusivamente as demandas do desenvolvedor, podendo eventualmente ser útil a outros contextos. Verifique a Licença de Software para mais informações.
 [^2]:Recurso disponível apenas para o OneDrive.
