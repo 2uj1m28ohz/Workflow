@@ -49,7 +49,6 @@ Home
 │   │   └─ Reparar Integridade
 │   └─ Verificar Instalação do Sistema
 ├─ Informações
-│   ├─ Dispositivo
 │   ├─ Geral
 │   ├─ BIOS
 │   ├─ Processador
@@ -85,10 +84,9 @@ Home
 │   │       ├─ 30 Dias
 │   │       ├─ 60 Dias
 │   │       └─ 90 Dias
-│   ├─ Restaurar Configurações
 │   ├─ Empacotar
+│   ├─ Redefinir
 │   └─ Desinstalar
-├─ Ajuda
 ├─ Sobre
 ├─ Reiniciar
 └─ Encerrar
