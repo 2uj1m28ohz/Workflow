@@ -5,7 +5,7 @@ Uma versão sem suporte não está sujeita à garantia de atualização de softw
 ### 2. Quando termina o suporte à minha versão?
 Apenas as três versões recentes lançadas são cobertas pelo suporte e estão sujeitas à garantia de atualização de software. Se a versão instalada no seu dispositivo for compatível, instale as atualizações disponíveis para manter a qualificação.
 
-O fim do suporte ao software também ocorrerá automaticamente **30 dias** após o encerramento do seu ciclo de vida, quando o desenvolvimento é descontinuado e novas versões não serão lançadas. Para manter o suporte é necessário executar o Assistente de Migração, caso esteja disponível. O software informará caso o desenvolvimento e/ou o suporte tenham sido encerrados.
+O fim do suporte ao software também ocorrerá automaticamente **30 dias**[^1] após o encerramento do seu ciclo de vida, quando o desenvolvimento é descontinuado e novas versões não serão lançadas. Para manter o suporte é necessário executar o Assistente de Migração, caso esteja disponível. O software informará caso o desenvolvimento e/ou o suporte tenham sido encerrados.
 
 ### 3. Eu ainda poderei usar o software após o fim do suporte?
 Sim. Se você usar uma versão sem suporte, ela ainda funcionará, porém estará suscetível a erros e incompatibilidades de software.
@@ -14,6 +14,7 @@ Sim. Se você usar uma versão sem suporte, ela ainda funcionará, porém estar�
 Para receber atualizações basta estar conectado à Internet. Ao iniciar, o software buscará e instalará atualizações automaticamente. Se o suporte à versão instalada no seu dispositivo for encerrado, poderá ser necessário baixar e instalar atualizações manualmente.
 
 ### 5. Como entrar em contato com o suporte?
-Utilize a aba [Discussions](https://github.com/2uj1m28ohz/workflow/discussions) para obter suporte. Sua resposta será direcionada o mais breve possível.
+Utilize a aba [Discussions](https://github.com/2uj1m28ohz/workflow/discussions) para obter suporte[^2]. Sua resposta será direcionada o mais breve possível.
 
-> **NOTA:** Repositórios legados, softwares descontinuados e versões de software sem suporte podem ser removidos após o encerramento do seu ciclo de vida.
+[^1]:Repositórios legados, softwares descontinuados e versões de software sem suporte podem ser removidos após o encerramento do seu ciclo de vida.
+[^2]:Os dados armazenados pelo Registro de Eventos podem ser solicitados ao usuário pelo suporte para compreender e solucionar problemas reportados.
