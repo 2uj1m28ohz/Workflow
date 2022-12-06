@@ -40,6 +40,18 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     A [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) determina quantas versões estão sujeitas à garantia de atualização de software. Possivelmente o software não tenha sido executado há muito tempo, perdendo a compatibilidade e portanto, impossibilitado de receber atualizações automaticamente. Para solucionar, prossiga com a desinstalação manual da versão instalada, baixe e instale a versão de software mais recente.
 
+### Backup e Restauração
+1. Ao restaurar um backup o software apresenta o erro "*Diretório não encontrado*".
+
+    Games selecionados como EVE Online, Survivings Mars, Aven Colony e Insdustries Of Titan tem opções de restauração de backup. Ao utilizá-las, Workflow busca pelo formato de arquivo
+    compactado configurado no software. Este erro pode significar que um backup não foi previamente criado, portanto não pode ser restaurado, ou que o backup foi criado usando um formato de compactação diferente do que está atualmente configurado no software.
+    
+    Verifique se há um backup disponível para ser restaurado, e se ele está no mesmo formato da configuração de software. Caso esteja em um formato diferente, basta alterar a configuração de software temporariamente para o mesmo formato de compactação do arquivo de backup.
+
+2. Porque não há opções de restauração de backup para os dados do usuário, OneDrive e drivers de sistema?
+
+    Como você pode imaginar, a manipulação de dados pessoais e de sistema pode ser bastante delicada. Há grandes riscos ao disponibilizar opções automatizadas de restauração dessa classe de dados, o que pode implicar em perda de informações ou incompatibilidade ao subscrever dados atualizados por suas versões antigas quando em uma ação não intencional desastrosa. Desta forma, optou-se por não permitir a automatização da restauração de dados do usuário e de sistema, que deve ser feita intencional, consciente e manualmente pelo usuário a partir do arquivo de backup.
+
 ### Configurações
 1. É possível desabilitar notificações no desktop?
 
@@ -54,7 +66,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
     Para alterar o período de retenção siga para o menu Configurações > Registro de Eventos > Período e escolha uma entre as opções disponíveis.
 
 ### Modo Rollback
-1. O que é o Modo RollBack?
+1. O que é o Modo Rollback?
 
     O Modo Rollback é um recurso desenhado para impedir que a execução de uma versão de software inferior comprometa as configurações de software da versão atual. Quando ativado, qualquer alteração nas configurações são perdidadas ao encerrar o software.
 
