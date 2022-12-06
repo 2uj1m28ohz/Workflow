@@ -10,3 +10,5 @@
 2. Descomprima o pacote utilizando um software com suporte aos formatos disponíveis;
 3. Abra o arquivo **ps1** com um editor de texto ou uma IDE;
 4. Divirta-se!
+
+> **NOTA:** O código-fonte será traduzido para EN-US em 2023. The source code will be translated to EN-US in 2023.
