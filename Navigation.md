@@ -60,6 +60,17 @@ Home
 │   ├─ Sistema
 │   └─ Usuários
 ├─ Configurações
+│   ├─ Backup
+│   │   ├─ Formato
+│   │   │   ├─ TAR
+│   │   │   ├─ ZIP
+│   │   │   └─ 7Z
+│   │   └─ Drive
+│   │       ├─ D
+│   │       ├─ E
+│   │       ├─ F
+│   │       ├─ G
+│   │       └─ H
 │   ├─ Temas
 │   │   ├─ Violet Pixel
 │   │   ├─ Blue Pixel
