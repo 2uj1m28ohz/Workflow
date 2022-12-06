@@ -3,7 +3,7 @@
 ## :mechanical_arm: Automação
 Agilize processos e libere-se de tarefas repetitivas com a automação de Workflow[^1]. CLI intuitivo, sem código e baseado em comandos simples para que você possa se concentrar em atividades de maior valor.
 
-- **Backup e Restauração:** Automatize o backup de dados do usuário local, da nuvem[^2], jogos selecionados e drivers de sistema mantendo-os em local seguro, longe de ameaças digitais.
+- **Backup e Restauração:** Automatize o backup de dados do usuário local, da nuvem[^2], de jogos selecionados e drivers de sistema mantendo-os em local seguro, longe de ameaças digitais. Configure o drive de destino, o formato de compactação, e observe a mágica acontecer.
 
 - **Depuração do Sistema:** Otimize o desempenho do sistema operacional removendo arquivos temporários obsoletos a nível de sistema, usuário e softwares selecionados.
 
@@ -51,7 +51,7 @@ Get-Item Workflow.ps1 | Unblock-File
 > **NOTA:** Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
 
 ## :clap: Atribuição
-Imagem por [Alexis Antoine](https://unsplash.com/photos/lbIgR6AwLfw).
+Imagem por [Emilio Georgiou](https://unsplash.com/photos/fYHUgiEkJg4).
 
 [^1]:Este é um projeto pessoal que tem como objetivo atender exclusivamente as demandas do desenvolvedor, podendo eventualmente ser útil a outros contextos. Verifique a Licença de Software para mais informações.
 [^2]:Recurso disponível apenas para o OneDrive.
