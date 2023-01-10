@@ -5,7 +5,7 @@
                          └─ Workflow ─┐                     [Diretório de instalação]
                                       ├─ Software           [Diretório de software]
                                       ├─ Events             [Diretório de registro de eventos]
-                                      └─ Temporary          [Diretório de arquivos temporários]
+                                      └─ Temporary          [Diretório de itens temporários]
 ```
 
 ### Registro
