@@ -16,9 +16,9 @@ Home
 │   │       ├─ Criar Backup
 │   │       └─ Restaurar Backup
 │   └─ Sistema
+│       ├─ Drivers
 │       ├─ Usuário
-│       ├─ OneDrive
-│       └─ Drivers
+│       └─ OneDrive
 ├─ Depuração do Sistema
 │   ├─ Expurgar Arquivos de Sistema
 │   ├─ Expurgar Arquivos de Software
@@ -33,8 +33,8 @@ Home
 │   ├─ Gerenciar Aplicativos
 │   │   ├─ Listar
 │   │   ├─ Atualizar
-│   │   ├─ Exportar
-│   │   └─ Importar
+│   │   ├─ Importar
+│   │   └─ Exportar
 │   ├─ Desfragmentar
 │   │   ├─ Analisar
 │   │   ├─ Otimizar
@@ -96,6 +96,8 @@ Home
 │   │       ├─ 60 Dias
 │   │       └─ 90 Dias
 │   ├─ Empacotar
+│   ├─ Importar
+│   ├─ Exportar
 │   ├─ Redefinir
 │   └─ Desinstalar
 ├─ Sobre
