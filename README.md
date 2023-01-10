@@ -1,9 +1,9 @@
 ![](https://github.com/2uj1m28ohz/workflow/blob/main/Screenshot.png)
 
 ## :mechanical_arm: Automação
-Agilize processos e libere-se de tarefas repetitivas com a automação de Workflow[^1]. CLI intuitivo, sem código e baseado em comandos simples para que você possa se concentrar em atividades de maior valor.
+Agilize processos e liberte-se de tarefas repetitivas com a automação de Workflow. CLI intuitivo, sem código e baseado em comandos simples para que você possa se concentrar em atividades de maior valor.
 
-- **Backup e Restauração:** Automatize o backup de dados do usuário local, da nuvem[^2], de jogos selecionados e drivers de sistema mantendo-os em local seguro, longe de ameaças digitais. Configure o drive de destino, o formato de compactação, e observe a mágica acontecer.
+- **Backup e Restauração:** Automatize o backup de jogos selecionados, drivers de sistema, dados de usuário e da nuvem[^1] mantendo-os em local seguro, longe de ameaças digitais. Escolha o formato de compactação, o drive de destino, e observe a mágica acontecer.
 
 - **Depuração do Sistema:** Otimize o desempenho do sistema operacional removendo arquivos temporários obsoletos a nível de sistema, usuário e softwares selecionados.
 
@@ -14,7 +14,9 @@ Agilize processos e libere-se de tarefas repetitivas com a automação de Workfl
 - **Informações:** Consulte informações detalhadas de hardware como BIOS, processador, memória, armazenamento, GPU, bateria e mais.
 
 ## :sparkles: Recursos
-- **Segurança:** Workflow verifica a integridade dos pacotes de software, baixa e instala atualizações automaticamente, além de detectar e corrigir alterações ilegais de algoritmo.
+- **Atualização:** Como um software rolling release updates são baixados e instalados automaticamente. Instale uma vez, atualize para sempre[^2].
+
+- **Segurança:** Dispositivos de segurança verificam a integridade dos updates antes da implantação, bem como detectam e corrigiem alterações ilegais de algoritmo.
 
 - **Personalização:** Escolha entre cinco temas diferentes pra deixar o seu setup com aquele brilho cintilante.
 
@@ -34,7 +36,7 @@ Get-Item Workflow.ps1 | Unblock-File
 ```
 6. Execute o script:
 ```
-.\Workflow.ps1
+& Workflow.ps1
 ```
 > **NOTA:** Certifique-se de informar o local correto do script.
 
@@ -48,10 +50,9 @@ Get-Item Workflow.ps1 | Unblock-File
 - [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md)
 - [Licença de Software](https://github.com/2uj1m28ohz/workflow/blob/main/LICENSE)
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
-> **NOTA:** Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
 
 ## :clap: Atribuição
-Imagem por [Emilio Georgiou](https://unsplash.com/photos/fYHUgiEkJg4).
+Imagem por [Jonny James](https://unsplash.com/photos/3no88nSvK88).
 
-[^1]:Este é um projeto pessoal que tem como objetivo atender exclusivamente as demandas do desenvolvedor, podendo eventualmente ser útil a outros contextos. Verifique a Licença de Software para mais informações.
-[^2]:Recurso disponível apenas para o OneDrive.
+[^1]:Recurso disponível apenas para o OneDrive.
+[^2]:Atualizações de software só podem ser garantidas em ambientes compatíveis e de acordo com a Política de Suporte.
