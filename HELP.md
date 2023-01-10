@@ -48,22 +48,41 @@ Elementos são uma forma simples de compreender a execução e a interface do so
     
     Verifique se há um backup disponível para ser restaurado, e se ele está no mesmo formato da configuração de software. Caso esteja em um formato diferente, basta alterar a configuração de software temporariamente para o mesmo formato de compactação do arquivo de backup.
 
-2. Porque não há opções de restauração de backup para os dados do usuário, OneDrive e drivers de sistema?
+2. Porque não há opções de restauração de backup para drivers de sistema, dados do usuário e OneDrive?
 
-    Como você pode imaginar, a manipulação de dados pessoais e de sistema pode ser bastante delicada. Há grandes riscos ao disponibilizar opções automatizadas de restauração dessa classe de dados, o que pode implicar em perda de informações ou incompatibilidade ao subscrever dados atualizados por suas versões antigas quando em uma ação não intencional desastrosa. Desta forma, optou-se por não permitir a automatização da restauração de dados do usuário e de sistema, que deve ser feita intencional, consciente e manualmente pelo usuário a partir do arquivo de backup.
+    Como você pode imaginar, a manipulação de drivers de sistema e dados pessoais pode ser bastante delicada. Há grandes riscos ao disponibilizar opções automatizadas de restauração dessas classes de dados, o que pode implicar em incompatibilidade ou perda de informações ao subscrever dados atualizados por suas versões antigas quando em uma ação não intencional desastrosa. Desta forma, optou-se por não permitir a automatização da restauração dessas classes de dados, que deve ser feita intencional, consciente e manualmente pelo usuário a partir do arquivo de backup.
 
 ### Configurações
-1. É possível desabilitar notificações no desktop?
+1. É possível desabilitar notificações[^1] no desktop?
 
-    Para desabilitar notificações[^1] no desktop siga para o menu Configurações > Notificações > Sistema > Desabilitar.
+    Siga para o menu Configurações > Notificações > Sistema > Desabilitar
 
-2. É possível desabilitar o Registro de Eventos?
+2. É possível desabilitar o Registro de Eventos[^2]?
 
-    Para desabilitar o Registro de Eventos[^2] siga para o menu Configurações > Registro de Eventos > Status > Desabilitar.
+    Siga para o menu Configurações > Registro de Eventos > Status > Desabilitar
 
 3. É possível alterar o período de retenção do Registro de Eventos?
 
-    Para alterar o período de retenção siga para o menu Configurações > Registro de Eventos > Período e escolha uma entre as opções disponíveis.
+    Siga para o menu Configurações > Registro de Eventos > Período
+
+4. Como faço o backup das configurações de software?
+
+    - Siga para o menu Configurações > Exportar
+    - Acesse `%UserProfile%\AppData\Local\DC\Workflow\Software`
+    - Faça backup do arquivo `Settings.json`
+
+5. Como faço para transferir[^3] as configurações de software para um novo dispositivo?
+
+    No dispositivo antigo:
+    - Siga para o menu Configurações > Exportar
+    - Acesse `%UserProfile%\AppData\Local\DC\Workflow\Software`
+    - Copie o arquivo `Settings.json`
+
+    No dispositivo novo:
+    - Efetue a instalação de software
+    - Acesse `%UserProfile%\AppData\Local\DC\Workflow\Software`
+    - Cole o arquivo `Settings.json`
+    - Siga para o menu Configurações > Importar
 
 ### Modo Rollback
 1. O que é o Modo Rollback?
@@ -78,5 +97,9 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     Não é possível desativar o Modo Rollback manualmente. Para retornar ao modo de execução normal basta executar o software a partir do local de instalação, sinalizado no atalho criado no desktop do usuário.
 
+### Acesso a pastas controladas
+Ao utilizar alguns recursos de software é necessário acesso para a leitura e gravação de dados em pastas controladas, como pastas de aplicativos de terceiros e pastas de usuário. Para isso acesse o aplicativo **Segurança do Windows** e adicione o executável do PowerShell à lista de aplicativos permitidos.
+
 [^1]:Notificações de compatibilidade não podem ser desabilitadas.
 [^2]:Verifique a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) para mais informações.
+[^3]:Configurações de identificação e segurança do softwares não são transferidas.
