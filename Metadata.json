@@ -2,6 +2,7 @@
   "Development": "1",
   "Update": "23.010.1",
   "Versions": [
+    {"ID": "23.040.1", "Support": "0", "Format": "7z", "Hash": null},
     {"ID": "23.010.1", "Support": "1", "Format": "7z", "Hash": "7E47E726CAB615E504E96B9D5FFB7C02AEAF5AE93C0C3B2C55CEF5B4A404FA95"},
     {"ID": "22.340.1", "Support": "1", "Format": "7z", "Hash": "A2A12DF4071CF9FAD0C60C7E1C39D4B1789C038F0F31DAB8786D0538D6B77F7E"},
     {"ID": "22.310.1", "Support": "1", "Format": "7z", "Hash": "824303C8AAF7905644938318B586612B3F8F758220934E532AD8794BF102DED0"},
@@ -22,6 +23,7 @@
   "Desenvolvimento": "1",
   "Atualizacao": "23.010.1",
   "Versoes": [
+    {"ID": "23.040.1", "Suporte": "0", "Formato": "7z", "Hash": null},
     {"ID": "23.010.1", "Suporte": "1", "Formato": "7z", "Hash": "7E47E726CAB615E504E96B9D5FFB7C02AEAF5AE93C0C3B2C55CEF5B4A404FA95"},
     {"ID": "22.340.1", "Suporte": "1", "Formato": "7z", "Hash": "A2A12DF4071CF9FAD0C60C7E1C39D4B1789C038F0F31DAB8786D0538D6B77F7E"},
     {"ID": "22.310.1", "Suporte": "1", "Formato": "7z", "Hash": "824303C8AAF7905644938318B586612B3F8F758220934E532AD8794BF102DED0"},
