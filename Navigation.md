@@ -1,24 +1,11 @@
 ## :compass: Navegação
 ```
 Home
-├─ Backup e Restauração
+├─ Backup de Dados
 │   ├─ Jogos
-│   │   ├─ EVE Online
-│   │   │   ├─ Criar Backup
-│   │   │   └─ Restaurar Backup
-│   │   ├─ Surviving Mars
-│   │   │   ├─ Criar Backup
-│   │   │   └─ Restaurar Backup
-│   │   ├─ Aven Colony
-│   │   │   ├─ Criar Backup
-│   │   │   └─ Restaurar Backup
-│   │   └─ Industries of Titan
-│   │       ├─ Criar Backup
-│   │       └─ Restaurar Backup
-│   └─ Sistema
-│       ├─ Drivers
-│       ├─ Usuário
-│       └─ OneDrive
+│   ├─ Drivers
+│   ├─ Usuário
+│   └─ OneDrive
 ├─ Depuração do Sistema
 │   ├─ Expurgar Arquivos de Sistema
 │   ├─ Expurgar Arquivos de Software
@@ -85,13 +72,13 @@ Home
 │   │       ├─ Habilitar
 │   │       └─ Desabilitar
 │   ├─ Registro de Eventos
-│   │   ├─ Exibição
-│   │   │   ├─ Exibir Arquivo
-│   │   │   └─ Exibir Diretório
 │   │   ├─ Status
 │   │   │   ├─ Habilitar
 │   │   │   └─ Desabilitar
-│   │   └ Período
+│   │   ├─ Exibição
+│   │   │   ├─ Exibir Arquivo
+│   │   │   └─ Exibir Diretório
+│   │   └─ Período
 │   │       ├─ 30 Dias
 │   │       ├─ 60 Dias
 │   │       └─ 90 Dias
