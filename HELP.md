@@ -40,19 +40,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     A [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) determina quantas versões estão sujeitas à garantia de atualização de software. Possivelmente o software não tenha sido executado há muito tempo, perdendo a compatibilidade e portanto, impossibilitado de receber atualizações automaticamente. Para solucionar, prossiga com a desinstalação manual da versão instalada, baixe e instale a versão de software mais recente.
 
-### Backup e Restauração
-1. Ao restaurar um backup o software apresenta o erro "*Diretório não encontrado*".
-
-    Games selecionados como EVE Online, Survivings Mars, Aven Colony e Insdustries Of Titan tem opções de restauração de backup. Ao utilizá-las, Workflow busca pelo formato de arquivo
-    compactado configurado no software. Este erro pode significar que um backup não foi previamente criado, portanto não pode ser restaurado, ou que o backup foi criado usando um formato de compactação diferente do que está atualmente configurado no software.
-    
-    Verifique se há um backup disponível para ser restaurado, e se ele está no mesmo formato da configuração de software. Caso esteja em um formato diferente, basta alterar a configuração de software temporariamente para o mesmo formato de compactação do arquivo de backup.
-
-2. Porque não há opções de restauração de backup para drivers de sistema, dados do usuário e OneDrive?
-
-    Como você pode imaginar, a manipulação de drivers de sistema e dados pessoais pode ser bastante delicada. Há grandes riscos ao disponibilizar opções automatizadas de restauração dessas classes de dados, o que pode implicar em incompatibilidade ou perda de informações ao subscrever dados atualizados por suas versões antigas quando em uma ação não intencional desastrosa. Desta forma, optou-se por não permitir a automatização da restauração dessas classes de dados, que deve ser feita intencional, consciente e manualmente pelo usuário a partir do arquivo de backup.
-
-### Configurações
+### Configuração
 1. É possível desabilitar notificações[^1] no desktop?
 
     Siga para o menu Configurações > Notificações > Sistema > Desabilitar
@@ -68,20 +56,23 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 4. Como faço o backup das configurações de software?
 
     - Siga para o menu Configurações > Exportar
-    - Acesse `%UserProfile%\AppData\Local\DC\Workflow\Software`
-    - Faça backup do arquivo `Settings.json`
+    - Abra o Executar com Win+R
+    - Digite `%UserProfile%\Downloads` e clique em Ok
+    - Faça backup do arquivo `WorkflowSettingsBackup.json`
 
 5. Como faço para transferir[^3] as configurações de software para um novo dispositivo?
 
     No dispositivo antigo:
     - Siga para o menu Configurações > Exportar
-    - Acesse `%UserProfile%\AppData\Local\DC\Workflow\Software`
-    - Copie o arquivo `Settings.json`
+    - Abra o Executar com Win+R
+    - Digite `%UserProfile%\Downloads` e clique em Ok
+    - Copie o arquivo `WorkflowSettingsBackup.json`
 
     No dispositivo novo:
     - Efetue a instalação de software
-    - Acesse `%UserProfile%\AppData\Local\DC\Workflow\Software`
-    - Cole o arquivo `Settings.json`
+    - Abra o Executar com Win+R
+    - Digite `%UserProfile%\Downloads` e clique em Ok
+    - Cole o arquivo `WorkflowSettingsBackup.json`
     - Siga para o menu Configurações > Importar
 
 ### Modo Rollback
@@ -98,7 +89,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
     Não é possível desativar o Modo Rollback manualmente. Para retornar ao modo de execução normal basta executar o software a partir do local de instalação, sinalizado no atalho criado no desktop do usuário.
 
 ### Acesso a pastas controladas
-Ao utilizar alguns recursos de software é necessário acesso para a leitura e gravação de dados em pastas controladas, como pastas de aplicativos de terceiros e pastas de usuário. Para isso acesse o aplicativo **Segurança do Windows** e adicione o executável do PowerShell à lista de aplicativos permitidos.
+Alguns recursos de software requerem acesso à leitura e gravação de dados em pastas controladas, como pastas de usuário e aplicativos de terceiros. Para autorizar o acesso abra o aplicativo **Segurança do Windows** e adicione os executáveis do PowerShell e do 7-Zip à lista de aplicativos permitidos.
 
 [^1]:Notificações de compatibilidade não podem ser desabilitadas.
 [^2]:Verifique a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) para mais informações.
