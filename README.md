@@ -3,20 +3,20 @@
 ## :mechanical_arm: Automação
 Agilize processos e liberte-se de tarefas repetitivas com a automação de Workflow. CLI intuitivo, sem código e baseado em comandos simples para que você possa se concentrar em atividades de maior valor.
 
-- **Backup e Restauração:** Automatize o backup de jogos selecionados, drivers de sistema, dados de usuário e da nuvem[^1] mantendo-os em local seguro, longe de ameaças digitais. Escolha o formato de compactação, o drive de destino, e observe a mágica acontecer.
+- **Backup de Dados:** Automatize o backup de jogos selecionados[^1], drivers de sistema, dados de usuário[^2] e da nuvem[^3], mantendo-os em local seguro, longe de ameaças digitais. Escolha o formato de compressão, o drive de destino, e observe a mágica acontecer.
 
-- **Depuração do Sistema:** Otimize o desempenho do sistema operacional removendo arquivos temporários obsoletos a nível de sistema, usuário e softwares selecionados.
+- **Depuração do Sistema:** Otimize o desempenho do sistema operacional removendo arquivos temporários obsoletos a nível de sistema, usuário e softwares selecionados[^4].
 
 - **Diagnóstico do Sistema:** Consulte relatórios de bateria, eficiência energética, saúde dos drives e integridade do sistema de arquivos. Tome ações preventivas para manter seu dispositivo operacional por mais tempo.
 
-- **Manutenção do Sistema:** Atualize aplicativos e restaure a integridade da instalação do sistema operacional com apenas um comando.
+- **Manutenção do Sistema:** Atualize aplicativos e restaure a integridade do sistema operacional com apenas um comando.
 
 - **Informações:** Consulte informações detalhadas de hardware como BIOS, processador, memória, armazenamento, GPU, bateria e mais.
 
 ## :sparkles: Recursos
-- **Atualização:** Como um software rolling release updates são baixados e instalados automaticamente. Instale uma vez, atualize para sempre[^2].
+- **Atualização:** Como um software rolling release, updates são baixados e instalados automaticamente. Instale uma vez, atualize para sempre[^5].
 
-- **Segurança:** Dispositivos de segurança verificam a integridade dos updates antes da implantação, bem como detectam e corrigiem alterações ilegais de algoritmo.
+- **Segurança:** Algoritmos de segurança verificam a integridade dos updates antes da instalação, bem como detectam e corrigiem alterações ilegais de software.
 
 - **Personalização:** Escolha entre cinco temas diferentes pra deixar o seu setup com aquele brilho cintilante.
 
@@ -52,7 +52,10 @@ Get-Item Workflow.ps1 | Unblock-File
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
 
 ## :clap: Atribuição
-Imagem por [Jonny James](https://unsplash.com/photos/3no88nSvK88).
+Imagem por [Daniel Leone](https://unsplash.com/pt-br/fotografias/g30P1zcOzXo).
 
-[^1]:Recurso disponível apenas para o OneDrive.
-[^2]:Atualizações de software só podem ser garantidas em ambientes compatíveis e de acordo com a Política de Suporte.
+[^1]:EVE Online, Surviving Mars, Industries Of Titan, Aven Colony
+[^2]:Desktop, Documentos, Imagens, Músicas, Vídeos, Downloads
+[^3]:Recurso disponível apenas para o OneDrive.
+[^4]:EVE Online
+[^5]:Atualizações de software só podem ser garantidas em ambientes compatíveis e de acordo com a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md).
