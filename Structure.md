@@ -7,10 +7,4 @@
                                       ├─ Events             [Diretório de registro de eventos]
                                       └─ Temporary          [Diretório de itens temporários]
 ```
-
-### Registro
-```
-HKCU\Software\DC ─┐                                         [Chave raiz]
-                  └─ Workflow                               [Chave de instalação]
-```
 > **NOTA:** Esta é uma representação da estrutura da versão de software mais recente.
