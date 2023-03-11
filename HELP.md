@@ -41,7 +41,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
     A [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) determina quantas versões estão sujeitas à garantia de atualização de software. Possivelmente o software não tenha sido executado há muito tempo, perdendo a compatibilidade e portanto, impossibilitado de receber atualizações automaticamente. Para solucionar, prossiga com a desinstalação manual da versão instalada, baixe e instale a versão de software mais recente.
 
 ### Configuração
-1. É possível desabilitar notificações[^1] no desktop?
+1. É possível desabilitar notificações[^1] na Central de Notificações?
 
     Siga para o menu Configurações > Notificações > Sistema > Desabilitar
 
@@ -86,7 +86,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
 3. Como desativar o Modo Rollback?
 
-    Não é possível desativar o Modo Rollback manualmente. Para retornar ao modo de execução normal basta executar o software a partir do local de instalação, sinalizado no atalho criado no desktop do usuário.
+    Não é possível desativar o Modo Rollback manualmente. Para retornar ao modo de execução normal basta executar o software a partir do local de instalação, sinalizado no atalho criado na Área de Trabalho.
 
 ### Acesso a pastas controladas
 Alguns recursos de software requerem acesso à leitura e gravação de dados em pastas controladas, como pastas de usuário e aplicativos de terceiros. Para autorizar o acesso abra o aplicativo **Segurança do Windows** e adicione os executáveis do PowerShell e do 7-Zip à lista de aplicativos permitidos.
