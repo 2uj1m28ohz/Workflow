@@ -3,7 +3,7 @@
 ## :mechanical_arm: Automação
 Agilize processos e liberte-se de tarefas repetitivas com a automação de Workflow. CLI intuitivo, sem código e baseado em comandos simples para que você possa se concentrar em atividades de maior valor.
 
-- **Backup de Dados:** Automatize o backup de jogos selecionados[^1], drivers de sistema, dados de usuário[^2] e da nuvem[^3], mantendo-os em local seguro, longe de ameaças digitais. Escolha o formato de compressão, o drive de destino, e observe a mágica acontecer.
+- **Backup de Dados:** Automatize o backup de jogos selecionados[^1], drivers de sistema, dados de usuário[^2] e da nuvem[^3] mantendo-os em local seguro, longe de ameaças digitais. Escolha o formato e nível de compressão, drive de destino, e observe a mágica acontecer.
 
 - **Depuração do Sistema:** Otimize o desempenho do sistema operacional removendo arquivos temporários obsoletos a nível de sistema, usuário e softwares selecionados[^4].
 
@@ -16,11 +16,11 @@ Agilize processos e liberte-se de tarefas repetitivas com a automação de Workf
 ## :sparkles: Recursos
 - **Atualização:** Como um software rolling release, updates são baixados e instalados automaticamente. Instale uma vez, atualize para sempre[^5].
 
-- **Segurança:** Algoritmos de segurança verificam a integridade dos updates antes da instalação, bem como detectam e corrigiem alterações ilegais de software.
+- **Segurança:** Algoritmos de segurança verificam a integridade dos updates antes da instalação, bem como detectam e corrigem alterações ilegais de software.
 
 - **Personalização:** Escolha entre cinco temas diferentes pra deixar o seu setup com aquele brilho cintilante.
 
-- **Notificações:** Receba notificações importantes sobre a execução do software na área de trabalho.
+- **Notificações:** Receba notificações importantes sobre a execução do software na Central de Notificações sistema.
 
 ## :arrow_down: Como Instalar
 1. Baixe a versão de software mais recente disponível no [repositório](https://github.com/2uj1m28ohz/workflow/releases);
@@ -52,7 +52,7 @@ Get-Item Workflow.ps1 | Unblock-File
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
 
 ## :clap: Atribuição
-Imagem por [Daniel Leone](https://unsplash.com/pt-br/fotografias/g30P1zcOzXo).
+Imagem por [Jacob Wall](https://unsplash.com/pt-br/fotografias/J35x4qL0mS0).
 
 [^1]:EVE Online, Surviving Mars, Industries Of Titan, Aven Colony
 [^2]:Desktop, Documentos, Imagens, Músicas, Vídeos, Downloads
