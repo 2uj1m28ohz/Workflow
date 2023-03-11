@@ -3,9 +3,9 @@
 Home
 ├─ Backup de Dados
 │   ├─ Jogos
-│   ├─ Drivers
 │   ├─ Usuário
-│   └─ OneDrive
+│   ├─ OneDrive
+│   └─ Sistema
 ├─ Depuração do Sistema
 │   ├─ Expurgar Arquivos de Sistema
 │   ├─ Expurgar Arquivos de Software
@@ -52,6 +52,13 @@ Home
 │   │   │   ├─ TAR
 │   │   │   ├─ ZIP
 │   │   │   └─ 7Z
+│   │   ├─ Nível
+│   │   │   ├─ Armazenamento
+│   │   │   ├─ Veloz
+│   │   │   ├─ Rápido
+│   │   │   ├─ Normal
+│   │   │   ├─ Máximo
+│   │   │   └─ Ultra
 │   │   └─ Drive
 │   │       ├─ D
 │   │       ├─ E
@@ -76,8 +83,8 @@ Home
 │   │   │   ├─ Habilitar
 │   │   │   └─ Desabilitar
 │   │   ├─ Exibição
-│   │   │   ├─ Exibir Arquivo
-│   │   │   └─ Exibir Diretório
+│   │   │   ├─ Log de Execução
+│   │   │   └─ Log de Compressão
 │   │   └─ Período
 │   │       ├─ 30 Dias
 │   │       ├─ 60 Dias
