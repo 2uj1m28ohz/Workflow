@@ -4,7 +4,7 @@ Home
 ├─ Backup de Dados
 │   ├─ Jogos
 │   ├─ Usuário
-│   ├─ OneDrive
+│   ├─ Nuvem
 │   └─ Sistema
 ├─ Depuração do Sistema
 │   ├─ Expurgar Arquivos de Sistema
@@ -59,6 +59,12 @@ Home
 │   │   │   ├─ Normal
 │   │   │   ├─ Máximo
 │   │   │   └─ Ultra
+│   │   ├─ Memória
+│   │   │   ├─ 10%
+│   │   │   ├─ 20%
+│   │   │   ├─ 30%
+│   │   │   ├─ 40%
+│   │   │   ├─ 50%
 │   │   └─ Drive
 │   │       ├─ D
 │   │       ├─ E
@@ -73,29 +79,23 @@ Home
 │   │   └─ Red Pixel
 │   ├─ Notificações
 │   │   ├─ Software
-│   │   │   ├─ Habilitar
-│   │   │   └─ Desabilitar
 │   │   └─ Sistema
-│   │       ├─ Habilitar
-│   │       └─ Desabilitar
 │   ├─ Registro de Eventos
 │   │   ├─ Status
-│   │   │   ├─ Habilitar
-│   │   │   └─ Desabilitar
-│   │   ├─ Exibição
-│   │   │   ├─ Log de Execução
-│   │   │   └─ Log de Compressão
-│   │   └─ Período
-│   │       ├─ 30 Dias
-│   │       ├─ 60 Dias
-│   │       └─ 90 Dias
+│   │   ├─ Retenção
+│   │   │   ├─ 30 Dias
+│   │   │   ├─ 60 Dias
+│   │   │   └─ 90 Dias
+│   │   └─ Exibição
+│   │       ├─ Log de Execução
+│   │       ├─ Log de Compressão
+│   │       └─ Log de Empacotamento
 │   ├─ Empacotar
 │   ├─ Importar
 │   ├─ Exportar
 │   ├─ Redefinir
 │   └─ Desinstalar
 ├─ Sobre
-├─ Reiniciar
 └─ Encerrar
 ```
 > **NOTA:** Esta é uma representação da árvore de menus da versão de software mais recente.
