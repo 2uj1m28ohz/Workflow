@@ -1,9 +1,10 @@
 ## :arrow_up: Evolução
 |Sprint|Versão|Data|Suporte|Windows|PowerShell|7-Zip|Linhas|Sub-rotinas|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|55|23.100.1|10/04/2023|:green_circle:|10 21H2|7.3.0|22.00|+05,64%|+02,84%|
 |54|23.070.1|11/03/2023|:green_circle:|10 21H2|7.3.0|22.00|+07,91%|+28,18%|
-|53|23.040.1|09/02/2023|:green_circle:|10 21H2|7.3.0|22.00|-11,74%|-09,09%|
-|52|23.010.1|10/01/2023|:yellow_circle:|10 21H2|7.2.5|22.00|+06,85%|+01,68%|
+|53|23.040.1|09/02/2023|:yellow_circle:|10 21H2|7.3.0|22.00|-11,74%|-09,09%|
+|52|23.010.1|10/01/2023|:red_circle:|10 21H2|7.2.5|22.00|+06,85%|+01,68%|
 |51|22.340.1|06/12/2022|:red_circle:|10 21H1|7.2.0|22.00|+06,12%|+08,18%|
 |50|22.310.1|06/11/2022|:red_circle:|10 21H1|7.2.0|22.00|-00,93%|-00,90%|
 |49|22.280.1|07/10/2022|:red_circle:|10 21H1|7.2.0|22.00|+01,95%|00,00%|
@@ -55,8 +56,8 @@
 |3|1.8.0-001|2021/2|:red_circle:|10 1507|5.1.0|-|+02,17%|00,00%|
 |2|1.7.0-001|2021/2|:red_circle:|10 1507|5.1.0|-|-12,38%|-40,00%|
 |1|0.9.0-001|2021/2|:red_circle:|10 1507|5.1.0|-|00,00%|00,00%|
-> **NOTA:** Verifique a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) para mais informações.
+> - :green_circle: Suporte ativo
+> - :yellow_circle: Suporte próximo do fim
+> - :red_circle: Suporte inativo
 
-- :green_circle: Indica que o suporte está ativo
-- :yellow_circle: Indica que o suporte está próximo do fim
-- :red_circle: Indica que o suporte está inativo
+> **NOTA:** Verifique a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) para mais informações.
