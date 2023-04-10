@@ -41,26 +41,30 @@ Elementos são uma forma simples de compreender a execução e a interface do so
     A [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) determina quantas versões estão sujeitas à garantia de atualização de software. Possivelmente o software não tenha sido executado há muito tempo, perdendo a compatibilidade e portanto, impossibilitado de receber atualizações automaticamente. Para solucionar, prossiga com a desinstalação manual da versão instalada, baixe e instale a versão de software mais recente.
 
 ### Configuração
-1. É possível desabilitar notificações[^1] na Central de Notificações?
+1. É possível desabilitar notificações na Central de Notificações?
 
-    Siga para o menu Configurações > Notificações > Sistema > Desabilitar
+    Siga para o menu Configurações > Notificações > Status
 
-2. É possível desabilitar o Registro de Eventos[^2]?
+2. É possível desabilitar o Registro de Eventos[^1]?
 
-    Siga para o menu Configurações > Registro de Eventos > Status > Desabilitar
+    Siga para o menu Configurações > Registro de Eventos > Status
 
 3. É possível alterar o período de retenção do Registro de Eventos?
 
-    Siga para o menu Configurações > Registro de Eventos > Período
+    Siga para o menu Configurações > Registro de Eventos > Retenção
 
-4. Como faço o backup das configurações de software?
+4. Porque a opção Empacotar não exporta os hashes dos pacotes?
+
+    Para exportar os hashes dos pacotes, habilite o Registro de Eventos.
+
+5. Como faço o backup das configurações de software?
 
     - Siga para o menu Configurações > Exportar
     - Abra o Executar com Win+R
     - Digite `%UserProfile%\Downloads` e clique em Ok
     - Faça backup do arquivo `WorkflowSettingsBackup.json`
 
-5. Como faço para transferir[^3] as configurações de software para um novo dispositivo?
+6. Como faço para transferir[^2] as configurações de software para um novo dispositivo?
 
     No dispositivo antigo:
     - Siga para o menu Configurações > Exportar
@@ -91,6 +95,5 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 ### Acesso a pastas controladas
 Alguns recursos de software requerem acesso à leitura e gravação de dados em pastas controladas, como pastas de usuário e aplicativos de terceiros. Para autorizar o acesso abra o aplicativo **Segurança do Windows** e adicione os executáveis do PowerShell e do 7-Zip à lista de aplicativos permitidos.
 
-[^1]:Notificações de compatibilidade não podem ser desabilitadas.
-[^2]:Verifique a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) para mais informações.
-[^3]:Configurações de identificação e segurança do softwares não são transferidas.
+[^1]:Verifique a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) para mais informações.
+[^2]:Configurações de identificação e segurança do softwares não são transferidas.
