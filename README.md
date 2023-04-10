@@ -1,7 +1,7 @@
 ![](https://github.com/2uj1m28ohz/workflow/blob/main/Screenshot.png)
 
 ## :mechanical_arm: Automação
-Agilize processos e liberte-se de tarefas repetitivas com a automação de Workflow. CLI intuitivo, sem código e baseado em comandos simples para que você possa se concentrar em atividades de maior valor.
+Workflow é uma poderosa ferramenta para automação de tarefas, criado para gerenciar backups e rotinas de manutenção do sistema. Altamente configurável para atender às necessidades do seu ambiente e com uma CLI intuitiva, é baseado em comandos simples e pode ser utilizado por usuários de todos os níveis de habilidade, tornando a automação acessível para todos. Workflow é constantemente desenvolvido para que você possa se concentrar em atividades de maior valor, reduzindo falhas humanas, aumentando sua eficiência e produtividade.
 
 - **Backup de Dados:** Automatize o backup de jogos selecionados[^1], drivers de sistema, dados de usuário[^2] e da nuvem[^3] mantendo-os em local seguro, longe de ameaças digitais. Escolha o formato e nível de compressão, drive de destino, e observe a mágica acontecer.
 
@@ -18,9 +18,11 @@ Agilize processos e liberte-se de tarefas repetitivas com a automação de Workf
 
 - **Segurança:** Algoritmos de segurança verificam a integridade dos updates antes da instalação, bem como detectam e corrigem alterações ilegais de software.
 
+- **Configurações:** Exporte suas configurações para um novo dispositivo e continue exatamente do ponto onde parou.
+
 - **Personalização:** Escolha entre cinco temas diferentes pra deixar o seu setup com aquele brilho cintilante.
 
-- **Notificações:** Receba notificações importantes sobre a execução do software na Central de Notificações sistema.
+- **Notificações:** Receba notificações importantes sobre a execução do software na Central de Notificações do sistema.
 
 ## :arrow_down: Como Instalar
 1. Baixe a versão de software mais recente disponível no [repositório](https://github.com/2uj1m28ohz/workflow/releases);
@@ -52,7 +54,7 @@ Get-Item Workflow.ps1 | Unblock-File
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
 
 ## :clap: Atribuição
-Imagem por [Jacob Wall](https://unsplash.com/pt-br/fotografias/J35x4qL0mS0).
+Imagem por [Jamie Davies](https://unsplash.com/pt-br/fotografias/eZt5mvF7RcU).
 
 [^1]:EVE Online, Surviving Mars, Industries Of Titan, Aven Colony
 [^2]:Desktop, Documentos, Imagens, Músicas, Vídeos, Downloads
