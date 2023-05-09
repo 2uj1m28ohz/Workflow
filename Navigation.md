@@ -2,10 +2,8 @@
 ```
 Home
 ├─ Backup de Dados
-│   ├─ Jogos
-│   ├─ Usuário
-│   ├─ Nuvem
-│   └─ Sistema
+│   ├─ Iniciar Backup
+│   └─ Testar Backup
 ├─ Depuração do Sistema
 │   ├─ Expurgar Arquivos de Sistema
 │   ├─ Expurgar Arquivos de Software
@@ -65,12 +63,33 @@ Home
 │   │   │   ├─ 30%
 │   │   │   ├─ 40%
 │   │   │   ├─ 50%
-│   │   └─ Drive
-│   │       ├─ D
-│   │       ├─ E
-│   │       ├─ F
-│   │       ├─ G
-│   │       └─ H
+│   │   ├─ Drive
+│   │   │   ├─ D
+│   │   │   ├─ E
+│   │   │   ├─ F
+│   │   │   ├─ G
+│   │   │   └─ H
+│   │   ├─ Retenção
+│   │   │   ├─ 07 Dias
+│   │   │   ├─ 14 Dias
+│   │   │   ├─ 21 Dias
+│   │   │   └─ 28 Dias
+│   │   ├─ Jogos
+│   │   │   ├─ EVE Online
+│   │   │   ├─ Surviving Mars
+│   │   │   ├─ Industries Of Titan
+│   │   │   └─ Aven Colony
+│   │   ├─ Usuário
+│   │   │   ├─ Desktop
+│   │   │   ├─ Documentos
+│   │   │   ├─ Imagens
+│   │   │   ├─ Vídeos
+│   │   │   ├─ Músicas
+│   │   │   └─ Downloads
+│   │   ├─ Nuvem
+│   │   │   └─ OneDrive
+│   │   └─ Sistema
+│   │       └─ Drivers
 │   ├─ Temas
 │   │   ├─ Violet Pixel
 │   │   ├─ Blue Pixel
