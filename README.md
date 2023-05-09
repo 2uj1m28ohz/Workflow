@@ -1,9 +1,11 @@
+## :asterisk: Sobre
+
+Workflow é uma poderosa ferramenta para automação de tarefas, criado para gerenciar backups e rotinas de manutenção do sistema. Altamente configurável para atender às necessidades do seu ambiente e com uma CLI intuitiva, é baseado em comandos simples e pode ser utilizado por usuários de todos os níveis de habilidade, tornando a automação acessível para todos. Workflow é constantemente desenvolvido para que você possa se concentrar em atividades de maior valor, reduzindo falhas humanas, aumentando sua eficiência e produtividade.
+
 ![](https://github.com/2uj1m28ohz/workflow/blob/main/Screenshot.png)
 
 ## :mechanical_arm: Automação
-Workflow é uma poderosa ferramenta para automação de tarefas, criado para gerenciar backups e rotinas de manutenção do sistema. Altamente configurável para atender às necessidades do seu ambiente e com uma CLI intuitiva, é baseado em comandos simples e pode ser utilizado por usuários de todos os níveis de habilidade, tornando a automação acessível para todos. Workflow é constantemente desenvolvido para que você possa se concentrar em atividades de maior valor, reduzindo falhas humanas, aumentando sua eficiência e produtividade.
-
-- **Backup de Dados:** Automatize o backup de jogos selecionados[^1], drivers de sistema, dados de usuário[^2] e da nuvem[^3] mantendo-os em local seguro, longe de ameaças digitais. Escolha o formato e nível de compressão, drive de destino, e observe a mágica acontecer.
+- **Backup de Dados:** Automatize o backup de jogos selecionados[^1], drivers de sistema, dados de usuário[^2] e da nuvem[^3] mantendo-os em local seguro, longe de ameaças digitais. Escolha o formato e nível de compressão, drive de destino, período de retenção, e observe a mágica acontecer.
 
 - **Depuração do Sistema:** Otimize o desempenho do sistema operacional removendo arquivos temporários obsoletos a nível de sistema, usuário e softwares selecionados[^4].
 
@@ -13,7 +15,7 @@ Workflow é uma poderosa ferramenta para automação de tarefas, criado para ger
 
 - **Informações:** Consulte informações detalhadas de hardware como BIOS, processador, memória, armazenamento, GPU, bateria e mais.
 
-## :sparkles: Recursos
+## :gem: Recursos
 - **Atualização:** Como um software rolling release, updates são baixados e instalados automaticamente. Instale uma vez, atualize para sempre[^5].
 
 - **Segurança:** Algoritmos de segurança verificam a integridade dos updates antes da instalação, bem como detectam e corrigem alterações ilegais de software.
@@ -42,7 +44,7 @@ Get-Item Workflow.ps1 | Unblock-File
 ```
 > **NOTA:** Certifique-se de informar o local correto do script.
 
-## :notebook_with_decorative_cover: Documentação
+## :blue_book: Documentação
 - [Ajuda](https://github.com/2uj1m28ohz/workflow/blob/main/HELP.md)
 - [Navegação](https://github.com/2uj1m28ohz/workflow/blob/main/Navigation.md)
 - [Evolução](https://github.com/2uj1m28ohz/workflow/blob/main/Evolution.md)
@@ -53,11 +55,11 @@ Get-Item Workflow.ps1 | Unblock-File
 - [Licença de Software](https://github.com/2uj1m28ohz/workflow/blob/main/LICENSE)
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
 
-## :clap: Atribuição
-Imagem por [Jamie Davies](https://unsplash.com/pt-br/fotografias/eZt5mvF7RcU).
+## :bust_in_silhouette: Atribuição
+Imagem por [Dave Herring](https://unsplash.com/pt-br/fotografias/B7cjB9bIGAQ).
 
 [^1]:EVE Online, Surviving Mars, Industries Of Titan, Aven Colony
-[^2]:Desktop, Documentos, Imagens, Músicas, Vídeos, Downloads
-[^3]:Recurso disponível apenas para o OneDrive.
+[^2]:Desktop, Documentos, Imagens, Vídeos, Músicas, Downloads
+[^3]:Recurso disponível apenas para o OneDrive
 [^4]:EVE Online
-[^5]:Atualizações de software só podem ser garantidas em ambientes compatíveis e de acordo com a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md).
+[^5]:Atualizações de software só podem ser garantidas em ambientes compatíveis e de acordo com a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md)
