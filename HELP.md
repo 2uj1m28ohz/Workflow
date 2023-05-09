@@ -40,6 +40,19 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     A [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) determina quantas versões estão sujeitas à garantia de atualização de software. Possivelmente o software não tenha sido executado há muito tempo, perdendo a compatibilidade e portanto, impossibilitado de receber atualizações automaticamente. Para solucionar, prossiga com a desinstalação manual da versão instalada, baixe e instale a versão de software mais recente.
 
+### Backup de Dados
+1. Eu posso selecionar o que incluir no backup?
+
+    Sim, você pode escolher o que incluir no backup habilitando e desabilitando as opções disponíveis no menu Configurações > Backup > Conteúdo.
+
+2. O que significa suporte a multidispositivos e multiusuários?
+
+    O suporte à multidispositivos e multiusuários do Backup de Dados permite que sejam adicionados backups de diversos dispositivos e usuários à mesma estrutura de backup presente no drive de backup.
+
+3. Outro usuário pode fazer backup dos meus dados?
+
+    Não. Workflow é executado a nível de usuário, portanto os dados dos demais usuários não são tocados.
+
 ### Configuração
 1. É possível desabilitar notificações na Central de Notificações?
 
