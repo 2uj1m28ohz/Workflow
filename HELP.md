@@ -23,6 +23,10 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     Você está executando uma versão de software sem suporte. Versões sem suporte não podem ser instaladas. Baixe a versão mais recente para prosseguir com a instalação do software. Consulte [Evolução](https://github.com/2uj1m28ohz/workflow/blob/main/Evolution.md) e [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) para mais informações.
 
+3. Porque o arquivo de atalho Workflow.ps1 não está presente na home do usuário?
+
+    Navegue até o diretório home do usuário utilizando o comando `Set-Location $Home`. Caso o arquivo `Workflow.ps1` não esteja presente, verifique a seção **Acesso a Pastas Controladas** logo abaixo. Em seguida execute Workflow manualmente utilizando a [Estrutura](https://github.com/2uj1m28ohz/Workflow/blob/main/Structure.md) para localizar o diretório de instalação do software. Workflow recriará o atalho automaticamente.
+
 ### Atualização
 1. Como manter o software atualizado?
 
@@ -52,6 +56,38 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 3. Outro usuário pode fazer backup dos meus dados?
 
     Não. Workflow é executado a nível de usuário, portanto os dados dos demais usuários não são tocados.
+
+4. Quais as vantagens da tabela de partições GPT para o backup de dados?
+
+    - Recuperação de dados simplificada: A GPT utiliza redundância de tabela de partições em várias áreas do disco, o que torna a recuperação de dados mais fácil em caso de corrupção ou falha no disco. Se uma cópia da tabela de partições for danificada, o sistema pode usar as cópias de backup para restaurar as informações de partição corretas.
+
+    - Identificação única global: Cada partição em um disco GPT possui um identificador único global (GUID). Isso facilita a identificação e seleção correta das partições durante o processo de backup, garantindo que os dados corretos sejam copiados.
+
+    - Suporte a discos grandes: A GPT é capaz de lidar com unidades de armazenamento de grande capacidade, o que é benéfico para backups de dados volumosos. Se você precisa fazer o backup de grandes quantidades de dados, a GPT permitirá aproveitar ao máximo a capacidade do disco de backup.
+
+    - Compatibilidade com sistemas operacionais modernos: A GPT é reconhecida nativamente por sistemas operacionais modernos e firmware, como o UEFI. Isso garante uma melhor compatibilidade e interoperabilidade ao fazer backup e restaurar dados em diferentes sistemas.
+
+5. Quais as vantagens do sistema de arquivos NTFS para o backup de dados?
+
+    - Suporte a arquivos grandes: O NTFS tem suporte nativo para arquivos grandes, permitindo que você faça backup de arquivos de tamanho significativo. Isso é particularmente útil para backups de vídeos, imagens de disco ou qualquer outro tipo de arquivo que exceda os limites de tamanho de outros sistemas de arquivos.
+
+    - Recuperação de dados: O NTFS possui recursos de recuperação de dados integrados. Ele mantém cópias de backup das informações críticas do sistema de arquivos, como a tabela de alocação de arquivos (MFT - Master File Table). Em caso de corrupção de dados ou falhas no disco, o sistema de arquivos NTFS pode recuperar automaticamente as informações corretas, reduzindo a probabilidade de perda de dados durante o backup.
+
+    - Integridade do sistema de arquivos: O NTFS possui mecanismos de verificação e reparação de integridade do sistema de arquivos. Durante o backup, esses mecanismos podem identificar e corrigir erros ou setores defeituosos no disco, garantindo a integridade dos dados armazenados e evitando a propagação de erros durante o processo de backup.
+
+6. Quais as vantagens de clusters de 64 KB para o backup de dados?
+
+    - Eficiência de armazenamento: O tamanho do cluster determina a quantidade mínima de espaço em disco alocada para cada arquivo. Com clusters maiores, como 64 KB, há menos sobrecarga em termos de espaço em disco desperdiçado devido ao tamanho mínimo alocado para cada arquivo. Isso pode ser particularmente benéfico ao fazer backup de muitos arquivos pequenos, pois reduz o espaço desperdiçado em relação a clusters menores.
+
+    - Desempenho do backup: Ao fazer o backup de arquivos grandes, um tamanho de cluster maior pode melhorar o desempenho geral do processo de backup. Isso ocorre porque o tamanho do cluster determina o número de operações de leitura/gravação necessárias para copiar um arquivo. Com um cluster maior, menos operações são necessárias para copiar um arquivo grande, resultando em um tempo de backup menor.
+
+    - Fragmentação reduzida: O tamanho do cluster também está relacionado à fragmentação do disco. Com clusters maiores, há menos chances de fragmentação de arquivos ocorrer, o que pode melhorar o desempenho do acesso aos dados durante a restauração de backups.
+
+    - Desempenho do sistemas de arquivos: O tamanho do cluster pode ser especialmente benéfico em sistemas de arquivos que são otimizados para tamanhos de cluster maiores, como o sistema de arquivos NTFS. O NTFS tende a ter um desempenho melhor com clusters maiores, e um tamanho de cluster de 64 KB pode oferecer uma boa combinação de eficiência de armazenamento e desempenho.
+
+7. Porque ocorre falha ao executar o OneDrive após a execução do backup?
+
+    Ao executar Workflow com elevação de privilégios, o OneDrive pode não conseguir identificar a conta de usuário associada e exibir uma mensagem de erro. Para solucionar, inicie o OneDrive manualmente ao concluir o backup de dados.
 
 ### Configuração
 1. É possível desabilitar notificações na Central de Notificações?
@@ -105,8 +141,8 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     Não é possível desativar o Modo Rollback manualmente. Para retornar ao modo de execução normal basta executar o software a partir do local de instalação, sinalizado no atalho criado na Área de Trabalho.
 
-### Acesso a pastas controladas
+### Acesso a Pastas Controladas
 Alguns recursos de software requerem acesso à leitura e gravação de dados em pastas controladas, como pastas de usuário e aplicativos de terceiros. Para autorizar o acesso abra o aplicativo **Segurança do Windows** e adicione os executáveis do PowerShell e do 7-Zip à lista de aplicativos permitidos.
 
 [^1]:Verifique a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) para mais informações.
-[^2]:Configurações de identificação e segurança do softwares não são transferidas.
+[^2]:Configurações de identificação e segurança do software não são transferidas.
