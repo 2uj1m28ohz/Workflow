@@ -5,7 +5,7 @@ Workflow é uma poderosa ferramenta para automação de tarefas, criado para ger
 ![](https://github.com/2uj1m28ohz/workflow/blob/main/Screenshot.png)
 
 ## :mechanical_arm: Automação
-- **Backup de Dados:** Automatize o backup de jogos selecionados[^1], drivers de sistema, dados de usuário[^2] e da nuvem[^3] mantendo-os em local seguro, longe de ameaças digitais. Escolha o formato e nível de compressão, drive de destino, período de retenção, e observe a mágica acontecer.
+- **Backup de Dados:** Automatize o backup de jogos selecionados[^1], dados de usuário[^2], nuvem[^3] e drivers de sistema, mantendo-os em local seguro, longe de ameaças digitais. Escolha o formato e nível de compressão, drive de destino, período de retenção, e observe a mágica acontecer.
 
 - **Depuração do Sistema:** Otimize o desempenho do sistema operacional removendo arquivos temporários obsoletos a nível de sistema, usuário e softwares selecionados[^4].
 
@@ -40,9 +40,20 @@ Get-Item Workflow.ps1 | Unblock-File
 ```
 6. Execute o script:
 ```
-& Workflow.ps1
+.\Workflow.ps1
 ```
 > **NOTA:** Certifique-se de informar o local correto do script.
+
+## :arrow_upper_right: Como Executar
+1. Navegue até o diretório home do usuário:
+```
+Set-Location $Home
+```
+> **NOTA:** Home é o diretório padrão de execução do PowerShell.
+2. Execute o script:
+```
+.\Workflow.ps1
+```
 
 ## :blue_book: Documentação
 - [Ajuda](https://github.com/2uj1m28ohz/workflow/blob/main/HELP.md)
@@ -56,7 +67,7 @@ Get-Item Workflow.ps1 | Unblock-File
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
 
 ## :bust_in_silhouette: Atribuição
-Imagem por [Dave Herring](https://unsplash.com/pt-br/fotografias/B7cjB9bIGAQ).
+Imagem por [Marek Piwnicki](https://unsplash.com/pt-br/fotografias/CKJsP9r79gI).
 
 [^1]:EVE Online, Surviving Mars, Industries Of Titan, Aven Colony
 [^2]:Desktop, Documentos, Imagens, Vídeos, Músicas, Downloads
