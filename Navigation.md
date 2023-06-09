@@ -46,50 +46,52 @@ Home
 │   └─ Usuários
 ├─ Configurações
 │   ├─ Backup
-│   │   ├─ Formato
-│   │   │   ├─ TAR
-│   │   │   ├─ ZIP
-│   │   │   └─ 7Z
-│   │   ├─ Nível
-│   │   │   ├─ Armazenamento
-│   │   │   ├─ Veloz
-│   │   │   ├─ Rápido
-│   │   │   ├─ Normal
-│   │   │   ├─ Máximo
-│   │   │   └─ Ultra
-│   │   ├─ Memória
-│   │   │   ├─ 10%
-│   │   │   ├─ 20%
-│   │   │   ├─ 30%
-│   │   │   ├─ 40%
-│   │   │   ├─ 50%
-│   │   ├─ Drive
-│   │   │   ├─ D
-│   │   │   ├─ E
-│   │   │   ├─ F
-│   │   │   ├─ G
-│   │   │   └─ H
-│   │   ├─ Retenção
-│   │   │   ├─ 07 Dias
-│   │   │   ├─ 14 Dias
-│   │   │   ├─ 21 Dias
-│   │   │   └─ 28 Dias
-│   │   ├─ Jogos
-│   │   │   ├─ EVE Online
-│   │   │   ├─ Surviving Mars
-│   │   │   ├─ Industries Of Titan
-│   │   │   └─ Aven Colony
-│   │   ├─ Usuário
-│   │   │   ├─ Desktop
-│   │   │   ├─ Documentos
-│   │   │   ├─ Imagens
-│   │   │   ├─ Vídeos
-│   │   │   ├─ Músicas
-│   │   │   └─ Downloads
-│   │   ├─ Nuvem
-│   │   │   └─ OneDrive
-│   │   └─ Sistema
-│   │       └─ Drivers
+│   │   ├─ Parâmetros
+│   │   │   ├─ Formato
+│   │   │   │   ├─ TAR
+│   │   │   │   ├─ ZIP
+│   │   │   │   └─ 7Z
+│   │   │   ├─ Nível
+│   │   │   │   ├─ Armazenamento
+│   │   │   │   ├─ Veloz
+│   │   │   │   ├─ Rápido
+│   │   │   │   ├─ Normal
+│   │   │   │   ├─ Máximo
+│   │   │   │   └─ Ultra
+│   │   │   ├─ Memória
+│   │   │   │   ├─ 10%
+│   │   │   │   ├─ 20%
+│   │   │   │   ├─ 30%
+│   │   │   │   ├─ 40%
+│   │   │   │   └─ 50%
+│   │   │   ├─ Drive
+│   │   │   │   ├─ D
+│   │   │   │   ├─ E
+│   │   │   │   ├─ F
+│   │   │   │   ├─ G
+│   │   │   │   └─ H
+│   │   │   └─ Retenção
+│   │   │       ├─ 07 Dias
+│   │   │       ├─ 14 Dias
+│   │   │       ├─ 21 Dias
+│   │   │       └─ 28 Dias
+│   │   └─ Conteúdo
+│   │       ├─ Jogos
+│   │       │   ├─ EVE Online
+│   │       │   ├─ Surviving Mars
+│   │       │   ├─ Industries Of Titan
+│   │       │   └─ Aven Colony
+│   │       ├─ Usuário
+│   │       │   ├─ Desktop
+│   │       │   ├─ Documentos
+│   │       │   ├─ Imagens
+│   │       │   ├─ Vídeos
+│   │       │   ├─ Músicas
+│   │       │   └─ Downloads
+│   │       ├─ Nuvem
+│   │       │   └─ OneDrive
+│   │       └─ Sistema
+│   │           └─ Drivers
 │   ├─ Temas
 │   │   ├─ Violet Pixel
 │   │   ├─ Blue Pixel
