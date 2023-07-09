@@ -10,6 +10,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 |`→`|Execução|Sinaliza progresso na execução do software|
 |`+`|Expansor|Sinaliza que há um submenu disponível|
 |`›`|Separador|Sinaliza níveis da árvore de menus|
+|`‹`|Recomendado|Sinaliza configurações recomendadas|
 |`•`|NavBit|Sinaliza funcionalidades executadas e telas visualizadas|
 |`│`|Status|Sinaliza configurações habilitadas|
 |`■`|Pixel|Exibe a palheta de cores da Interface|
@@ -85,10 +86,6 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     - Desempenho do sistemas de arquivos: O tamanho do cluster pode ser especialmente benéfico em sistemas de arquivos que são otimizados para tamanhos de cluster maiores, como o sistema de arquivos NTFS. O NTFS tende a ter um desempenho melhor com clusters maiores, e um tamanho de cluster de 64 KB pode oferecer uma boa combinação de eficiência de armazenamento e desempenho.
 
-7. Porque ocorre falha ao executar o OneDrive após a execução do backup?
-
-    Ao executar Workflow com elevação de privilégios, o OneDrive pode não conseguir identificar a conta de usuário associada e exibir uma mensagem de erro. Para solucionar, inicie o OneDrive manualmente ao concluir o backup de dados.
-
 ### Configuração
 1. É possível desabilitar notificações na Central de Notificações?
 
@@ -139,7 +136,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
 3. Como desativar o Modo Rollback?
 
-    Não é possível desativar o Modo Rollback manualmente. Para retornar ao modo de execução normal basta executar o software a partir do local de instalação, sinalizado no atalho criado na Área de Trabalho.
+    Não é possível desativar o Modo Rollback manualmente. Para retornar ao modo de execução normal, basta seguir as instruções disponíveis no [repositório](https://github.com/2uj1m28ohz/workflow).
 
 ### Acesso a Pastas Controladas
 Alguns recursos de software requerem acesso à leitura e gravação de dados em pastas controladas, como pastas de usuário e aplicativos de terceiros. Para autorizar o acesso abra o aplicativo **Segurança do Windows** e adicione os executáveis do PowerShell e do 7-Zip à lista de aplicativos permitidos.
