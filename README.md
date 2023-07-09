@@ -1,6 +1,6 @@
 ## :asterisk: Sobre
 
-Workflow é uma poderosa ferramenta para automação de tarefas, criado para gerenciar backups e rotinas de manutenção do sistema. Altamente configurável para atender às necessidades do seu ambiente e com uma CLI intuitiva, é baseado em comandos simples e pode ser utilizado por usuários de todos os níveis de habilidade, tornando a automação acessível para todos. Workflow é constantemente desenvolvido para que você possa se concentrar em atividades de maior valor, reduzindo falhas humanas, aumentando sua eficiência e produtividade.
+Workflow é uma poderosa ferramenta para automação de tarefas, criado para gerenciar backups e rotinas de manutenção do sistema. Altamente configurável para atender às necessidades do seu ambiente e com uma CLI intuitiva, é baseado em comandos simples e pode ser utilizado por usuários de todos os níveis de habilidade, tornando a automação acessível para todos. Workflow é constantemente desenvolvido para reduzir falhas humanas, aumentar sua produtividade e permitir que você se concentre em atividades de maior valor.
 
 ![](https://github.com/2uj1m28ohz/workflow/blob/main/Screenshot.png)
 
@@ -16,7 +16,7 @@ Workflow é uma poderosa ferramenta para automação de tarefas, criado para ger
 - **Informações:** Consulte informações detalhadas de hardware como BIOS, processador, memória, armazenamento, GPU, bateria e mais.
 
 ## :gem: Recursos
-- **Atualização:** Como um software rolling release, updates são baixados e instalados automaticamente. Instale uma vez, atualize para sempre[^5].
+- **Atualização:** Como um software rolling release, Workflow recebe atualizações contínuas e incrementais. Updates são baixados e instalados automaticamente. Instale uma vez, atualize para sempre[^5].
 
 - **Segurança:** Algoritmos de segurança verificam a integridade dos updates antes da instalação, bem como detectam e corrigem alterações ilegais de software.
 
@@ -67,7 +67,7 @@ Set-Location $Home
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
 
 ## :bust_in_silhouette: Atribuição
-Imagem por [Marek Piwnicki](https://unsplash.com/pt-br/fotografias/CKJsP9r79gI).
+Imagem por [Austin Schmid](https://unsplash.com/pt-br/fotografias/r7zjJ63kAPU).
 
 [^1]:EVE Online, Surviving Mars, Industries Of Titan, Aven Colony
 [^2]:Desktop, Documentos, Imagens, Vídeos, Músicas, Downloads
