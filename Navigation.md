@@ -47,23 +47,6 @@ Home
 ├─ Configurações
 │   ├─ Backup
 │   │   ├─ Parâmetros
-│   │   │   ├─ Formato
-│   │   │   │   ├─ TAR
-│   │   │   │   ├─ ZIP
-│   │   │   │   └─ 7Z
-│   │   │   ├─ Nível
-│   │   │   │   ├─ Armazenamento
-│   │   │   │   ├─ Veloz
-│   │   │   │   ├─ Rápido
-│   │   │   │   ├─ Normal
-│   │   │   │   ├─ Máximo
-│   │   │   │   └─ Ultra
-│   │   │   ├─ Memória
-│   │   │   │   ├─ 10%
-│   │   │   │   ├─ 20%
-│   │   │   │   ├─ 30%
-│   │   │   │   ├─ 40%
-│   │   │   │   └─ 50%
 │   │   │   ├─ Drive
 │   │   │   │   ├─ D
 │   │   │   │   ├─ E
@@ -92,6 +75,26 @@ Home
 │   │       │   └─ OneDrive
 │   │       └─ Sistema
 │   │           └─ Drivers
+│   ├─ Compressão
+│   │   ├─ Formato
+│   │   │   ├─ TAR
+│   │   │   ├─ ZIP
+│   │   │   └─ 7Z
+│   │   ├─ Nível
+│   │   │   ├─ Armazenamento
+│   │   │   ├─ Veloz
+│   │   │   ├─ Rápido
+│   │   │   ├─ Normal
+│   │   │   ├─ Máximo
+│   │   │   └─ Ultra
+│   │   ├─ Memória
+│   │   │   ├─ 10%
+│   │   │   ├─ 20%
+│   │   │   ├─ 30%
+│   │   │   ├─ 40%
+│   │   │   └─ 50%
+│   │   └─ Outros
+│   │       └─ Modo Sólido
 │   ├─ Temas
 │   │   ├─ Violet Pixel
 │   │   ├─ Blue Pixel
