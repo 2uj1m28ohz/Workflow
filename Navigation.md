@@ -33,27 +33,16 @@ Home
 │   │   ├─ Verificar Integridade
 │   │   └─ Reparar Integridade
 │   └─ Verificar Instalação do Sistema
-├─ Informações
-│   ├─ Geral
-│   ├─ BIOS
-│   ├─ Processador
-│   ├─ Memória
-│   ├─ Armazenamento
-│   ├─ Display
-│   ├─ GPU
-│   ├─ Bateria
-│   ├─ Sistema
-│   └─ Usuários
 ├─ Configurações
 │   ├─ Backup
 │   │   ├─ Parâmetros
-│   │   │   ├─ Drive
+│   │   │   ├─ Drive de Destino
 │   │   │   │   ├─ D
 │   │   │   │   ├─ E
 │   │   │   │   ├─ F
 │   │   │   │   ├─ G
 │   │   │   │   └─ H
-│   │   │   └─ Retenção
+│   │   │   └─ Período de Retenção
 │   │   │       ├─ 07 Dias
 │   │   │       ├─ 14 Dias
 │   │   │       ├─ 21 Dias
@@ -63,7 +52,8 @@ Home
 │   │       │   ├─ EVE Online
 │   │       │   ├─ Surviving Mars
 │   │       │   ├─ Industries Of Titan
-│   │       │   └─ Aven Colony
+│   │       │   ├─ Aven Colony
+│   │       │   └─ Pharaoh: A New Era
 │   │       ├─ Usuário
 │   │       │   ├─ Desktop
 │   │       │   ├─ Documentos
@@ -73,28 +63,30 @@ Home
 │   │       │   └─ Downloads
 │   │       ├─ Nuvem
 │   │       │   └─ OneDrive
+│   │       │   └─ Google Drive
 │   │       └─ Sistema
 │   │           └─ Drivers
 │   ├─ Compressão
-│   │   ├─ Formato
+│   │   ├─ Formato de Compressão
 │   │   │   ├─ TAR
 │   │   │   ├─ ZIP
 │   │   │   └─ 7Z
-│   │   ├─ Nível
+│   │   ├─ Nível de Compressão
 │   │   │   ├─ Armazenamento
 │   │   │   ├─ Veloz
 │   │   │   ├─ Rápido
 │   │   │   ├─ Normal
 │   │   │   ├─ Máximo
 │   │   │   └─ Ultra
-│   │   ├─ Memória
+│   │   ├─ Utilização de Memória
 │   │   │   ├─ 10%
 │   │   │   ├─ 20%
 │   │   │   ├─ 30%
 │   │   │   ├─ 40%
 │   │   │   └─ 50%
 │   │   └─ Outros
-│   │       └─ Modo Sólido
+│   │       ├─ Modo Sólido
+│   │       └─ Modo Multithread
 │   ├─ Temas
 │   │   ├─ Violet Pixel
 │   │   ├─ Blue Pixel
