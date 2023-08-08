@@ -13,8 +13,6 @@ Workflow é uma poderosa ferramenta para automação de tarefas, criado para ger
 
 - **Manutenção do Sistema:** Atualize aplicativos e restaure a integridade do sistema operacional com apenas um comando.
 
-- **Informações:** Consulte informações detalhadas de hardware como BIOS, processador, memória, armazenamento, GPU, bateria e mais.
-
 ## :gem: Recursos
 - **Atualização:** Como um software rolling release, Workflow recebe atualizações contínuas e incrementais. Updates são baixados e instalados automaticamente. Instale uma vez, atualize para sempre[^5].
 
@@ -67,10 +65,10 @@ Set-Location $Home
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
 
 ## :bust_in_silhouette: Atribuição
-Imagem por [Austin Schmid](https://unsplash.com/pt-br/fotografias/r7zjJ63kAPU).
+Imagem por [Aleksandar Jason](https://unsplash.com/pt-br/fotografias/a562ZEFKW8I).
 
-[^1]:EVE Online, Surviving Mars, Industries Of Titan, Aven Colony
+[^1]:EVE Online, Surviving Mars, Industries Of Titan, Aven Colony, Pharaoh: A New Era
 [^2]:Desktop, Documentos, Imagens, Vídeos, Músicas, Downloads
-[^3]:Recurso disponível apenas para o OneDrive
+[^3]:OneDrive, Google Drive
 [^4]:EVE Online
 [^5]:Atualizações de software só podem ser garantidas em ambientes compatíveis e de acordo com a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md)
