@@ -3,6 +3,7 @@
 Home
 ├─ Backup de Dados
 │   ├─ Iniciar Backup
+│   ├─ Iniciar Réplica
 │   └─ Testar Backup
 ├─ Depuração do Sistema
 │   ├─ Expurgar Arquivos de Sistema
@@ -36,7 +37,13 @@ Home
 ├─ Configurações
 │   ├─ Backup
 │   │   ├─ Parâmetros
-│   │   │   ├─ Drive de Destino
+│   │   │   ├─ Drive de Backup
+│   │   │   │   ├─ D
+│   │   │   │   ├─ E
+│   │   │   │   ├─ F
+│   │   │   │   ├─ G
+│   │   │   │   └─ H
+│   │   │   ├─ Drive de Réplica
 │   │   │   │   ├─ D
 │   │   │   │   ├─ E
 │   │   │   │   ├─ F
@@ -62,8 +69,9 @@ Home
 │   │       │   ├─ Músicas
 │   │       │   └─ Downloads
 │   │       ├─ Nuvem
-│   │       │   └─ OneDrive
-│   │       │   └─ Google Drive
+│   │       │   ├─ OneDrive
+│   │       │   ├─ Google Drive
+│   │       │   └─ iCloud Drive
 │   │       └─ Sistema
 │   │           └─ Drivers
 │   ├─ Compressão
