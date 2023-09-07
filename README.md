@@ -65,10 +65,10 @@ Set-Location $Home
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
 
 ## :bust_in_silhouette: Atribuição
-Imagem por [Aleksandar Jason](https://unsplash.com/pt-br/fotografias/a562ZEFKW8I).
+Imagem por [Mike Castro Demaria](https://unsplash.com/pt-br/fotografias/vEnB66L4cnQ).
 
 [^1]:EVE Online, Surviving Mars, Industries Of Titan, Aven Colony, Pharaoh: A New Era
 [^2]:Desktop, Documentos, Imagens, Vídeos, Músicas, Downloads
-[^3]:OneDrive, Google Drive
+[^3]:OneDrive, Google Drive. iCloud Drive
 [^4]:EVE Online
 [^5]:Atualizações de software só podem ser garantidas em ambientes compatíveis e de acordo com a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md)
