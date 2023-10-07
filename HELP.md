@@ -50,15 +50,19 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     Sim, você pode escolher o que incluir no backup habilitando e desabilitando as opções disponíveis no menu Configurações > Backup > Conteúdo.
 
-2. O que significa suporte a multidispositivos e multiusuários?
+2. Porque não é possível fazer backup do armazenamento em núvem vinculado à minha conta corporativa?
+
+    Contas corporativas podem utilizar nomes de usuario e diretórios, além de caminhos diferentes dos padrões encontrados em contas pessoais naturalmente esperadas pelo software.
+
+3. O que significa suporte a multidispositivos e multiusuários?
 
     O suporte à multidispositivos e multiusuários do Backup de Dados permite que sejam adicionados backups de diversos dispositivos e usuários à mesma estrutura de backup presente no drive de backup.
 
-3. Outro usuário pode fazer backup dos meus dados?
+4. Outro usuário pode fazer backup dos meus dados?
 
     Não. Workflow é executado a nível de usuário, portanto os dados dos demais usuários não são tocados.
 
-4. Quais as vantagens da tabela de partições GPT para o backup de dados?
+5. Quais as vantagens da tabela de partições GPT para o backup de dados?
 
     - Recuperação de dados simplificada: A GPT utiliza redundância de tabela de partições em várias áreas do disco, o que torna a recuperação de dados mais fácil em caso de corrupção ou falha no disco. Se uma cópia da tabela de partições for danificada, o sistema pode usar as cópias de backup para restaurar as informações de partição corretas.
 
@@ -68,7 +72,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     - Compatibilidade com sistemas operacionais modernos: A GPT é reconhecida nativamente por sistemas operacionais modernos e firmware, como o UEFI. Isso garante uma melhor compatibilidade e interoperabilidade ao fazer backup e restaurar dados em diferentes sistemas.
 
-5. Quais as vantagens do sistema de arquivos NTFS para o backup de dados?
+6. Quais as vantagens do sistema de arquivos NTFS para o backup de dados?
 
     - Suporte a arquivos grandes: O NTFS tem suporte nativo para arquivos grandes, permitindo que você faça backup de arquivos de tamanho significativo. Isso é particularmente útil para backups de vídeos, imagens de disco ou qualquer outro tipo de arquivo que exceda os limites de tamanho de outros sistemas de arquivos.
 
@@ -76,7 +80,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     - Integridade do sistema de arquivos: O NTFS possui mecanismos de verificação e reparação de integridade do sistema de arquivos. Durante o backup, esses mecanismos podem identificar e corrigir erros ou setores defeituosos no disco, garantindo a integridade dos dados armazenados e evitando a propagação de erros durante o processo de backup.
 
-6. Quais as vantagens de clusters de 64 KB para o backup de dados?
+7. Quais as vantagens de clusters de 64 KB para o backup de dados?
 
     - Eficiência de armazenamento: O tamanho do cluster determina a quantidade mínima de espaço em disco alocada para cada arquivo. Com clusters maiores, como 64 KB, há menos sobrecarga em termos de espaço em disco desperdiçado devido ao tamanho mínimo alocado para cada arquivo. Isso pode ser particularmente benéfico ao fazer backup de muitos arquivos pequenos, pois reduz o espaço desperdiçado em relação a clusters menores.
 
@@ -86,11 +90,11 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     - Desempenho do sistemas de arquivos: O tamanho do cluster pode ser especialmente benéfico em sistemas de arquivos que são otimizados para tamanhos de cluster maiores, como o sistema de arquivos NTFS. O NTFS tende a ter um desempenho melhor com clusters maiores, e um tamanho de cluster de 64 KB pode oferecer uma boa combinação de eficiência de armazenamento e desempenho.
 
-7. Qual é a importância da réplica de backup?
+8. Qual é a importância da réplica de backup?
 
-    A réplica de backup desempenha um papel fundamental na garantia da segurança e disponibilidade dos dados, como:
+    A réplica de backup desempenha um papel fundamental na garantia da segurança e disponibilidade dos dados:
 
-    - Disponibilidade contínua: A réplica de backup ajuda a garantir que dados críticos estejam sempre disponíveis, mesmo em caso de falha no sistema principal ou de perda de dados. Isso é crucial para empresas que precisam de acesso constante aos seus dados para operações comerciais contínuas.
+    - Disponibilidade contínua: A réplica de backup ajuda a garantir que dados críticos estejam sempre disponíveis, mesmo em caso de falha no sistema principal ou de perda de dados. Isso é crucial em cenários em que é preciso de acesso constante aos dados para operações contínuas.
 
     - Recuperação rápida: Em situações de desastres, como falhas de hardware, ataques de ransomware ou exclusões acidentais de dados, ter réplicas de backup permite uma recuperação mais rápida.
 
@@ -98,11 +102,9 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     - Minimização de perda de dados: Com a replicação em tempo real ou periódica, as réplicas de backup permitem minimizar a perda de dados em caso de falha. Isso significa que você pode recuperar dados até o ponto mais recente em que a réplica foi criada.
 
-    - Conformidade e regulamentações: Em muitos setores, existem requisitos regulatórios que exigem a retenção de cópias seguras e replicadas dos dados por um determinado período. Réplicas de backup ajudam a cumprir essas regulamentações.
-
     - Minimização de riscos de segurança: Com as crescentes ameaças de segurança, como ataques de ransomware, ter réplicas de backup isoladas de forma segura ajuda a reduzir o risco de que os dados de backup também sejam comprometidos.
 
-    A réplica de backup é uma estratégia importante para proteger e manter a disponibilidade de dados críticos. Ela oferece segurança contra perda de dados, interrupções operacionais e ajuda a garantir que uma organização possa se recuperar rapidamente de eventos adversos. É parte integrante de um plano abrangente de gerenciamento de dados e recuperação de desastres.
+    A réplica de backup é uma estratégia importante para proteger e manter a disponibilidade de dados críticos. Ela oferece segurança contra perda de dados, interrupções operacionais e ajuda a garantir que seja possível se recuperar rapidamente de eventos adversos. É parte integrante de um plano abrangente de gerenciamento de dados e recuperação de desastres.
 
 ### Configuração
 1. É possível desabilitar notificações na Central de Notificações?
