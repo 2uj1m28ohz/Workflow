@@ -1,19 +1,19 @@
-## :asterisk: Sobre
+## :gem: Sobre
 
 Workflow é uma poderosa ferramenta para automação de tarefas, criado para gerenciar backups e rotinas de manutenção do sistema. Altamente configurável para atender às necessidades do seu ambiente e com uma CLI intuitiva, é baseado em comandos simples e pode ser utilizado por usuários de todos os níveis de habilidade, tornando a automação acessível para todos. Workflow é constantemente desenvolvido para reduzir falhas humanas, aumentar sua produtividade e permitir que você se concentre em atividades de maior valor.
 
 ![](https://github.com/2uj1m28ohz/workflow/blob/main/Screenshot.png)
 
-## :mechanical_arm: Automação
-- **Backup de Dados:** Automatize o backup de jogos selecionados[^1], dados de usuário[^2], nuvem[^3] e drivers de sistema, mantendo-os em local seguro, longe de ameaças digitais. Escolha o formato e nível de compressão, drive de destino, período de retenção, e observe a mágica acontecer.
+## :rocket: Funcionalidades
+- **Backup de Dados:** Automatiza o backup de jogos[^1], dados de usuário[^2], armazenamento em nuvem[^3] e drivers de sistema mantendo-os em local seguro, longe de ameaças digitais. Workflow permite configurar, gerenciar e armazenar backups granulares com eficiência e flexibilidade. A partir do backup é possível criar nativamente uma réplica exata dos dados de forma segura. Selecione o formato e nível de compressão, drive de destino, período de retenção, e observe a mágica acontecer.
 
-- **Depuração do Sistema:** Otimize o desempenho do sistema operacional removendo arquivos temporários obsoletos a nível de sistema, usuário e softwares selecionados[^4].
+- **Depuração do Sistema:** Otimiza o desempenho do sistema operacional removendo arquivos temporários obsoletos a nível de sistema, software[^4] e usuário.
 
-- **Diagnóstico do Sistema:** Consulte relatórios de bateria, eficiência energética, saúde dos drives e integridade do sistema de arquivos. Tome ações preventivas para manter seu dispositivo operacional por mais tempo.
+- **Diagnóstico do Sistema:** Gera relatórios de bateria e eficiência energética, exibe informações sobre a saúde dos drives e integridade do sistema de arquivos para ajudar você em ações preventivas que manterão seu dispositivo operacional por mais tempo.
 
-- **Manutenção do Sistema:** Atualize aplicativos e restaure a integridade do sistema operacional com apenas um comando.
+- **Manutenção do Sistema:** Atualiza aplicativos e restaura a integridade do sistema operacional com facilidade.
 
-## :gem: Recursos
+## :zap: Recursos
 - **Atualização:** Como um software rolling release, Workflow recebe atualizações contínuas e incrementais. Updates são baixados e instalados automaticamente. Instale uma vez, atualize para sempre[^5].
 
 - **Segurança:** Algoritmos de segurança verificam a integridade dos updates antes da instalação, bem como detectam e corrigem alterações ilegais de software.
@@ -65,10 +65,10 @@ Set-Location $Home
 - [Código de Conduta](https://github.com/2uj1m28ohz/workflow/blob/main/CODE_OF_CONDUCT.md)
 
 ## :bust_in_silhouette: Atribuição
-Imagem por [Mike Castro Demaria](https://unsplash.com/pt-br/fotografias/vEnB66L4cnQ).
+Imagem por [Marcin Jozwiak](https://unsplash.com/pt-br/fotografias/H35_4lJCC48).
 
 [^1]:EVE Online, Surviving Mars, Industries Of Titan, Aven Colony, Pharaoh: A New Era
 [^2]:Desktop, Documentos, Imagens, Vídeos, Músicas, Downloads
-[^3]:OneDrive, Google Drive. iCloud Drive
+[^3]:OneDrive, Google Drive, iCloud Drive
 [^4]:EVE Online
 [^5]:Atualizações de software só podem ser garantidas em ambientes compatíveis e de acordo com a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md)
