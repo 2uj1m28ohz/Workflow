@@ -38,22 +38,8 @@ Home
 │   ├─ Backup
 │   │   ├─ Parâmetros
 │   │   │   ├─ Drive de Backup
-│   │   │   │   ├─ D
-│   │   │   │   ├─ E
-│   │   │   │   ├─ F
-│   │   │   │   ├─ G
-│   │   │   │   └─ H
 │   │   │   ├─ Drive de Réplica
-│   │   │   │   ├─ D
-│   │   │   │   ├─ E
-│   │   │   │   ├─ F
-│   │   │   │   ├─ G
-│   │   │   │   └─ H
 │   │   │   └─ Período de Retenção
-│   │   │       ├─ 07 Dias
-│   │   │       ├─ 14 Dias
-│   │   │       ├─ 21 Dias
-│   │   │       └─ 28 Dias
 │   │   └─ Conteúdo
 │   │       ├─ Jogos
 │   │       │   ├─ EVE Online
@@ -96,11 +82,11 @@ Home
 │   │       ├─ Modo Sólido
 │   │       └─ Modo Multithread
 │   ├─ Temas
-│   │   ├─ Violet Pixel
-│   │   ├─ Blue Pixel
-│   │   ├─ Green Pixel
-│   │   ├─ Yellow Pixel
-│   │   └─ Red Pixel
+│   │   ├─ Violeta
+│   │   ├─ Azul
+│   │   ├─ Verde
+│   │   ├─ Amarelo
+│   │   └─ Vermelho
 │   ├─ Notificações
 │   │   ├─ Software
 │   │   └─ Sistema
