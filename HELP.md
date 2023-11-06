@@ -1,4 +1,5 @@
 ## :parachute: Ajuda
+
 ### Interface
 Elementos são uma forma simples de compreender a execução e a interface do software:
 
@@ -10,7 +11,6 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 |`→`|Execução|Sinaliza progresso na execução do software|
 |`+`|Expansor|Sinaliza que há um submenu disponível|
 |`›`|Separador|Sinaliza níveis da árvore de menus|
-|`‹`|Recomendado|Sinaliza configurações recomendadas|
 |`•`|NavBit|Sinaliza funcionalidades executadas e telas visualizadas|
 |`│`|Status|Sinaliza configurações habilitadas|
 |`■`|Pixel|Exibe a palheta de cores da Interface|
@@ -92,7 +92,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
 8. Qual é a importância da réplica de backup?
 
-    A réplica de backup desempenha um papel fundamental na garantia da segurança e disponibilidade dos dados:
+    A réplica de backup desempenha um papel fundamental na garantia da segurança e disponibilidade dos dados. Ela é uma cópia adicional dos dados de backup armazenada em um local distinto e, geralmente, em um sistema independente de armazenamento.
 
     - Disponibilidade contínua: A réplica de backup ajuda a garantir que dados críticos estejam sempre disponíveis, mesmo em caso de falha no sistema principal ou de perda de dados. Isso é crucial em cenários em que é preciso de acesso constante aos dados para operações contínuas.
 
