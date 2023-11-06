@@ -4,7 +4,7 @@ Home
 ├─ Backup de Dados
 │   ├─ Iniciar Backup
 │   ├─ Iniciar Réplica
-│   └─ Testar Backup
+│   └─ Verificar Backup
 ├─ Depuração do Sistema
 │   ├─ Expurgar Arquivos de Sistema
 │   ├─ Expurgar Arquivos de Software
@@ -92,14 +92,8 @@ Home
 │   │   └─ Sistema
 │   ├─ Registro de Eventos
 │   │   ├─ Status
-│   │   ├─ Retenção
-│   │   │   ├─ 30 Dias
-│   │   │   ├─ 60 Dias
-│   │   │   └─ 90 Dias
-│   │   └─ Exibição
-│   │       ├─ Log de Execução
-│   │       ├─ Log de Compressão
-│   │       └─ Log de Empacotamento
+│   │   ├─ Período de Retenção
+│   │   └─ Exibir
 │   ├─ Empacotar
 │   ├─ Importar
 │   ├─ Exportar
@@ -108,4 +102,4 @@ Home
 ├─ Sobre
 └─ Encerrar
 ```
-> **NOTA:** Esta é uma representação da árvore de menus da versão de software mais recente.
+> Esta é uma representação da árvore de menus da versão de software mais recente.
