@@ -1,4 +1,5 @@
 ## :building_construction: Estrutura
+
 ### Software
 ```
 [Usuário] ─┐
@@ -17,6 +18,6 @@
          └─ Workflow ─┐                                                        | Diretório raiz
                       └─ [Dispositivo] ─┐                                      | Diretório de controle
                                         └─ [Usuário] ─┐                        | Diretório de controle
-                                                      └─ {=}                   | Dados
+                                                      └─ {+}                   | Dados
 ```
-> **NOTA:** Esta é uma representação da estrutura da versão de software mais recente.
+> Esta é uma representação da estrutura da versão de software mais recente.
