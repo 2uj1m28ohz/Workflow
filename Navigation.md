@@ -39,6 +39,7 @@ Home
 │   │   ├─ Parâmetros
 │   │   │   ├─ Drive de Backup
 │   │   │   ├─ Drive de Réplica
+│   │   │   ├─ Formatação Automática
 │   │   │   └─ Período de Retenção
 │   │   └─ Conteúdo
 │   │       ├─ Jogos
@@ -57,7 +58,8 @@ Home
 │   │       ├─ Nuvem
 │   │       │   ├─ OneDrive
 │   │       │   ├─ Google Drive
-│   │       │   └─ iCloud Drive
+│   │       │   ├─ iCloud Drive
+│   │       │   └─ Dropbox
 │   │       └─ Sistema
 │   │           └─ Drivers
 │   ├─ Compressão
@@ -94,10 +96,11 @@ Home
 │   │   ├─ Status
 │   │   ├─ Período de Retenção
 │   │   └─ Exibir
+│   ├─ Gerenciar
+│   │   ├─ Importar
+│   │   ├─ Exportar
+│   │   └─ Redefinir
 │   ├─ Empacotar
-│   ├─ Importar
-│   ├─ Exportar
-│   ├─ Redefinir
 │   └─ Desinstalar
 ├─ Sobre
 └─ Encerrar
