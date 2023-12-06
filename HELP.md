@@ -62,62 +62,18 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     Não. Workflow é executado a nível de usuário, portanto os dados dos demais usuários não são tocados.
 
-5. Quais as vantagens da tabela de partições GPT para o backup de dados?
-
-    - Recuperação de dados simplificada: A GPT utiliza redundância de tabela de partições em várias áreas do disco, o que torna a recuperação de dados mais fácil em caso de corrupção ou falha no disco. Se uma cópia da tabela de partições for danificada, o sistema pode usar as cópias de backup para restaurar as informações de partição corretas.
-
-    - Identificação única global: Cada partição em um disco GPT possui um identificador único global (GUID). Isso facilita a identificação e seleção correta das partições durante o processo de backup, garantindo que os dados corretos sejam copiados.
-
-    - Suporte a discos grandes: A GPT é capaz de lidar com unidades de armazenamento de grande capacidade, o que é benéfico para backups de dados volumosos. Se você precisa fazer o backup de grandes quantidades de dados, a GPT permitirá aproveitar ao máximo a capacidade do disco de backup.
-
-    - Compatibilidade com sistemas operacionais modernos: A GPT é reconhecida nativamente por sistemas operacionais modernos e firmware, como o UEFI. Isso garante uma melhor compatibilidade e interoperabilidade ao fazer backup e restaurar dados em diferentes sistemas.
-
-6. Quais as vantagens do sistema de arquivos NTFS para o backup de dados?
-
-    - Suporte a arquivos grandes: O NTFS tem suporte nativo para arquivos grandes, permitindo que você faça backup de arquivos de tamanho significativo. Isso é particularmente útil para backups de vídeos, imagens de disco ou qualquer outro tipo de arquivo que exceda os limites de tamanho de outros sistemas de arquivos.
-
-    - Recuperação de dados: O NTFS possui recursos de recuperação de dados integrados. Ele mantém cópias de backup das informações críticas do sistema de arquivos, como a tabela de alocação de arquivos (MFT - Master File Table). Em caso de corrupção de dados ou falhas no disco, o sistema de arquivos NTFS pode recuperar automaticamente as informações corretas, reduzindo a probabilidade de perda de dados durante o backup.
-
-    - Integridade do sistema de arquivos: O NTFS possui mecanismos de verificação e reparação de integridade do sistema de arquivos. Durante o backup, esses mecanismos podem identificar e corrigir erros ou setores defeituosos no disco, garantindo a integridade dos dados armazenados e evitando a propagação de erros durante o processo de backup.
-
-7. Quais as vantagens de clusters de 64 KB para o backup de dados?
-
-    - Eficiência de armazenamento: O tamanho do cluster determina a quantidade mínima de espaço em disco alocada para cada arquivo. Com clusters maiores, como 64 KB, há menos sobrecarga em termos de espaço em disco desperdiçado devido ao tamanho mínimo alocado para cada arquivo. Isso pode ser particularmente benéfico ao fazer backup de muitos arquivos pequenos, pois reduz o espaço desperdiçado em relação a clusters menores.
-
-    - Desempenho do backup: Ao fazer o backup de arquivos grandes, um tamanho de cluster maior pode melhorar o desempenho geral do processo de backup. Isso ocorre porque o tamanho do cluster determina o número de operações de leitura/gravação necessárias para copiar um arquivo. Com um cluster maior, menos operações são necessárias para copiar um arquivo grande, resultando em um tempo de backup menor.
-
-    - Fragmentação reduzida: O tamanho do cluster também está relacionado à fragmentação do disco. Com clusters maiores, há menos chances de fragmentação de arquivos ocorrer, o que pode melhorar o desempenho do acesso aos dados durante a restauração de backups.
-
-    - Desempenho do sistemas de arquivos: O tamanho do cluster pode ser especialmente benéfico em sistemas de arquivos que são otimizados para tamanhos de cluster maiores, como o sistema de arquivos NTFS. O NTFS tende a ter um desempenho melhor com clusters maiores, e um tamanho de cluster de 64 KB pode oferecer uma boa combinação de eficiência de armazenamento e desempenho.
-
-8. Qual é a importância da réplica de backup?
-
-    A réplica de backup desempenha um papel fundamental na garantia da segurança e disponibilidade dos dados. Ela é uma cópia adicional dos dados de backup armazenada em um local distinto e, geralmente, em um sistema independente de armazenamento.
-
-    - Disponibilidade contínua: A réplica de backup ajuda a garantir que dados críticos estejam sempre disponíveis, mesmo em caso de falha no sistema principal ou de perda de dados. Isso é crucial em cenários em que é preciso de acesso constante aos dados para operações contínuas.
-
-    - Recuperação rápida: Em situações de desastres, como falhas de hardware, ataques de ransomware ou exclusões acidentais de dados, ter réplicas de backup permite uma recuperação mais rápida.
-
-    - Tolerância a falhas: Réplicas de backup em locais geograficamente diferentes ajudam a proteger contra falhas de infraestrutura, como incêndios, inundações ou desastres naturais em um único local. Se um local de armazenamento de dados for comprometido, as réplicas em outros locais permanecem intactas.
-
-    - Minimização de perda de dados: Com a replicação em tempo real ou periódica, as réplicas de backup permitem minimizar a perda de dados em caso de falha. Isso significa que você pode recuperar dados até o ponto mais recente em que a réplica foi criada.
-
-    - Minimização de riscos de segurança: Com as crescentes ameaças de segurança, como ataques de ransomware, ter réplicas de backup isoladas de forma segura ajuda a reduzir o risco de que os dados de backup também sejam comprometidos.
-
-    A réplica de backup é uma estratégia importante para proteger e manter a disponibilidade de dados críticos. Ela oferece segurança contra perda de dados, interrupções operacionais e ajuda a garantir que seja possível se recuperar rapidamente de eventos adversos. É parte integrante de um plano abrangente de gerenciamento de dados e recuperação de desastres.
-
 ### Configuração
 1. É possível desabilitar notificações na Central de Notificações?
 
-    Siga para o menu Configurações > Notificações > Status
+    Siga para o menu Configurações > Notificações
 
-2. É possível desabilitar o Registro de Eventos[^1]?
+2. É possível desabilitar o Registro de Eventos?
 
     Siga para o menu Configurações > Registro de Eventos > Status
 
 3. É possível alterar o período de retenção do Registro de Eventos?
 
-    Siga para o menu Configurações > Registro de Eventos > Retenção
+    Siga para o menu Configurações > Registro de Eventos > Período de Retenção
 
 4. Porque a opção Empacotar não exporta os hashes dos pacotes?
 
@@ -125,15 +81,15 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
 5. Como faço o backup das configurações de software?
 
-    - Siga para o menu Configurações > Exportar
+    - Siga para o menu Configurações > Gerenciar > Exportar
     - Abra o Executar com Win+R
     - Digite `%UserProfile%\Downloads` e clique em Ok
     - Faça backup do arquivo `WorkflowSettingsBackup.json`
 
-6. Como faço para transferir[^2] as configurações de software para um novo dispositivo?
+6. Como faço para transferir as configurações de software para um novo dispositivo?
 
     No dispositivo antigo:
-    - Siga para o menu Configurações > Exportar
+    - Siga para o menu Configurações > Gerenciar > Exportar
     - Abra o Executar com Win+R
     - Digite `%UserProfile%\Downloads` e clique em Ok
     - Copie o arquivo `WorkflowSettingsBackup.json`
@@ -143,7 +99,10 @@ Elementos são uma forma simples de compreender a execução e a interface do so
     - Abra o Executar com Win+R
     - Digite `%UserProfile%\Downloads` e clique em Ok
     - Cole o arquivo `WorkflowSettingsBackup.json`
-    - Siga para o menu Configurações > Importar
+    - Siga para o menu Configurações > Gerenciar > Importar
+
+> [!NOTE]
+> Informações de identificação e segurança não são transferidas.
 
 ### Modo Rollback
 1. O que é o Modo Rollback?
@@ -156,10 +115,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
 3. Como desativar o Modo Rollback?
 
-    Não é possível desativar o Modo Rollback manualmente. Para retornar ao modo de execução normal, basta seguir as instruções disponíveis no [repositório](https://github.com/2uj1m28ohz/workflow).
+    Não é possível desativar o Modo Rollback manualmente.
 
 ### Acesso a Pastas Controladas
 Alguns recursos de software requerem acesso à leitura e gravação de dados em pastas controladas, como pastas de usuário e aplicativos de terceiros. Para autorizar o acesso abra o aplicativo **Segurança do Windows** e adicione os executáveis do PowerShell e do 7-Zip à lista de aplicativos permitidos.
-
-[^1]:Verifique a [Política de Suporte](https://github.com/2uj1m28ohz/workflow/blob/main/SUPPORT.md) para mais informações.
-[^2]:Configurações de identificação e segurança do software não são transferidas.
