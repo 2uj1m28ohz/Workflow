@@ -1,5 +1,5 @@
+## :handshake: Código de Conduta
 
-## :balance_scale: Código de Conduta
 ### Nossa promessa
 Como pessoas participantes, colaboradoras e líderes, nós nos comprometemos a fazer com que a participação em nossa comunidade seja uma experiência livre de assédio para todas as pessoas, independentemente de idade, tamanho do corpo, deficiência aparente ou não aparente, etnia, características sexuais, identidade ou expressão de gênero, nível de experiência, educação, situação sócio-econômica, nacionalidade, aparência pessoal, raça, religião ou identidade e orientação sexuais.
 
