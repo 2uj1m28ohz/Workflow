@@ -6,10 +6,6 @@ Home
 │   ├─ Iniciar Réplica
 │   └─ Verificar Backup
 ├─ Depuração do Sistema
-│   ├─ Expurgar Arquivos de Sistema
-│   ├─ Expurgar Arquivos de Software
-│   ├─ Expurgar Arquivos de Usuário
-│   └─ Expurgar Cache DNS
 ├─ Diagnóstico do Sistema
 │   ├─ Relatório da Bateria
 │   ├─ Relatório de Eficiência Energética
@@ -62,6 +58,18 @@ Home
 │   │       │   └─ Dropbox
 │   │       └─ Sistema
 │   │           └─ Drivers
+│   ├─ Depuração
+│   │   ├─ Arquivos de Sistema
+│   │   │   ├─ Diretório Temporário
+│   │   │   ├─ Diretório Prefetch
+│   │   │   ├─ Windows Update
+│   │   │   └─ Cache DNS
+│   │   ├─ Arquivos de Software
+│   │   │   └─ EVE Online
+│   │   └─ Arquivos de Usuário
+│   │       ├─ Diretório Temporário
+│   │       ├─ Downloads
+│   │       └─ Screenshots
 │   ├─ Compressão
 │   │   ├─ Formato de Compressão
 │   │   │   ├─ TAR
