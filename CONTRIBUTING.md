@@ -1,4 +1,4 @@
-## :handshake: Contribuindo
+## :sparkling_heart: Contribuindo
 Bem-vindo e obrigado por seu interesse em contribuir para Workflow!
 
 ### Utilize [Issues](https://github.com/2uj1m28ohz/workflow/issues) para:
