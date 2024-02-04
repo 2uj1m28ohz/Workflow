@@ -1,19 +1,54 @@
 {
   "Development": "1",
-  "Update": "24.01.1",
+  "Update": "24.02.1",
   "Version": [
-    {"Release": "24.01.1", "Support": "1", "Format": "7z", "Hash": "86F50CA57019493FD360390AD603AFEB8F5129A6BEF0C2C869DCE8325C65DFF2"},
-    {"Release": "23.340.1", "Support": "1", "Format": "7z", "Hash": "0AE800CA605785EAF53B3435A225ACA7DABABBBAAAA9A2C1233A4CA6AD5D4D5F"},
-    {"Release": "23.310.1", "Support": "1", "Format": "7z", "Hash": "AF324F2F3BF87E440FCCD059F695E527D93ED0F85FEE20C5076E2B2667F5F068"},
-    {"Release": "23.280.1", "Support": "0", "Format": "7z", "Hash": "AD7F947D8B30391ED79DBA04EDE33C2007D4560B3D6635B8AA40A9A352A5FDDE"},
-    {"Release": "23.250.1", "Support": "0", "Format": "7z", "Hash": "48494A2AC533A6A7F30DD889AF45B6CE0145ED647EE50FC5984DF78483701E25"},
-    {"Release": "23.220.1", "Support": "0", "Format": "7z", "Hash": "767654A4C5B3257DD538DB7AB2D7B6F9853E30E5784F2B9BDD561A0F96736472"},
-    {"Release": "23.190.1", "Support": "0", "Format": "7z", "Hash": "AFBEC7223EB34DB0F513902FD9A8F2C1EE3FDDC086D10204FFDA24651ED2BDAD"},
-    {"Release": "23.160.1", "Support": "0", "Format": "7z", "Hash": "AAD59676A25826CF532C3B76660B8EB44E0DAFE7D19B27F998E892276DEECBFC"},
-    {"Release": "23.130.1", "Support": "0", "Format": "7z", "Hash": "02FE1386E7388550A009685EDB52FBCA9DD23C6A2EE3EF144D751538BA2B60C3"},
-    {"Release": "23.100.1", "Support": "0", "Format": "7z", "Hash": "35E75F1565CBC71FAFD31E97571FA5B05A1554375290FBF7C080421344AD14AB"},
-    {"Release": "23.070.1", "Support": "0", "Format": "7z", "Hash": "259C781A57955276EB77E789D50178B43D6DB4043CFCEB42D63E778755C22171"},
-    {"Release": "23.040.1", "Support": "0", "Format": "7z", "Hash": "767C9F8AE04DD10E1C45C4F7860CEF6266F39A4F63A2EC9E560207439D59668E"},
-    {"Release": "23.010.1", "Support": "0", "Format": "7z", "Hash": "7E47E726CAB615E504E96B9D5FFB7C02AEAF5AE93C0C3B2C55CEF5B4A404FA95"}
+    {
+      "Release": "24.02.1",
+      "Support": "1",
+      "Format": "7z",
+      "Hash": "213536353B34CD84E68E0632D0F38918624F9C1D0B87E99215B8659D1DFA7AB5"
+    },
+    {
+      "Release": "24.01.1",
+      "Support": "1",
+      "Format": "7z",
+      "Hash": "86F50CA57019493FD360390AD603AFEB8F5129A6BEF0C2C869DCE8325C65DFF2"
+    },
+    {
+      "Release": "23.340.1",
+      "Support": "1",
+      "Format": "7z",
+      "Hash": "0AE800CA605785EAF53B3435A225ACA7DABABBBAAAA9A2C1233A4CA6AD5D4D5F"
+    },
+    {
+      "Release": "23.310.1",
+      "Support": "0",
+      "Format": "7z",
+      "Hash": "AF324F2F3BF87E440FCCD059F695E527D93ED0F85FEE20C5076E2B2667F5F068"
+    },
+    {
+      "Release": "23.280.1",
+      "Support": "0",
+      "Format": "7z",
+      "Hash": "AD7F947D8B30391ED79DBA04EDE33C2007D4560B3D6635B8AA40A9A352A5FDDE"
+    },
+    {
+      "Release": "23.250.1",
+      "Support": "0",
+      "Format": "7z",
+      "Hash": "48494A2AC533A6A7F30DD889AF45B6CE0145ED647EE50FC5984DF78483701E25"
+    },
+    {
+      "Release": "23.220.1",
+      "Support": "0",
+      "Format": "7z",
+      "Hash": "767654A4C5B3257DD538DB7AB2D7B6F9853E30E5784F2B9BDD561A0F96736472"
+    },
+    {
+      "Release": "23.190.1",
+      "Support": "0",
+      "Format": "7z",
+      "Hash": "AFBEC7223EB34DB0F513902FD9A8F2C1EE3FDDC086D10204FFDA24651ED2BDAD"
+    }
   ]
 }
