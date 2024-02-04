@@ -4,7 +4,7 @@ Home
 ├─ Backup de Dados
 │   ├─ Iniciar Backup
 │   ├─ Iniciar Réplica
-│   └─ Verificar Backup
+│   └─ Testar Backup
 ├─ Depuração do Sistema
 ├─ Diagnóstico do Sistema
 │   ├─ Relatório da Bateria
@@ -50,7 +50,8 @@ Home
 │   │       │   ├─ Imagens
 │   │       │   ├─ Vídeos
 │   │       │   ├─ Músicas
-│   │       │   └─ Downloads
+│   │       │   ├─ Downloads
+│   │       │   └─ Vault
 │   │       ├─ Nuvem
 │   │       │   ├─ OneDrive
 │   │       │   ├─ Google Drive
@@ -69,7 +70,8 @@ Home
 │   │   └─ Arquivos de Usuário
 │   │       ├─ Diretório Temporário
 │   │       ├─ Downloads
-│   │       └─ Screenshots
+│   │       ├─ Screenshots
+│   │       └─ Lixeira
 │   ├─ Compressão
 │   │   ├─ Formato de Compressão
 │   │   │   ├─ TAR
