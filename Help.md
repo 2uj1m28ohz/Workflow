@@ -13,7 +13,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 |`›`|Separador|Indica o níveis da árvore de menus|
 |`•`|NavBit|Sinaliza funcionalidades executadas e telas visualizadas|
 |`│`|Status|Sinaliza configurações habilitadas|
-|`■`|Pixel|Exibe a palheta de cores da Interface|
+|`●`|Pixel|Exibe a palheta de cores da Interface|
 
 ### Instalação
 1. Ao executar o software pela primeira vez recebo uma notificação de incompatibilidade.
@@ -122,4 +122,4 @@ Elementos são uma forma simples de compreender a execução e a interface do so
     Não é possível desativar o Modo Rollback manualmente.
 
 ### Acesso a Pastas Controladas
-Alguns recursos de software requerem acesso à leitura e gravação de dados em pastas controladas, como pastas de usuário e aplicativos de terceiros. Adicione os aplicativos PowerShell e 7-Zip à configuração de Acesso a Pastas Controladas no aplicativo Segurança do Windows.
+Alguns recursos de software requerem acesso à leitura e gravação de dados em pastas controladas, como pastas de usuário e aplicativos de terceiros. Adicione o PowerShell e o 7-Zip à configuração de Acesso a Pastas Controladas no aplicativo Segurança do Windows.
