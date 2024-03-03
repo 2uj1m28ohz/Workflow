@@ -20,8 +20,7 @@ Home
 │   ├─ Desfragmentar
 │   │   ├─ Analisar
 │   │   ├─ Otimizar
-│   │   ├─ Otimizar Inicialização
-│   │   └─ Consolidar Espaço Livre
+│   │   └─ Trim
 │   ├─ Gerenciar Administrador
 │   │   ├─ Ativar
 │   │   └─ Desativar
@@ -36,6 +35,7 @@ Home
 │   │   │   ├─ Drive de Backup
 │   │   │   ├─ Drive de Réplica
 │   │   │   ├─ Formatação Automática
+│   │   │   ├─ Replicação Automática
 │   │   │   └─ Período de Retenção
 │   │   └─ Conteúdo
 │   │       ├─ Jogos
@@ -98,7 +98,11 @@ Home
 │   │   ├─ Azul
 │   │   ├─ Verde
 │   │   ├─ Amarelo
-│   │   └─ Vermelho
+│   │   ├─ Vermelho
+│   │   ├─ Cosmos
+│   │   ├─ Sunrise
+│   │   ├─ Sunset
+│   │   └─ Aqua
 │   ├─ Notificações
 │   │   ├─ Software
 │   │   └─ Sistema
