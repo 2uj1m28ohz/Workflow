@@ -2,33 +2,33 @@
 Workflow combina qualidades fundamentais de um software ultra leve com automação, garantindo velocidade e performance. Com uma interface intuitiva, outras duas diretrizes determinam ainda unidade e minimalismo como requisitos da experiência do usuário. Isso resulta em uma ferramenta criativa extremamente útil e poderosa.
 
 ![](https://github.com/2uj1m28ohz/Workflow/blob/main/Intro.png)
-> Imagem: Jigar Panchal/Unsplash.
+> Imagem: dpcdpc11/DeviantArt.
 
 Criado para gerenciar backups e rotinas de manutenção do sistema com extrema eficiência, é altamente configurável, baseado em comandos simples, podendo ser utilizado por usuários com diferentes níveis de habilidade.
 
 Características intrínsicas à arquitetura de Workflow permitem tamanho de armazenamento mínimo, tempo de inicialização extremamente curto, consumo de recursos consideravelmente inferior, menor superfície de ataque e exposição a vulnerabilidades, sem custo de licenciamento.
 
-Workflow é constantemente redesenhado para introduzir e aprimorar funcionalidades e recursos, eliminando falhas humanas, e permitindo que você se concentre em atividades de maior valor.
-
 ## :rocket: Funcionalidades
-- **Backup de Dados:** Automatiza o backup de jogos selecionados, dados de usuário, armazenamento em nuvem e drivers de sistema, mantendo-os em local seguro, longe de ameaças digitais. Workflow permite configurar, gerenciar e armazenar backups granulares com eficiência e flexibilidade. A partir do backup é possível criar nativamente uma réplica exata dos dados de forma segura. Selecione o formato e nível de compressão, drive de destino, período de retenção, e observe a mágica acontecer.
+- **Backup de Dados:** Com apenas alguns comandos, você pode selecionar seus jogos favoritos, dados pessoais, armazenamento em nuvem e drivers de sistema para os adicionar ao backup, garantindo que seus dados estejam sempre seguros e acessíveis. Workflow oferece a liberdade de personalizar seus backups com eficiência e flexibilidade. Selecione o formato e nível de compressão que melhor atendem às suas necessidades, escolha o drive de destino e defina o período de retenção. Com o Workflow, você tem total controle sobre seus dados. A capacidade de criar uma réplica exata do backup, permite restaurar seus dados a qualquer momento, com a confiança de que tudo estará exatamente como você deixou.
 
-- **Depuração do Sistema:** Otimiza o desempenho do sistema operacional removendo arquivos temporários obsoletos a nível de sistema, softwares selecionados e usuário.
+- **Depuração do Sistema:** Atua de forma inteligente, removendo arquivos temporários obsoletos, liberando espaço de armazenamento e otimizando o desempenho do seu sistema. Seja no nível do sistema, softwares selecionados ou dados do usuário, a depuração do sistema aprimora o desempenho geral do seu dispositivo, proporcionando a experiência mais rápida e fluida possível.
 
-- **Diagnóstico do Sistema:** Gera relatórios de bateria e eficiência energética, exibe informações sobre a saúde dos drives e integridade do sistema de arquivos para ajudar você em ações preventivas que manterão seu dispositivo operacional por mais tempo.
+- **Diagnóstico do Sistema:** Projetado para ajudar você a manter seu dispositivo operacional por mais tempo, o diagnóstico do sistema gera relatórios detalhados sobre o desempenho da bateria e a eficiência energética do seu dispositivo. Ele exibe informações cruciais sobre a saúde dos seus drives e a integridade do sistema de arquivos, fornecendo a você as informações necessárias para tomar ações preventivas.
 
-- **Manutenção do Sistema:** Atualiza aplicativos e restaura a integridade do sistema operacional com facilidade.
+- **Manutenção do Sistema:** Atualiza seus aplicativos e restaura a integridade do sistema operacional com facilidade. Com apenas alguns comandos, você pode garantir que seu dispositivo esteja sempre com as versões de software mais recentes, e o sistema operacional em perfeito estado.
 
 ## :zap: Recursos
 - **Atualização:** Como um software rolling release, Workflow recebe atualizações contínuas e incrementais automaticamente. Instale uma vez, atualize para sempre.
 
-- **Personalização:** Escolha entre cinco temas diferentes pra personalizar seu setup.
+- **Personalização:** Escolha entre nove temas diferentes para personalizar seu setup.
 
 - **Notificações:** Receba notificações importantes sobre a execução do software na Central de Notificações do sistema.
 
 - **Configurações:** Exporte suas configurações para um novo dispositivo e continue exatamente do ponto onde parou.
 
 - **Segurança:** Algoritmos de segurança verificam a integridade das atualizações antes da instalação, bem como detectam e corrigem alterações ilegais de software automaticamente.
+
+Workflow é constantemente redesenhado para introduzir e aprimorar funcionalidades e recursos, eliminando falhas humanas, e permitindo que você se concentre em atividades de maior valor.
 
 ## :arrow_right: Informações
 
