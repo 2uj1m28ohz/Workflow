@@ -2,7 +2,7 @@
 
 1. O software efetua coleta de dados?
 
-    Algumas informações como data, hora, versão do sistema operacional, versão do PowerShell, versão do 7-Zip, e GUID são coletadas e armazenadas localmente pelo Registro de Eventos durante a execução do software. Essas informações são automaticamente excluídas de acordo com a Política de Retenção. Você pode escolher desabilitar o Registro de Eventos ou reduzir o período de retenção nas configurações do software.
+    Algumas informações sobre o ambiente e o usuário são coletadas e armazenadas localmente pelo Registro de Eventos durante a execução do software. Essas informações são automaticamente excluídas de acordo com a Política de Retenção. Você pode escolher desabilitar o Registro de Eventos ou reduzir o período de retenção nas configurações de software.
 
 2. Para que são usados os dados gerados pelo Registro de Eventos?
 
