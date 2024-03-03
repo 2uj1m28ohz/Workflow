@@ -2,44 +2,21 @@
 
 ### Política de Suporte
 
-1. O que o suporte ao software inclui?
+O suporte ao software inclui, mas não está limitado a orientar sobre a instalação, atualização, utilização e remoção do software, e cobre apenas os três lançamentos recentes.
 
-    O suporte ao software inclui:
-    - Orientação sobre como instalar o software
-    - Orientação sobre como usar os recursos do software
-    - Atualizações de software
+Fim de suporte é um termo usado para indicar que um software ou versão de software não receberá mais suporte ou atualizações contendo correções ou aprimoramentos. Embora você possa continuar usando o software após o fim do suporte, sem atualizações contínuas ele estará suscetível a erros, incompatibilidades e instabilidades, portanto é altamente recomendado que você atualize para a versão de software mais recente quando disponível.
 
-2. Quais versões de software são elegíveis pela política de suporte?
+O fim do suporte a uma versão de software ocorre imediatamente após o lançamento de uma nova versão de software, considerando as limitações de cobertura. O fim do suporte ao software ocorre 30 dias após seu desenvolvimento ser encerrado, quando a cobertura é reduzida e limita-se apenas ao lançamento de software mais recente.
 
-    Apenas os três lançamentos recentes estão sujeitos à política de suporte e à garantia de atualização de software.
+Utilize a aba [Discussions](https://github.com/2uj1m28ohz/Workflow/discussions) para obter suporte.
 
-3. O que está incluso em uma atualização de software?
+### Política de Atualização
 
-    Uma atualização de software pode incluir, mas não está limitada a:
-    - Correção de erros
-    - Melhoria de compatibilidade, estabilidade e desempenho
-    - Adição e aprimoramento de recursos
+Uma atualização de software pode incluir, mas não está limitada a correção de erros, melhoria de compatibilidade, estabilidade e desempenho; adição e aprimoramento de recursos.
 
-4. Como posso entrar em contato com o suporte?
+Novas versões de software são lançadas anualmente, em janeiro. Atualizações maiores são lançadas mensalmente, até o dia 10. Atualizações menores podem ser lançadas sem data fixada, conforme criticidade.
 
-    Utilize a aba [Discussions](https://github.com/2uj1m28ohz/Workflow/discussions) para obter suporte. Sua resposta será direcionada o mais breve possível.
-
-5. O que significa fim de suporte?
-
-    Fim de suporte é um termo usado para indicar que um software ou versão de software não receberá mais suporte ou atualizações contendo correções ou aprimoramentos.
-
-    Embora você possa continuar usando o software após o fim do suporte, sem atualizações contínuas ele estará suscetível a erros, incompatibilidades e instabilidades, portanto é altamente recomendado que você atualize para a versão de software mais recente se disponível.
-
-6. Como faço para atualizar o software?
-
-    Consulte [Help](https://github.com/2uj1m28ohz/Workflow/blob/main/Help.md) para mais informações.
-
-7. Quando o suporte ao software é encerrado?
-
-     O fim do suporte ao software ou a uma versão do software ocorrerá automaticamente quando:
-    - **30 dias** após o encerramento do seu ciclo de vida, quando o desenvolvimento é descontinuado
-    - Imediatamente após o lançamento de uma nova versão de software
-    - Os desenvolvedores de softwares de terceiros encerram o suporte ao seu software
+Consulte [Help](https://github.com/2uj1m28ohz/Workflow/blob/main/Help.md) para obter mais informações sobre atualização de software.
 
 ### Política de Ciclo de Vida
 Cada software de terceiro tem um ciclo de vida definido por seus desenvolvedores, por isso, é aplicado ao software cada um desses agendamentos para sinalizar a adição ou a remoção de suporte a versões do sistema operacional, shell ou software de compressão. O suporte geralmente é removido quando um software de terceiro sai do suporte principal, momento em que paramos de testá-lo e dar suporte a ele. Consulte [endoflife.date](https://endoflife.date) para mais informações sobre o ciclo de vida de softwares de terceiros.
@@ -50,7 +27,7 @@ As políticas e agendas dos softwares de terceiros nem sempre se alinham com a a
 > O software informará caso o desenvolvimento e/ou o suporte tenham sido encerrados.
 
 > [!IMPORTANT]  
-> Atualizações de software só podem ser garantidas em ambientes compatíveis. Verifique os requisitos.
+> A instalação e atualização de software podem estar disponíveis apenas em ambientes compatíveis. Verifique os requisitos de software.
 
 > [!CAUTION]
 > Repositórios legados, softwares descontinuados e versões de software sem suporte podem ser removidos após o encerramento do seu ciclo de vida.
