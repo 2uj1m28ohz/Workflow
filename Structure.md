@@ -1,6 +1,7 @@
-## :building_construction: Estrutura
+# :building_construction: Estrutura
+A estrutura de diretórios de software e backup permite a separação lógica dos dados, facilitando a manutenção e escalabilidade. Novos componentes de software, dispositivos e usuários de backup podem ser facilmente adicionados sem perturbar a estrutura existente.
 
-### Software
+## Software
 ```
 [Usuário] ─┐
            └─ AppData ─┐
@@ -12,7 +13,7 @@
                                                      └─ Cache                  | Diretório de armazenamento temporário
 ```
 
-### Backup
+## Backup
 ```
 [Drive] ─┐
          └─ Workflow ─┐                                                        | Diretório raiz
