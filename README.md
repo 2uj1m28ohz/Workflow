@@ -1,5 +1,5 @@
 ## :mechanical_arm: Workflow
-Workflow combina qualidades fundamentais de um software ultra leve com automação, garantindo velocidade e performance. Com uma interface intuitiva, outras duas diretrizes determinam ainda unidade e minimalismo como requisitos da experiência do usuário. Isso resulta em uma ferramenta criativa extremamente útil e poderosa.
+Workflow combina qualidades fundamentais de um software ultra leve com automação, garantindo velocidade e performance. Uma interface intuitiva com ênfase na unidade e minimalismo definem os três pilares da experiência do usuário. Isso resulta em uma ferramenta criativa extremamente útil e poderosa.
 
 ![](https://github.com/2uj1m28ohz/Workflow/blob/main/Intro.png)
 > Imagem: dpcdpc11/DeviantArt.
@@ -28,7 +28,7 @@ Características intrínsicas à arquitetura de Workflow permitem tamanho de arm
 
 - **Segurança:** Algoritmos de segurança verificam a integridade das atualizações antes da instalação, bem como detectam e corrigem alterações ilegais de software automaticamente.
 
-Workflow é constantemente redesenhado para introduzir e aprimorar funcionalidades e recursos, eliminando falhas humanas, e permitindo que você se concentre em atividades de maior valor.
+Workflow é constantemente redesenhado para introduzir e aprimorar funcionalidades e recursos, eliminando erros humanas, e permitindo que você se concentre em atividades de maior valor.
 
 ## :arrow_right: Informações
 
