@@ -1,6 +1,6 @@
-## :atom_symbol: Evolução
+# :atom_symbol: Evolução
 
-### Ciclos
+## Ciclos
 O desenvolvimento de Workflow está organizado em ciclos:
 
 <details>
@@ -104,12 +104,13 @@ Os ciclos anteriores foram fundamentais na construção de um software robusto e
 
 </details>
 
-### Lançamentos
+## Lançamentos
 |Ciclo|Sprint|Versão|Data|Suporte|Windows|PowerShell|7-Zip|Linhas|Sub-rotinas|
 |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|Delta|67|24.04.1|07/04/2024|:green_circle:|10 22H2|7.4.0|23.01|-08,97%|-13,59%|
 |Delta|66|24.03.1|03/03/2024|:green_circle:|10 22H2|7.4.0|23.01|+09,08%|-00,96%|
-|Delta|65|24.02.1|04/02/2024|:green_circle:|10 22H2|7.4.0|23.01|+04,57%|+02,46%|
-|Delta|64|24.01.1|02/01/2024|:yellow_circle:|10 22H2|7.4.0|23.01|+05,27%|+02,53%|
+|Delta|65|24.02.1|04/02/2024|:yellow_circle:|10 22H2|7.4.0|23.01|+04,57%|+02,46%|
+|Delta|64|24.01.1|02/01/2024|:red_circle:|10 22H2|7.4.0|23.01|+05,27%|+02,53%|
 |Gama|63|23.340.1|06/12/2023|:red_circle:|10 22H2|7.3.6|23.01|+04,34%|+03,66%|
 |Gama|62|23.310.1|06/11/2023|:red_circle:|10 22H2|7.3.5|23.01|-01,54%|-01,04%|
 |Gama|61|23.280.1|07/10/2023|:red_circle:|10 22H2|7.3.4|23.01|-03,82%|-03,98%|
