@@ -1,4 +1,6 @@
-## :compass: Navegação
+# :compass: Navegação
+Esta é uma representação da árvore de menus da versão de software mais recente.
+
 ```
 Home
 ├─ Backup de Dados
@@ -119,4 +121,3 @@ Home
 ├─ Sobre
 └─ Encerrar
 ```
-> Esta é uma representação da árvore de menus da versão de software mais recente.
