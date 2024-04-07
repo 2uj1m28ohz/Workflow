@@ -1,34 +1,60 @@
-## :parachute: Ajuda
+# :parachute: Ajuda
 
-### Interface
+## Interface
 Elementos são uma forma simples de compreender a execução e a interface do software:
 
 |Elemento|Nome|Descrição|
 |:---:|:---|:---|
-|`¬`|Título|Destaca o nome da tela ou funcionalidade e exibe o local atual|
-|`*`|Descrição|Destaca a descrição da tela ou funcionalidade|
-|`!`|Notificação|Destaca lembretes e informações relevantes|
+|`●`|Título|Destaca o nome da tela ou funcionalidade e exibe o local atual|
+|`○`|Descrição|Destaca a descrição da tela ou funcionalidade|
+|`◒`|Notificação|Destaca lembretes e informações relevantes|
 |`→`|Execução|Exibe o progresso da execução do software|
 |`+`|Expansor|Indica que há um submenu disponível|
-|`›`|Separador|Indica o níveis da árvore de menus|
-|`•`|NavBit|Sinaliza funcionalidades executadas e telas visualizadas|
-|`│`|Status|Sinaliza configurações habilitadas|
-|`●`|Pixel|Exibe a palheta de cores da Interface|
+|`•`|Separador|Indica o níveis da árvore de menus|
+|`∙`|NavBit|Sinaliza funcionalidades executadas e telas visualizadas|
+|`◉`|Status|Sinaliza configurações habilitadas|
+|`⬤`|Pixel|Exibe a palheta de cores da Interface|
 
-### Instalação
-1. Ao executar o software pela primeira vez recebo uma notificação de incompatibilidade.
+## Instalação
+1. Como Instalar
+- Baixe e descomprima o pacote
+- Execute o PowerShell
+- Habilite a execução de scripts
+```
+Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
+```
+- Desbloqueie o script
+```
+Get-Item Workflow.ps1 | Unblock-File
+```
+- Execute o script
+```
+.\Workflow.ps1
+```
+
+2. Como Executar
+- Navegue até o diretório home
+```
+Set-Location $Home
+```
+- Execute o script
+```
+.\Workflow.ps1
+```
+
+3. Ao executar o software pela primeira vez recebo uma notificação de incompatibilidade.
 
     Durante o carregamento o software verifica diversas informações do ambiente para garantir que seja executado em um cenário mínimo de compatibilidade, os requisitos de sistema. Você pode verificar os requisitos de sistema na página de download da versão. Após solucionar a incompatibilidade, execute o software novamente.
 
-2. A versão de software que estou executando não é instalada automaticamente.
+4. A versão de software que estou executando não é instalada automaticamente.
 
     Você está executando uma versão de software sem suporte. Versões sem suporte não podem ser instaladas. Baixe a versão de software mais recente para prosseguir com a instalação. Consulte [Evolução](https://github.com/2uj1m28ohz/Workflow/blob/main/Evolution.md) e [Política de Suporte](https://github.com/2uj1m28ohz/Workflow/blob/main/SUPPORT.md) para mais informações.
 
-3. Não consigo localizar o atalho Workflow.ps1 na home do usuário.
+5. Não consigo localizar o atalho Workflow.ps1 na home do usuário.
 
     Navegue até o diretório home do usuário utilizando o comando `Set-Location $Home`. Caso o arquivo `Workflow.ps1` não esteja presente, verifique a seção **Acesso a Pastas Controladas** logo abaixo. Em seguida execute Workflow manualmente utilizando a [Estrutura](https://github.com/2uj1m28ohz/Workflow/blob/main/Structure.md) para localizar o diretório de instalação do software. Workflow recriará o atalho automaticamente.
 
-### Atualização
+## Atualização
 1. Como manter o software atualizado?
 
     Para receber atualizações de software basta estar conectado à Internet e executá-lo ao menos uma vez ao mês. Atualizações são baixadas e instaladas automaticamente durante a inicialização quando disponíveis.
@@ -45,7 +71,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     Possivelmente o software não tenha sido executado há algum tempo, perdendo a compatibilidade e, portanto, impossibilitado de receber atualizações automaticamente. Prossiga com a desinstalação manual e a instalação da versão de software mais recente.
 
-### Backup de Dados
+## Backup de Dados
 1. Posso selecionar o que incluir no backup?
 
     Sim, você pode escolher o que incluir no backup habilitando e desabilitando as opções disponíveis no menu Configurações > Backup > Conteúdo.
@@ -66,7 +92,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     Vault é o nome padrão de um diretório, localizado dentro do diretório do usuário, onde você pode armazenar informações relevantes para serem adicionadas ao backup de dados. Vault não existe naturalmente, portanto, precisa ser criado pelo usuário. Por conter informações importantes, é altamente recomendado adicioná-lo à configuração de Acesso a Pastas Controladas no aplicativo Segurança do Windows.
 
-### Configuração
+## Configuração
 1. É possível desabilitar notificações na Central de Notificações?
 
     Siga para o menu Configurações > Notificações
@@ -108,7 +134,7 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 > [!NOTE]
 > Informações de identificação e segurança não são transferidas.
 
-### Modo Rollback
+## Modo Rollback
 1. O que é o Modo Rollback?
 
     O Modo Rollback é um recurso desenhado para impedir que a execução de uma versão de software inferior comprometa as configurações de software da versão atual. Quando ativado, qualquer alteração nas configurações são perdidadas ao encerrar o software.
@@ -121,5 +147,5 @@ Elementos são uma forma simples de compreender a execução e a interface do so
 
     Não é possível desativar o Modo Rollback manualmente.
 
-### Acesso a Pastas Controladas
+## Acesso a Pastas Controladas
 Alguns recursos de software requerem acesso à leitura e gravação de dados em pastas controladas, como pastas de usuário e aplicativos de terceiros. Adicione o PowerShell e o 7-Zip à configuração de Acesso a Pastas Controladas no aplicativo Segurança do Windows.
