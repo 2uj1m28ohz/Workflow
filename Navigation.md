@@ -39,9 +39,21 @@ Home
 │   │   │   ├─ Formatação Automática
 │   │   │   ├─ Replicação Automática
 │   │   │   └─ Período de Retenção
+│   │   ├─ Compressão
+│   │   │   ├─ Nível de Compressão
+│   │   │   │   ├─ Baixo
+│   │   │   │   ├─ Médio
+│   │   │   │   └─ Alto
+│   │   │   ├─ Consumo de Memória
+│   │   │   │   ├─ Baixo
+│   │   │   │   ├─ Médio
+│   │   │   │   └─ Alto
+│   │   │   └─ Avançado
+│   │   │       ├─ Análise de Arquivos
+│   │   │       ├─ Módo Sólido
+│   │   │       └─ Modo Multithread
 │   │   └─ Conteúdo
 │   │       ├─ Jogos
-│   │       │   ├─ EVE Online
 │   │       │   ├─ Surviving Mars
 │   │       │   ├─ Industries Of Titan
 │   │       │   ├─ Aven Colony
@@ -74,27 +86,6 @@ Home
 │   │       ├─ Downloads
 │   │       ├─ Screenshots
 │   │       └─ Lixeira
-│   ├─ Compressão
-│   │   ├─ Formato de Compressão
-│   │   │   ├─ TAR
-│   │   │   ├─ ZIP
-│   │   │   └─ 7Z
-│   │   ├─ Nível de Compressão
-│   │   │   ├─ Armazenamento
-│   │   │   ├─ Veloz
-│   │   │   ├─ Rápido
-│   │   │   ├─ Normal
-│   │   │   ├─ Máximo
-│   │   │   └─ Ultra
-│   │   ├─ Utilização de Memória
-│   │   │   ├─ 10%
-│   │   │   ├─ 20%
-│   │   │   ├─ 30%
-│   │   │   ├─ 40%
-│   │   │   └─ 50%
-│   │   └─ Outros
-│   │       ├─ Modo Sólido
-│   │       └─ Modo Multithread
 │   ├─ Temas
 │   │   ├─ Violeta
 │   │   ├─ Azul
