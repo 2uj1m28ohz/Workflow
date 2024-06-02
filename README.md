@@ -20,13 +20,13 @@ Características intrínsicas à arquitetura de Workflow permitem tamanho de arm
 ## :zap: Recursos
 - **Atualização:** Como um software rolling release, Workflow recebe atualizações contínuas e incrementais automaticamente. Instale uma vez, atualize para sempre.
 
+- **Segurança:** A imutabilidade do software é garantida através de algoritmos de segurança que verificam a integridade de cada atualização antes da implantação, além de escanear, detectar e corrigir qualquer alteração ilegal de software automaticamente.
+
 - **Personalização:** Escolha entre nove temas diferentes para personalizar seu setup.
 
 - **Notificações:** Receba notificações importantes sobre a execução do software na Central de Notificações do sistema.
 
 - **Configurações:** Exporte suas configurações para um novo dispositivo e continue exatamente do ponto onde parou.
-
-- **Segurança:** Algoritmos de segurança verificam a integridade das atualizações antes da instalação, bem como detectam e corrigem alterações ilegais de software automaticamente.
 
 Workflow é constantemente redesenhado para introduzir e aprimorar funcionalidades e recursos, eliminando erros humanas, e permitindo que você se concentre em atividades de maior valor.
 
