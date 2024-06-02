@@ -4,9 +4,9 @@
 O desenvolvimento de Workflow está organizado em ciclos:
 
 <details>
-<summary>Ciclo Alpha</summary>
+<summary>Ciclo Alfa</summary>
 
-Inicialmente escrito para o legado Prompt de Comando, o desenvolvimento de Workflow tem início no segundo semestre de 2021 com o _Ciclo Alpha_, período de aprendizagem da linguagem shell script, construção do núcleo do software e execução dos primeiros testes. Posteriormente portado para PowerShell 5.1, o algoritmo ganhou em complexidade e compatibilidade.
+Inicialmente escrito para o legado Prompt de Comando, o desenvolvimento de Workflow tem início no segundo semestre de 2021 com o _Ciclo Alfa_, período de aprendizagem da linguagem shell script, construção do núcleo do software e execução dos primeiros testes. Posteriormente portado para PowerShell 5.1, o algoritmo ganhou em complexidade e compatibilidade.
 
 O universo de Tron criado por Steven Lisberger foi uma clara inspiração na construção do projeto desde as primeiras linhas de código. Há diversos easter eggs espalhados pelo algoritmo e interface das versões iniciais, no entanto elas não foram publicadas.
 
@@ -108,9 +108,10 @@ Os ciclos anteriores foram fundamentais na construção de um software robusto e
 ## Lançamentos
 |Ciclo|Sprint|Versão    |Data      |Suporte        |Windows|PowerShell|7-Zip|Linhas |Sub-rotinas|
 |:---:|:----:|:--------:|:--------:|:-------------:|:-----:|:--------:|:---:|:-----:|:---------:|
+|Delta|69    |24.06.1   |02/06/2024|:green_circle: |10 22H2|7.4.0     |23.01|4623   |167        |
 |Delta|68    |24.05.1   |05/05/2024|:green_circle: |10 22H2|7.4.0     |23.01|4618   |167        |
-|Delta|67    |24.04.1   |07/04/2024|:green_circle: |10 22H2|7.4.0     |23.01|4812   |178        |
-|Delta|66    |24.03.1   |03/03/2024|:yellow_circle:|10 22H2|7.4.0     |23.01|5286   |206        |
+|Delta|67    |24.04.1   |07/04/2024|:yellow_circle:|10 22H2|7.4.0     |23.01|4812   |178        |
+|Delta|66    |24.03.1   |03/03/2024|:red_circle:   |10 22H2|7.4.0     |23.01|5286   |206        |
 |Delta|65    |24.02.1   |04/02/2024|:red_circle:   |10 22H2|7.4.0     |23.01|4846   |208        |
 |Delta|64    |24.01.1   |02/01/2024|:red_circle:   |10 22H2|7.4.0     |23.01|4634   |203        |
 |Gama |63    |23.340.1  |06/12/2023|:red_circle:   |10 22H2|7.3.6     |23.01|4402   |198        |
@@ -147,35 +148,35 @@ Os ciclos anteriores foram fundamentais na construção de um software robusto e
 |Beta |32    |22.20.1   |20/01/2022|:red_circle:   |10 1507|7.2.0     |21.06|1426   |39         |
 |Beta |31    |22.10.1   |10/01/2022|:red_circle:   |10 1507|7.1.0     |19.00|1375   |38         |
 |Beta |30    |22.1.1    |01/01/2022|:red_circle:   |10 1507|7.0.0     |     |1364   |24         |
-|Alpha|29    |21.330.1  |23/11/2021|:red_circle:   |10 1507|5.1.0     |     |1189   |22         |
-|Alpha|28    |21.323.1  |19/11/2021|:red_circle:   |10 1507|5.1.0     |     |1019   |21         |
-|Alpha|27    |21.319.1  |15/11/2021|:red_circle:   |10 1507|5.1.0     |     |851    |23         |
-|Alpha|26    |21.313.1  |09/11/2021|:red_circle:   |10 1507|5.1.0     |     |732    |22         |
-|Alpha|25    |21.311.1  |07/11/2021|:red_circle:   |10 1507|5.1.0     |     |697    |22         |
-|Alpha|24    |20.6.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |675    |22         |
-|Alpha|23    |19.9.2-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |648    |21         |
-|Alpha|22    |18.9.3-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |820    |20         |
-|Alpha|21    |17.9.5-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |641    |19         |
-|Alpha|20    |16.9.1-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |529    |18         |
-|Alpha|19    |15.9.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |518    |17         |
-|Alpha|18    |14.9.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |473    |16         |
-|Alpha|17    |13.9.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |463    |15         |
-|Alpha|16    |12.7.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |371    |14         |
-|Alpha|15    |11.5.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |357    |13         |
-|Alpha|14    |10.9.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |344    |12         |
-|Alpha|13    |9.8.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |316    |11         |
-|Alpha|12    |8.8.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |280    |10         |
-|Alpha|11    |7.1.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |264    |9          |
-|Alpha|10    |6.5.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |251    |8          |
-|Alpha|9     |5.7.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |232    |7          |
-|Alpha|8     |5.3.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |228    |7          |
-|Alpha|7     |4.9.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |212    |6          |
-|Alpha|6     |3.7.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |150    |5          |
-|Alpha|5     |2.13.0-002|2021/2    |:red_circle:   |10 1507|5.1.0     |     |127    |4          |
-|Alpha|4     |2.13.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |127    |4          |
-|Alpha|3     |1.8.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |94     |3          |
-|Alpha|2     |1.7.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |92     |3          |
-|Alpha|1     |0.9.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |105    |5          |
+|Alfa |29    |21.330.1  |23/11/2021|:red_circle:   |10 1507|5.1.0     |     |1189   |22         |
+|Alfa |28    |21.323.1  |19/11/2021|:red_circle:   |10 1507|5.1.0     |     |1019   |21         |
+|Alfa |27    |21.319.1  |15/11/2021|:red_circle:   |10 1507|5.1.0     |     |851    |23         |
+|Alfa |26    |21.313.1  |09/11/2021|:red_circle:   |10 1507|5.1.0     |     |732    |22         |
+|Alfa |25    |21.311.1  |07/11/2021|:red_circle:   |10 1507|5.1.0     |     |697    |22         |
+|Alfa |24    |20.6.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |675    |22         |
+|Alfa |23    |19.9.2-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |648    |21         |
+|Alfa |22    |18.9.3-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |820    |20         |
+|Alfa |21    |17.9.5-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |641    |19         |
+|Alfa |20    |16.9.1-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |529    |18         |
+|Alfa |19    |15.9.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |518    |17         |
+|Alfa |18    |14.9.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |473    |16         |
+|Alfa |17    |13.9.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |463    |15         |
+|Alfa |16    |12.7.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |371    |14         |
+|Alfa |15    |11.5.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |357    |13         |
+|Alfa |14    |10.9.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |344    |12         |
+|Alfa |13    |9.8.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |316    |11         |
+|Alfa |12    |8.8.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |280    |10         |
+|Alfa |11    |7.1.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |264    |9          |
+|Alfa |10    |6.5.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |251    |8          |
+|Alfa |9     |5.7.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |232    |7          |
+|Alfa |8     |5.3.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |228    |7          |
+|Alfa |7     |4.9.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |212    |6          |
+|Alfa |6     |3.7.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |150    |5          |
+|Alfa |5     |2.13.0-002|2021/2    |:red_circle:   |10 1507|5.1.0     |     |127    |4          |
+|Alfa |4     |2.13.0-001|2021/2    |:red_circle:   |10 1507|5.1.0     |     |127    |4          |
+|Alfa |3     |1.8.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |94     |3          |
+|Alfa |2     |1.7.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |92     |3          |
+|Alfa |1     |0.9.0-001 |2021/2    |:red_circle:   |10 1507|5.1.0     |     |105    |5          |
 
 > - :green_circle: Suporte ativo
 > - :yellow_circle: Suporte próximo do fim
