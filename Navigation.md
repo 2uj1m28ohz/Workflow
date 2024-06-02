@@ -3,17 +3,16 @@ Esta é uma representação da árvore de menus da versão de software mais rece
 
 ```
 Home
-├─ Backup de Dados
+├─ Backup
 │   ├─ Iniciar Backup
 │   ├─ Iniciar Réplica
 │   └─ Testar Backup
-├─ Depuração do Sistema
-├─ Diagnóstico do Sistema
+├─ Depuração
+├─ Diagnóstico
 │   ├─ Relatório da Bateria
-│   ├─ Relatório de Eficiência Energética
 │   ├─ Verificar Saúde dos Drives
 │   └─ Verificar Sistema de Arquivos
-├─ Manutenção do Sistema
+├─ Manutenção
 │   ├─ Gerenciar Aplicativos
 │   │   ├─ Listar
 │   │   ├─ Atualizar
@@ -49,9 +48,9 @@ Home
 │   │   │   │   ├─ Médio
 │   │   │   │   └─ Alto
 │   │   │   └─ Avançado
-│   │   │       ├─ Análise de Arquivos
-│   │   │       ├─ Módo Sólido
-│   │   │       └─ Modo Multithread
+│   │   │       ├─ Análise
+│   │   │       ├─ Sólido
+│   │   │       └─ Filtros
 │   │   └─ Conteúdo
 │   │       ├─ Jogos
 │   │       │   ├─ Surviving Mars
