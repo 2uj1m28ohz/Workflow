@@ -1,19 +1,5 @@
 # :parachute: Ajuda
-
-## Interface
-Elementos são uma forma simples de compreender a execução e a interface do software:
-
-|Elemento|Nome|Descrição|
-|:---:|:---|:---|
-|`●`|Título|Destaca o nome da tela ou funcionalidade e exibe o local atual|
-|`○`|Descrição|Destaca a descrição da tela ou funcionalidade|
-|`◒`|Notificação|Destaca lembretes e informações relevantes|
-|`→`|Execução|Exibe o progresso da execução do software|
-|`+`|Expansor|Indica que há um submenu disponível|
-|`•`|Separador|Indica o níveis da árvore de menus|
-|`∙`|NavBit|Sinaliza funcionalidades executadas e telas visualizadas|
-|`◉`|Status|Sinaliza configurações habilitadas|
-|`⬤`|Pixel|Exibe a palheta de cores da Interface|
+Este é um guia de instalação e execução de software. Encontre soluções para problemas comuns, além de instruções de atualização, configurações de software, e dicas para o uso de funcionalildades.
 
 ## Instalação
 1. Como Instalar
