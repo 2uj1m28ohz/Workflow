@@ -1,7 +1,16 @@
 {
   "Development": "1",
-  "Update": "24.05.1",
+  "Update": "24.06.1",
   "Version": [
+    {
+      "Release": "24.06.1",
+      "Support": "1",
+      "Format": "7z",
+      "Hash": "AB479081738BAD725A6D06F4757B593AC7D256D0F87EA1DE98E46FBFA34B5888",
+      "SevenHash": "AB479081738BAD725A6D06F4757B593AC7D256D0F87EA1DE98E46FBFA34B5888",
+      "ZipHash": "FB6AF2ED7FF8B71D1EBABC2B0F445CF093F43C80AA650F497AB1FD1ACE54D8FD",
+      "TarHash": "E7DDF7C7320C8E1458528C1917CA0A4D2B2E0B301F0E6EAD16A1DEC0E2A0801F"
+    },
     {
       "Release": "24.05.1",
       "Support": "1",
@@ -22,7 +31,7 @@
     },
     {
       "Release": "24.03.1",
-      "Support": "1",
+      "Support": "0",
       "Format": "7z",
       "Hash": "AAD6391C3501845BCAA362F5006BC693F8D4239094B007825C16FDD90D76C627",
       "SevenHash": "AAD6391C3501845BCAA362F5006BC693F8D4239094B007825C16FDD90D76C627",
@@ -61,24 +70,6 @@
       "Support": "0",
       "Format": "7z",
       "Hash": "AF324F2F3BF87E440FCCD059F695E527D93ED0F85FEE20C5076E2B2667F5F068",
-      "SevenHash": null,
-      "ZipHash": null,
-      "TarHash": null
-    },
-    {
-      "Release": "23.280.1",
-      "Support": "0",
-      "Format": "7z",
-      "Hash": "AD7F947D8B30391ED79DBA04EDE33C2007D4560B3D6635B8AA40A9A352A5FDDE",
-      "SevenHash": null,
-      "ZipHash": null,
-      "TarHash": null
-    },
-    {
-      "Release": "23.250.1",
-      "Support": "0",
-      "Format": "7z",
-      "Hash": "48494A2AC533A6A7F30DD889AF45B6CE0145ED647EE50FC5984DF78483701E25",
       "SevenHash": null,
       "ZipHash": null,
       "TarHash": null
