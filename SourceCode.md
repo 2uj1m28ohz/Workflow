@@ -1,5 +1,5 @@
 # :dna: Código-fonte
-Aqui você conhecerá os fundamentos da licença GPL e encontrará instruções sobre como acessar o código-fonte. Prepare-se para uma jornada emocionante no mundo do código aberto!
+Prepare-se para uma jornada emocionante no mundo do código aberto!
 
 ## Fundamentos da licença GPL
 - A liberdade de usar o software para qualquer finalidade.
