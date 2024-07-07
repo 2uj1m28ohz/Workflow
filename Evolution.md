@@ -108,9 +108,10 @@ Os ciclos anteriores foram fundamentais na construção de um software robusto e
 ## Lançamentos
 |Ciclo|Sprint|Versão    |Data      |Suporte        |Windows|PowerShell|7-Zip|Linhas |Sub-rotinas|
 |:---:|:----:|:--------:|:--------:|:-------------:|:-----:|:--------:|:---:|:-----:|:---------:|
+|Delta|70    |24.07.1   |07/07/2024|:green_circle: |10 22H2|7.4.0     |23.01|4682   |165        |
 |Delta|69    |24.06.1   |02/06/2024|:green_circle: |10 22H2|7.4.0     |23.01|4623   |167        |
-|Delta|68    |24.05.1   |05/05/2024|:green_circle: |10 22H2|7.4.0     |23.01|4618   |167        |
-|Delta|67    |24.04.1   |07/04/2024|:yellow_circle:|10 22H2|7.4.0     |23.01|4812   |178        |
+|Delta|68    |24.05.1   |05/05/2024|:yellow_circle:|10 22H2|7.4.0     |23.01|4618   |167        |
+|Delta|67    |24.04.1   |07/04/2024|:red_circle:   |10 22H2|7.4.0     |23.01|4812   |178        |
 |Delta|66    |24.03.1   |03/03/2024|:red_circle:   |10 22H2|7.4.0     |23.01|5286   |206        |
 |Delta|65    |24.02.1   |04/02/2024|:red_circle:   |10 22H2|7.4.0     |23.01|4846   |208        |
 |Delta|64    |24.01.1   |02/01/2024|:red_circle:   |10 22H2|7.4.0     |23.01|4634   |203        |
