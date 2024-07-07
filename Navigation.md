@@ -39,18 +39,11 @@ Home
 │   │   │   ├─ Replicação Automática
 │   │   │   └─ Período de Retenção
 │   │   ├─ Compressão
-│   │   │   ├─ Nível de Compressão
-│   │   │   │   ├─ Baixo
-│   │   │   │   ├─ Médio
-│   │   │   │   └─ Alto
-│   │   │   ├─ Consumo de Memória
-│   │   │   │   ├─ Baixo
-│   │   │   │   ├─ Médio
-│   │   │   │   └─ Alto
-│   │   │   └─ Avançado
-│   │   │       ├─ Análise
-│   │   │       ├─ Sólido
-│   │   │       └─ Filtros
+│   │   │   ├─ Compressão
+│   │   │   ├─ Memória
+│   │   │   ├─ Análise
+│   │   │   ├─ Sólido
+│   │   │   └─ Filtros
 │   │   └─ Conteúdo
 │   │       ├─ Jogos
 │   │       │   ├─ Surviving Mars
