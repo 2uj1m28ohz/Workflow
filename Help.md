@@ -76,7 +76,7 @@ Set-Location $Home
 
 5. O que é Vault?
 
-    Vault é o nome padrão de um diretório, localizado dentro do diretório do usuário, onde você pode armazenar informações relevantes para serem adicionadas ao backup de dados. Vault não existe naturalmente, portanto, precisa ser criado pelo usuário. Por conter informações importantes, é altamente recomendado adicioná-lo à configuração de Acesso a Pastas Controladas no aplicativo Segurança do Windows.
+    Vault é o nome de um diretório criado automaticamente, localizado dentro do diretório do usuário, onde você pode armazenar informações relevantes para serem adicionadas ao backup de dados. É altamente recomendado adicioná-lo à configuração de Acesso a Pastas Controladas no aplicativo Segurança do Windows.
 
 ## Configuração
 1. É possível desabilitar notificações na Central de Notificações?
