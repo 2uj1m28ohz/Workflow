@@ -45,11 +45,6 @@ Home
 │   │   │   ├─ Sólido
 │   │   │   └─ Filtros
 │   │   └─ Conteúdo
-│   │       ├─ Jogos
-│   │       │   ├─ Surviving Mars
-│   │       │   ├─ Industries Of Titan
-│   │       │   ├─ Aven Colony
-│   │       │   └─ Pharaoh: A New Era
 │   │       ├─ Usuário
 │   │       │   ├─ Desktop
 │   │       │   ├─ Documentos
