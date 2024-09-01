@@ -1,5 +1,5 @@
 # :sparkling_heart: Contribuindo
-Bem-vindo e obrigado por seu interesse em contribuir para Workflow!
+Bem-vindo e obrigado por seu interesse em contribuir para Workflow! Atualmente, contribuições diretas não são aceitas. No entanto, sua participação é importante e altamente apreciada.
 
 ## Utilize [Issues](https://github.com/2uj1m28ohz/Workflow/issues) para:
 - **Reportar problemas:** Se você identificou um problema reprodutível ou acredita que o software não está funcionando corretamente, descreva o problema detalhadamente para que possa ser verificado. É possível que o log do Registro de Eventos do software seja solicitado para compreender o problema que você reportou.
@@ -13,10 +13,10 @@ Bem-vindo e obrigado por seu interesse em contribuir para Workflow!
 
 - **Solicitar suporte:** Encontre ajuda para solucionar problemas técnicos, como mensagens de erro e comportamentos inesperados. Entenda como utilizar o software, configurar recursos ou funcionalidades específicas.
 
-Suas contribuições para o código aberto, grandes ou pequenas, tornam possível projetos como este. Obrigado por ter tempo para contribuir.
+Sua colaboração, seja reportando problemas, sugerindo melhorias ou oferecendo feedback, é fundamental para o desenvolvimento contínuo deste projeto, serão considerados e podem ser implementados em futuras atualizações. Obrigado por dedicar seu tempo e energia para contribuir!
 
 > [!IMPORTANT]
-> Utilize as tags corretas ao criar uma issue ou uma discussão.
+> Utilize as tags corretas ao criar uma Issue ou uma Discussão.
 
 > [!WARNING]
 > Não utilize Pull Requests.
