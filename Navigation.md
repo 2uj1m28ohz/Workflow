@@ -26,24 +26,20 @@ Home
 │   │   ├─ Ativar
 │   │   └─ Desativar
 │   ├─ Verificar Imagem do Sistema
-│   │   ├─ Escanear Integridade
-│   │   ├─ Verificar Integridade
-│   │   └─ Reparar Integridade
+│   │   ├─ Verificar
+│   │   └─ Reparar
 │   └─ Verificar Instalação do Sistema
+│       ├─ Verificar
+│       └─ Consolidar
 ├─ Configurações
 │   ├─ Backup
 │   │   ├─ Parâmetros
 │   │   │   ├─ Drive de Backup
 │   │   │   ├─ Drive de Réplica
+│   │   │   ├─ Período de Retenção
+│   │   │   ├─ Nível de Compressão
 │   │   │   ├─ Formatação Automática
-│   │   │   ├─ Replicação Automática
-│   │   │   └─ Período de Retenção
-│   │   ├─ Compressão
-│   │   │   ├─ Compressão
-│   │   │   ├─ Memória
-│   │   │   ├─ Análise
-│   │   │   ├─ Sólido
-│   │   │   └─ Filtros
+│   │   │   └─ Replicação Automática
 │   │   └─ Conteúdo
 │   │       ├─ Usuário
 │   │       │   ├─ Desktop
@@ -65,9 +61,12 @@ Home
 │   │   │   ├─ Diretório Temporário
 │   │   │   ├─ Diretório Prefetch
 │   │   │   ├─ Windows Update
+│   │   │   ├─ Reporte de Erros
 │   │   │   └─ Cache DNS
 │   │   ├─ Arquivos de Software
-│   │   │   └─ EVE Online
+│   │   │   ├─ Microsoft Edge
+│   │   │   ├─ OneDrive
+│   │   │   └─ Epic Games
 │   │   └─ Arquivos de Usuário
 │   │       ├─ Diretório Temporário
 │   │       ├─ Downloads
