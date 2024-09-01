@@ -78,6 +78,20 @@ Set-Location $Home
 
     Vault é o nome de um diretório criado automaticamente, localizado dentro do diretório do usuário, onde você pode armazenar informações relevantes para serem adicionadas ao backup de dados. É altamente recomendado adicioná-lo à configuração de Acesso a Pastas Controladas no aplicativo Segurança do Windows.
 
+## Manutenção
+
+1. Para que serve a funcionalidade Verificar Imagem do Sistema?
+
+    - Verificar: Utiliza a ferramenta DISM (Deployment Imaging Service and Management Tool) para verificar a integridade da imagem do sistema operacional em execução. O parâmetro `/ScanHealth` realiza uma análise mais detalhada, verificando se há alguma corrupção na imagem do sistema.
+
+    - Reparar: Utiliza o parâmetro `/RestoreHealth` do DISM para reparar a integridade da imagem do sistema. Se o DISM encontrar alguma corrupção ou problema, ele tentará automaticamente repará-los, utilizando os arquivos de reparo disponíveis no sistema ou baixando-os dos servidores da Microsoft.
+
+2. Para que serve a funcionalidade Verificar Instalação do Sistema?
+
+    - Verificar: O SFC (System File Checker) é uma ferramenta do Windows que verifica e repara arquivos de sistema corrompidos ou ausentes. O parâmetro `/ScanNow` faz com que o SFC realize uma varredura completa no sistema em busca de arquivos corrompidos. Se algum arquivo estiver corrompido ou ausente, o SFC tentará restaurá-lo usando uma cópia em cache que está localizada em uma pasta protegida no sistema.
+
+    - Consolidar: Utiliza o DISM para limpar e reduzir o tamanho da imagem do sistema. O parâmetro `/StartComponentCleanup` remove os componentes do sistema que não são mais necessários, enquanto o `/ResetBase` remove todas as versões antigas dos componentes instalados. Isso impede que versões antigas sejam reinstaladas, essencialmente consolidando a imagem do sistema para liberar espaço em disco e melhorar a eficiência do sistema.
+
 ## Configuração
 1. É possível desabilitar notificações na Central de Notificações?
 
