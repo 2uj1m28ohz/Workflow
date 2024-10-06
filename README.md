@@ -1,14 +1,14 @@
-## :mechanical_arm: Workflow
+## :muscle: Workflow
 Workflow combina qualidades fundamentais de um software ultra leve com automação, garantindo velocidade e performance. Uma interface intuitiva com ênfase na unidade e minimalismo definem os três pilares da experiência do usuário. Isso resulta em uma ferramenta criativa extremamente útil e poderosa.
 
 ![](https://github.com/2uj1m28ohz/Workflow/blob/main/Image.png)
-> Imagem: Planet Volumes/Unsplash
+> Imagem: dpcdpc11/DeviantArt
 
 Criado para gerenciar backups e rotinas de manutenção do sistema com extrema eficiência, é altamente configurável, baseado em comandos simples, podendo ser utilizado por usuários com diferentes níveis de habilidade.
 
 Características intrínsicas à arquitetura de Workflow permitem tamanho de armazenamento mínimo, tempo de inicialização extremamente curto, consumo de recursos consideravelmente inferior, menor superfície de ataque e exposição a vulnerabilidades, sem custo de licenciamento.
 
-## :rocket: Funcionalidades
+## :sparkles: Funcionalidades
 - **Backup:** Com apenas alguns comandos, você pode selecionar seus dados pessoais, armazenamento em nuvem e drivers de sistema para os adicionar ao backup, garantindo que seus dados estejam sempre seguros e acessíveis. Workflow oferece a liberdade de personalizar seus backups com eficiência e flexibilidade. Selecione o nível de compressão que melhor atende às suas necessidades, escolha o drive de destino e defina o período de retenção. Com o Workflow, você tem total controle sobre seus dados. A capacidade de criar uma réplica exata do backup, permite restaurar seus dados a qualquer momento, com a confiança de que tudo estará exatamente como você deixou.
 
 - **Depuração:** Atua de forma inteligente, removendo arquivos temporários obsoletos, liberando espaço de armazenamento e otimizando o desempenho do seu sistema. Seja no nível do sistema, softwares selecionados ou dados do usuário, a depuração do sistema aprimora o desempenho geral do seu dispositivo, proporcionando a experiência mais rápida e fluida possível.
@@ -28,9 +28,9 @@ Características intrínsicas à arquitetura de Workflow permitem tamanho de arm
 
 - **Configurações:** Exporte suas configurações para um novo dispositivo e continue exatamente do ponto onde parou.
 
-Workflow é constantemente redesenhado para introduzir e aprimorar funcionalidades e recursos, eliminando falhas humanas, e permitindo que você se concentre em atividades de maior valor.
+Workflow é constantemente redesenhado para introduzir e aprimorar recursos e funcionalidades, eliminando falhas humanas, e permitindo que você se concentre em atividades de maior valor.
 
-## :arrow_right: Informações
+## :point_up: Informações
 
 <details>
 <summary>Documentação</summary>
@@ -45,20 +45,7 @@ Workflow é constantemente redesenhado para introduzir e aprimorar funcionalidad
 - [Política de Suporte](https://github.com/2uj1m28ohz/Workflow/blob/main/SUPPORT.md)
 - [Licença de Software](https://github.com/2uj1m28ohz/Workflow/blob/main/LICENSE.md)
 - [Código de Conduta](https://github.com/2uj1m28ohz/Workflow/blob/main/CODE_OF_CONDUCT.md)
-
-</details>
-
-<details>
-<summary>Tecnologias</summary>
-
-- [PowerShell](https://github.com/powershell/powershell)
-- [Terminal](https://github.com/microsoft/terminal)
-- [VS Code](https://github.com/microsoft/vscode)
-- [7-Zip](https://7-zip.org)
-- [LibreOffice](https://libreoffice.org)
-- [GIMP](https://gimp.org)
-- [Unsplash](https://unsplash.com)
-- [ChatGPT](https://chat.openai.com)
+- [Doar](https://github.com/2uj1m28ohz/Workflow/blob/main/Donate.md)
 
 </details>
 
