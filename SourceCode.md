@@ -1,11 +1,13 @@
 # :dna: Código-fonte
-Prepare-se para uma jornada emocionante no mundo do código aberto!
+Prepare-se para uma jornada emocionante pelo mundo do software livre!
 
 ## Fundamentos da licença GPL
-- A liberdade de usar o software para qualquer finalidade.
-- A liberdade de mudar o software de acordo com suas necessidades.
-- A liberdade de compartilhar o software com seus amigos e vizinhos.
-- A liberdade de compartilhar as mudanças que você faz.
+- `Liberdade 0`: Executar o software como desejar e para qualquer propósito.
+- `Liberdade 1`: Estudar e adaptar o software às suas necessidades.
+- `Liberdade 2`: Compartilhar cópias do software para ajudar outros.
+- `Liberdade 3`: Aprimorar o software e compartilhar as alterações com a comunidade.
+
+> Saiba mais em [SPDX.org](https://spdx.org/licenses/GPL-3.0-or-later.html)
 
 ## Acesso ao código-fonte
 - Baixe a versão de software mais recente disponível.
