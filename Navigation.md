@@ -1,6 +1,7 @@
 # :compass: Navegação
 Esta é uma representação da árvore de menus da versão de software mais recente.
 
+## :window: Windows
 ```
 Home
 ├─ Backup
@@ -55,6 +56,7 @@ Home
 │   │       │   ├─ iCloud Drive
 │   │       │   └─ Dropbox
 │   │       └─ Sistema
+│   │           ├─ Fontes
 │   │           └─ Drivers
 │   ├─ Depuração
 │   │   ├─ Arquivos de Sistema
@@ -72,6 +74,37 @@ Home
 │   │       ├─ Downloads
 │   │       ├─ Screenshots
 │   │       └─ Lixeira
+│   ├─ Temas
+│   │   ├─ Violeta
+│   │   ├─ Azul
+│   │   ├─ Verde
+│   │   ├─ Amarelo
+│   │   ├─ Vermelho
+│   │   ├─ Cosmos
+│   │   ├─ Sunrise
+│   │   ├─ Sunset
+│   │   └─ Aqua
+│   ├─ Notificações
+│   │   ├─ Software
+│   │   └─ Sistema
+│   ├─ Registro de Eventos
+│   │   ├─ Status
+│   │   ├─ Período de Retenção
+│   │   └─ Exibir
+│   ├─ Gerenciar
+│   │   ├─ Importar
+│   │   ├─ Exportar
+│   │   └─ Redefinir
+│   ├─ Empacotar
+│   └─ Desinstalar
+├─ Sobre
+└─ Encerrar
+```
+
+## :penguin: Linux
+```
+Home
+├─ Configurações
 │   ├─ Temas
 │   │   ├─ Violeta
 │   │   ├─ Azul
