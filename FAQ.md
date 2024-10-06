@@ -18,9 +18,11 @@
 
     Nenhuma informação é enviada para a internet.
 
-4. O software será portado para outras plataformas?
+4. O software será portado para outros sistemas?
 
-    Não há previsão de porte para outras plataformas.
+    O suporte ao Linux está em desenvolvimento, com versões experimentais Alpha, Beta e Gamma sendo lançadas para avaliar a compatibilidade com o sistema e coletar feedback dos usuários. Essas versões podem apresentar instabilidades e limitações. A disponibilidade de recursos e funcionalidades está sendo continuamente avaliada e aprimorada por meio de atualizações frequentes.
+
+    Não há previsão de porte para o macOS.
 
 5. O software será portado para outros idiomas?
 
