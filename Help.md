@@ -2,31 +2,25 @@
 Este é um guia de instalação e execução de software. Encontre soluções para problemas comuns, além de instruções de atualização, configurações de software, e dicas para o uso de funcionalildades.
 
 ## Instalação
-1. Como Instalar
-- Baixe e descomprima o pacote
-- Execute o PowerShell
-- Habilite a execução de scripts
-```
-Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force
-```
-- Desbloqueie o script
-```
-Get-Item Workflow.ps1 | Unblock-File
-```
-- Execute o script
-```
-.\Workflow.ps1
-```
+1. Como Instalar:
+    - Windows
+        - Baixe e descomprima o pacote
+        - Execute o PowerShell
+        - Habilite a execução de scripts `Set-ExecutionPolicy RemoteSigned -Scope CurrentUser -Force`
+        - Desbloqueie o script `Get-Item Workflow.ps1 | Unblock-File`
+        - Execute o script `.\Workflow.ps1`
+    - Linux
+        - Baixe e descomprima o pacote
+        - Execute o PowerShell
+        - Execute o script `./Workflow.ps1`
 
-2. Como Executar
-- Navegue até o diretório home
-```
-Set-Location $Home
-```
-- Execute o script
-```
-.\Workflow.ps1
-```
+2. Como Executar:
+    - Windows
+        - Navegue até o diretório home `Set-Location $Home`
+        - Execute o script `.\Workflow.ps1`
+    - Linux
+        - Navegue até o diretório home `Set-Location $Home`
+        - Execute o script `./Workflow.ps1`
 
 3. Ao executar o software pela primeira vez recebo uma notificação de incompatibilidade.
 
@@ -57,7 +51,7 @@ Set-Location $Home
 
     Possivelmente o software não tenha sido executado há algum tempo, perdendo a compatibilidade e, portanto, impossibilitado de receber atualizações automaticamente. Prossiga com a desinstalação manual e a instalação da versão de software mais recente.
 
-## Backup de Dados
+## Backup
 1. Posso selecionar o que incluir no backup?
 
     Sim, você pode escolher o que incluir no backup habilitando e desabilitando as opções disponíveis no menu Configurações > Backup > Conteúdo.
@@ -92,6 +86,9 @@ Set-Location $Home
 
     - Consolidar: Utiliza o DISM para limpar e reduzir o tamanho da imagem do sistema. O parâmetro `/StartComponentCleanup` remove os componentes do sistema que não são mais necessários, enquanto o `/ResetBase` remove todas as versões antigas dos componentes instalados. Isso impede que versões antigas sejam reinstaladas, essencialmente consolidando a imagem do sistema para liberar espaço em disco e melhorar a eficiência do sistema.
 
+> [!NOTE]
+> A disponibilidade de recursos e funcionalidades está sujeito à compatibilidade com o sistema operacional.
+
 ## Configuração
 1. É possível desabilitar notificações na Central de Notificações?
 
@@ -111,28 +108,46 @@ Set-Location $Home
 
 5. Como faço o backup das configurações de software?
 
-    - Siga para o menu Configurações > Gerenciar > Exportar
-    - Abra o Executar com Win+R
-    - Digite `%UserProfile%\Downloads` e clique em Ok
-    - Faça backup do arquivo `WorkflowSettingsBackup.json`
+    - Windows
+        - Siga para o menu Configurações > Gerenciar > Exportar
+        - Abra o Executar com WIN+R
+        - Digite `%UserProfile%\Downloads` e clique em Ok
+        - Faça backup do arquivo `WorkflowSettingsBackup.json`
+    - Linux
+        - Siga para o menu Configurações > Gerenciar > Exportar
+        - Abra o Executar com ALT+F2
+        - Digite `~\Downloads` e tecle ENTER
+        - Faça backup do arquivo `WorkflowSettingsBackup.json`
 
 6. Como faço para transferir as configurações de software para um novo dispositivo?
 
-    No dispositivo antigo:
-    - Siga para o menu Configurações > Gerenciar > Exportar
-    - Abra o Executar com Win+R
-    - Digite `%UserProfile%\Downloads` e clique em Ok
-    - Copie o arquivo `WorkflowSettingsBackup.json`
-
-    No dispositivo novo:
-    - Efetue a instalação de software
-    - Abra o Executar com Win+R
-    - Digite `%UserProfile%\Downloads` e clique em Ok
-    - Cole o arquivo `WorkflowSettingsBackup.json`
-    - Siga para o menu Configurações > Gerenciar > Importar
+    - Windows
+        - No dispositivo antigo:
+            - Siga para o menu Configurações > Gerenciar > Exportar
+            - Abra o Executar com WIN+R
+            - Digite `%UserProfile%\Downloads` e clique em Ok
+            - Copie o arquivo `WorkflowSettingsBackup.json`
+        - No dispositivo novo:
+            - Efetue a instalação de software
+            - Abra o Executar com WIN+R
+            - Digite `%UserProfile%\Downloads` e clique em Ok
+            - Cole o arquivo `WorkflowSettingsBackup.json`
+            - Siga para o menu Configurações > Gerenciar > Importar
+    - Linux
+        - No dispositivo antigo:
+            - Siga para o menu Configurações > Gerenciar > Exportar
+            - Abra o Executar com ALT+F2
+            - Digite `~\Downloads` e tecle ENTER
+            - Copie o arquivo `WorkflowSettingsBackup.json`
+        - No dispositivo novo:
+            - Efetue a instalação de software
+            - Abra o Executar com ALT+F2
+            - Digite `~\Downloads` e tecle ENTER
+            - Cole o arquivo `WorkflowSettingsBackup.json`
+            - Siga para o menu Configurações > Gerenciar > Importar
 
 > [!NOTE]
-> Informações de identificação e segurança não são transferidas.
+> Informações de identificação e segurança são intransferíveis.
 
 ## Modo Rollback
 1. O que é o Modo Rollback?
@@ -149,3 +164,6 @@ Set-Location $Home
 
 ## Acesso a Pastas Controladas
 Alguns recursos de software requerem acesso à leitura e gravação de dados em pastas controladas, como pastas de usuário e aplicativos de terceiros. Adicione o PowerShell e o 7-Zip à configuração de Acesso a Pastas Controladas no aplicativo Segurança do Windows.
+
+> [!NOTE]
+> Aplicável apenas ao Windows.
