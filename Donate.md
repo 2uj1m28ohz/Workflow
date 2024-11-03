@@ -1,73 +1,76 @@
 # :heart_on_fire: Torne-se um apoiador
 
-<img align="right" height="250px" src="https://github.com/2uj1m28ohz/Workflow/blob/main/Donate.png"/>
+<img align="right" height="250px" src="/Donate.png"/>
 
-Gostou de Workflow? Considere fazer uma doação para apoiar seu desenvolvimento contínuo! Este é um projeto independente, e toda ajuda é bem-vinda para mantê-lo ativo e em constante evolução. Sua contribuição permitirá:
+Gostou de Workflow? Considere fazer uma doação para apoiar o seu desenvolvimento contínuo! Este é um projeto independente, e sua ajuda é valiosa para mantê-lo ativo e em constante evolução. Sua contribuição permitirá:
 
-- A criação de novos recursos e funcionalidades;
-- A manutenção da compatibilidade, qualidade, estabilidade e segurança;
+- A criação de novos recursos e funcionalidades.
+- A manutenção da compatibilidade, qualidade, estabilidade e segurança.
 - O suporte contínuo ao desenvolvimento de software livre.
 
-Toda doação será destinada exclusivamente ao desenvolvimento e manutenção do projeto, garantindo que ele permaneça acessível a todos.
+Toda doação é direcionada exclusivamente para o desenvolvimento e manutenção do projeto, assegurando que ele continue disponível para todos.
 
 <details>
-<summary>Quais são as formas de doação?</summary>
+<summary>Formas de doação</summary>
     
-Sua doação pode ser feita via PIX.
+Apoie via PIX de forma simples e rápida.
 
 </details>
 
 <details>
-<summary>Minha doação é segura?</summary>
+<summary>Segurança da doação</summary>
     
-Sim. PIX é um sistema de pagamento instantâneo desenvolvido pelo Banco Central do Brasil. Ele permite transferências de dinheiro em tempo real, 24 horas por dia, todos os dias da semana, entre contas de diferentes bancos e instituições financeiras. O PIX é gratuito para pessoas físicas, seguro e acessível. As transações são concluídas em poucos segundos, tornando-o uma forma prática e eficiente de fazer doações.
+Sua doação é segura. PIX é um sistema de pagamento instantâneo desenvolvido pelo Banco Central do Brasil, disponível 24/7. É gratuito para pessoas físicas e permite transferências rápidas e seguras entre contas bancárias.
 
 </details>
 
 <details>
 
-<summary>Posso escolher o valor da doação?</summary>
+<summary>Escolha o valor</summary>
     
-Sim. Após ler o QRCode utilizando o aplicativo do seu banco, sinta-se livre para escolher o valor que achar adequado.
+Você define o valor da sua contribuição ao escanear o QRCode pelo aplicativo do seu banco.
 
 </details>
 
 <details>
 
-<summary>Posso solicitar reembolso?</summary>
+<summary>Reembolso</summary>
     
-Não. As doações são definitivas e não reembolsáveis.
+Doações são definitivas e não reembolsáveis.
 
 </details>
 
 <details>
 
-<summary>Como minha doação será usada?</summary>
+<summary>Uso da sua doação</summary>
 
-Toda doação será usada exclusivamente para manter e aprimorar o projeto, cobrindo custos de desenvolvimento e infraestrutura. As contribuições ajudam a manter o projeto livre e acessível para todos.
-
-</details>
-
-<details>
-
-<summary>O projeto gera renda de outra forma?</summary>
-
-Não. O desenvolvimento é independente e não gera renda diretamente. As doações são bem-vindas e ajudam a sustentar o projeto, garantindo sua continuidade no futuro.
+Sua doação é destinada diretamente à manutenção e ao aprimoramento do projeto, cobrindo os custos de desenvolvimento e infraestrutura, e garantindo que ele permaneça livre e acessível.
 
 </details>
 
 <details>
 
-<summary>Minha doação garante acesso ao suporte?</summary>
+<summary>Formas de renda</summary>
 
-Não. O suporte está disponível para todos de acordo com a documentação de [suporte](https://github.com/2uj1m28ohz/Workflow/blob/main/SUPPORT.md) e os canais de ajuda do projeto. As doações não garantem suporte prioritário ou especializado.
+Este é um projeto independente, sem fontes de renda externas. As doações ajudam a garantir sua continuidade.
 
 </details>
 
 <details>
 
-<summary>Minha doação garante influência sobre o desenvolvimento do projeto?</summary>
+<summary>Suporte prioritário</summary>
 
-Não. Doações são muito bem-vindas, no entanto não concedem aos doadores poder de decisão ou influência sobre o roadmap ou o desenvolvimento do projeto, que são definidos de acordo com a visão e planejamento do desenvolvedor. Caso deseje solicitar melhorias ou novos recursos, verifique como [contribuir](https://github.com/2uj1m28ohz/Workflow/blob/main/CONTRIBUTING.md).
+O suporte é oferecido a todos conforme a documentação de [Suporte][Suporte]. As doações não garantem suporte prioritário.
 
 </details>
+
+<details>
+
+<summary>Influência sobre o desenvolvimento</summary>
+
+Doações são bem-vindas, mas não influenciam o roadmap do projeto. Para solicitar melhorias, verifique como [Contribuir][Contribuir].
+
+</details>
+
+[Suporte]: /SUPPORT.md
+[Contribuir]: /CONTRIBUTING.md
