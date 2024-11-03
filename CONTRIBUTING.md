@@ -1,25 +1,29 @@
 # :sparkling_heart: Contribuindo
-Bem-vindo e obrigado por seu interesse em contribuir para Workflow! Atualmente, contribuições diretas não são aceitas. No entanto, sua participação é importante e altamente apreciada.
+Obrigado por se interessar em contribuir para Workflow! No momento, contribuições diretas não são aceitas, mas sua participação é altamente apreciada.
 
-## Utilize [Issues](https://github.com/2uj1m28ohz/Workflow/issues) para:
-- **Reportar problemas:** Se você identificou um problema reprodutível ou acredita que o software não está funcionando adequadamente, descreva o problema detalhadamente para que possa ser verificado e corrigido. É possível que o log do Registro de Eventos do software seja solicitado para compreender o problema que você reportou.
+## Utilize [Issues][Issues] para:
+- **Reportar problemas:** Se você identificou um problema reproduzível ou acredita que o software não está funcionando como esperado, descreva o problema detalhadamente para que possa ser verificado. Pode ser necessário compartilhar o log do Registro de Eventos do software para uma análise precisa.
 
-- **Solicitar melhorias:** Se você deseja sugerir melhorias ou novos recursos, descreva detalhadamente porque a implementação proposta é relevante e como ela pode aprimorar o projeto. Suas requisições serão avaliadas e implementadas caso estejam de acordo com o escopo do projeto.
+- **Solicitar melhorias:** Se você deseja sugerir melhorias, novos recursos ou funcionalidades, descreva como a sua sugestão pode aprimorar o projeto e por que ela é relevante. As sugestões serão analisadas e, se estiverem alinhadas com o escopo do projeto, poderão ser implementadas.
 
-> Algumas correções e melhorias podem ser simples de implementar. No entanto, outras exigirão um pensamento cuidadoso antes de serem aplicadas, então seja paciente. Problemas críticos são priorizados.
+> Algumas correções e melhorias são simples de implementar, enquanto outras exigem uma análise cuidadosa. Problemas críticos são priorizados.
+
+## Utilize [Discussions][Discussions] para:
+- **Fornecer feedbacks:** Embora este seja um projeto pessoal, sua opinião é valiosa e ajuda a torná-lo ainda melhor. Quanto mais pessoas olham para o código, mais ele evolui.
+
+- **Buscar suporte:** Encontre ajuda para solucionar problemas, esclarecer dúvidas ou entender como utilizar o software.
+
+Sua contribuição, seja reportando problemas, sugerindo melhorias ou fornecendo feedback, é essencial para o crescimento contínuo deste projeto. Todas as sugestões são cuidadosamente analisadas e podem ser integradas em futuras atualizações. Obrigado por dedicar seu tempo e energia para contribuir!
 
 > [!IMPORTANT]
-> Utilize as tags corretas ao criar uma Issue ou uma Discussão.
+> Certifique-se de usar as tags adequadas ao criar uma Issue ou Discussion.
 
 > [!WARNING]
-> Não utilize Pull Requests.
+> Pull Requests não são aceitos.
 
-## Utilize [Discussions](https://github.com/2uj1m28ohz/Workflow/discussions) para:
-- **Fornecer feedbacks:** Embora este seja um projeto pessoal, ele pode ser útil em diversas situações, e seu feedback é muito bem-vindo para ajudar a melhorá-lo continuamente. Muitos olhos observando o código faz com que ele seja constantemente aprimorado.
+## Apoie o projeto
+Gostou do projeto? Considere fazer uma doação para apoiar o seu desenvolvimento! Workflow é um projeto independente, e sua ajuda é valiosa para mantê-lo ativo e em constante evolução. Verifique como [Doar][Doar].
 
-- **Solicitar suporte:** Encontre ajuda para solucionar problemas, incompatibilidades, erros e comportamentos inesperados. Entenda como utilizar o software, configurar recursos ou funcionalidades.
-
-Sua colaboração, seja reportando problemas, sugerindo melhorias ou oferecendo feedback, é fundamental para o desenvolvimento contínuo deste projeto. Todas as sugestões serão consideradas e podem ser incorporadas em futuras atualizações. Obrigado por dedicar seu tempo e energia para contribuir!
-
-## Torne-se um apoiador
-Gostou do projeto? Considere fazer uma doação para apoiar seu desenvolvimento contínuo! Este é um projeto independente, e toda ajuda é bem-vinda para mantê-lo ativo e em constante evolução. Saiba mais em [Doar](https://github.com/2uj1m28ohz/Workflow/blob/main/Donate.md).
+[Issues]: https://github.com/2uj1m28ohz/Workflow/issues
+[Discussions]: https://github.com/2uj1m28ohz/Workflow/discussions
+[Doar]: /Donate.md
