@@ -1,5 +1,5 @@
 # :building_construction: Estrutura
-A estrutura de diretórios de software e backup permite a separação lógica dos dados, facilitando a manutenção e escalabilidade. Novos componentes de software, dispositivos e usuários de backup podem ser facilmente adicionados sem perturbar a estrutura existente.
+A estrutura de diretórios de software e backup é projetada para proporcionar a separação lógica dos dados, simplificando a manutenção e escalabilidade. Novos componentes, dispositivos e usuários podem ser facilmente integrados sem perturbar a estrutura existente.
 
 ## :window: Windows
 ### Software
@@ -42,5 +42,3 @@ A estrutura de diretórios de software e backup permite a separação lógica do
                                         └─ [Usuário] ─┐                        | Diretório de controle
                                                       └─ {+}                   | Dados
 ```
-
-> Esta é uma representação da estrutura da versão de software mais recente.
