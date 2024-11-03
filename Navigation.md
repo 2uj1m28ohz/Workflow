@@ -1,5 +1,5 @@
 # :compass: Navegação
-Esta é uma representação da árvore de menus da versão de software mais recente.
+Uma visão da árvore de menus da versão mais recente de software.
 
 ## :window: Windows
 ```
@@ -49,7 +49,8 @@ Home
 │   │       │   ├─ Vídeos
 │   │       │   ├─ Músicas
 │   │       │   ├─ Downloads
-│   │       │   └─ Vault
+│   │       │   ├─ Vault
+│   │       │   └─ Projetos
 │   │       ├─ Nuvem
 │   │       │   ├─ OneDrive
 │   │       │   ├─ Google Drive
@@ -104,7 +105,28 @@ Home
 ## :penguin: Linux
 ```
 Home
+├─ Backup
+│   ├─ Iniciar Backup
+│   ├─ Iniciar Réplica
+│   └─ Testar Backup
 ├─ Configurações
+│   ├─ Backup
+│   │   ├─ Parâmetros
+│   │   │   ├─ Drive de Backup
+│   │   │   ├─ Drive de Réplica
+│   │   │   ├─ Período de Retenção
+│   │   │   ├─ Nível de Compressão
+│   │   │   └─ Replicação Automática
+│   │   └─ Conteúdo
+│   │       └─ Usuário
+│   │           ├─ Desktop
+│   │           ├─ Documentos
+│   │           ├─ Imagens
+│   │           ├─ Vídeos
+│   │           ├─ Músicas
+│   │           ├─ Downloads
+│   │           ├─ Vault
+│   │           └─ Projetos
 │   ├─ Temas
 │   │   ├─ Violeta
 │   │   ├─ Azul
