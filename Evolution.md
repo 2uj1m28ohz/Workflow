@@ -1,49 +1,54 @@
 # :atom_symbol: Evolução
-Workflow foi criado a partir da necessidade de executar backup de dados e rotinas de manutenção do sistema de forma centralizada, ágil e eficiente para otimizar a segurança de dados e a resiliência do sistema. A automação intrínseca elimina a necessidade de intervenção humana, reduzindo drasticamente a margem de erros. Através do PowerShell, Workflow torna-se extremamente flexível, permitindo a criação de funcionalidades que se adaptem a diferentes arquiteturas, sistemas e necessidades.
+Workflow é desenvolvido para simplificar a execução de backups e rotinas de manutenção do sistema. Com uma abordagem ágil e centralizada, otimiza a segurança dos dados e a resiliência do sistema. A automação intrínseca maximiza a eficiência, promovendo operações fluidas e confiáveis. Com o PowerShell, Workflow proporciona flexibilidade extraordinária, permitindo a criação de funcionalidades que se adaptam a diversas arquiteturas, sistemas e necessidades.
 
 ## Tecnologias
-Inicialmente escrito em PT-BR utilizando a linguagem Shell Script para o legado Prompt de Comando, foi posteriormente portado para PowerShell. Neste processo foi necessário substituir a [Codificação de Caracteres](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/CharacterEncoding.md), alterações estas que aprimoraram significativamente a compatibilidade e a confiabilidade do software.
+Inicialmente escrito em Bash Script para o legado Prompt de Comando, Workflow foi reescrito e portado para PowerShell Script. Essa transição envolveu a substituição da [Codificação de Caracteres][Codificação de Caracteres], resultando em uma melhoria significativa na compatibilidade e confiabilidade do software.
 
-O suporte ao 7-Zip foi adicionado para implementar recursos eficientes de compressão de dados utilizando algoritmos e formato modernos, análise de arquivos, aplicação de filtros, compressão sólida, entre outros métodos avançados para reduzir o tamanho do backup de dados e do empacotamento de software.
+O suporte ao 7-Zip foi adicionado, integrando recursos avançados de compressão de dados com algoritmos modernos e formatos eficientes. Isso inclui análise de arquivos, aplicação de filtros e compressão sólida, otimizando significativamente o tamanho dos backups e o empacotamento de software.
 
 ## Métodos
-O desenvolvimento de Workflow envolveu a tradução do código-fonte para EN-US somado à adoção de metodologias ágeis como [Extreme Programming](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/AgileMethodologies.md) e atualmente [Scrum](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/AgileMethodologies.md). Esses métodos permitiram um desenvolvimento mais iterativo e ágil, aplicando os princípios da filosofia [Clean Code](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareDesign.md) para aperfeiçoar a qualidade do código. O sistema de [Versionamento de Software](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareVersioning.md) evoluiu do SemVer (Versionamento Semântico) para o CalVer (Versionamento por Calendário), o que simplificou a identificação de versões.
+O desenvolvimento de Workflow incluiu a tradução do código-fonte do Português (PT-BR) para o Inglês (EN-US) e a implementação de [Metodologias Ágeis][Metodologias Ágeis] como o Extreme Programming e Scrum, alinhando-se aos princípios da filosofia [Clean Code][Clean Code]. Esses métodos proporcionaram um processo dinâmico e iterativo, elevando a qualidade do código.
+
+O sistema de [Versionamento de Software][Versionamento de Software] semântico foi substituído pelo de calendário, simplificando a identificação de versões e refletindo a evolução do projeto.
 
 ```
-─────────────── SemVer ─────────────────── › ─────────────── CalVer V1 ────────────── › ─────────────── CalVer V2 ─────────────
-
-─────────────── 21.1.1-001 ─────────────── › ─────────────── 21.001.1 ─────────────── › ─────────────── 24.01.1 ───────────────
-                 ┬ ┬ ┬  ┬                                     ┬  ┬  ┬                                    ┬  ┬ ┬
-                 │ │ │  │                                     │  │  │                                    │  │ │
-                 │ │ │  └─┤ Build                             │  │  └─┤ Revisão                          │  │ └─┤ Revisão
-                 │ │ └────┤ Patch                             │  └────┤ Dia absoluto                     │  └───┤ Mês
-                 │ └──────┤ Minor                             └───────┤ Ano                              └──────┤ Ano
-                 └────────┤ Major
+────────── 20.6.0-001 ───────────────────── › ────────── 21.311.1 ───────────────────── › ────────── 24.01.1 ─────────────────
+SemVer      ┬ ┬ ┬  ┬                          CalVer V1   ┬  ┬  ┬                         CalVer V2   ┬  ┬ ┬
+            │ │ │  │                                      │  │  │                                     │  │ │
+            │ │ │  └─┤ Build                              │  │  └─┤ Revisão                           │  │ └─┤ Revisão
+            │ │ └────┤ Patch                              │  └────┤ Dia absoluto                      │  └───┤ Mês
+            │ └──────┤ Minor                              └───────┤ Ano                               └──────┤ Ano
+            └────────┤ Major
 ```
-
-> O versionamento de software é o processo de controlar e gerenciar diferentes versões de um programa ou sistema ao longo do tempo. Ele é essencial por registrar e refletir as mudanças feitas no código-fonte de um software duarnte a evolução do projeto.
 
 ## Interface
-A interface do Workflow foi fortemente influenciada pelo universo de Tron criado por Steven Lisberger, com diversos easter eggs espalhados pelo algoritmo e interface das versões iniciais, embora não tenham sido publicadas. O design atual respeita as Diretrizes de Interface que determinam intuitividade, unidade e minimalismo como alguns dos requisitos da experiência do usuário, guiando assim elementos, fluxos e conceitos.
+A [Interface][Interface] de Workflow foi inspirada no universo de Tron, criado por Steven Lisberger, incorporando easter eggs no algoritmo e interface das versões iniciais. O design atual segue as Diretrizes de Interface, priorizando intuitividade, unidade e minimalismo para uma experiência fluida, guiando elementos, fluxos e conceitos.
 
-O estudo da paleta de cores disponível na [CLI](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/Interface.md) foi essencial para construir um layout consistente e agradável. Atualizações posteriores introduziram novos temas elevando a flexibilidade da interface.
+A análise da paleta de cores do terminal foi essencial para construir um layout consistente e agradável. Atualizações recentes introduziram novos temas, elevando a flexibilidade da interface.
 
 > _Design não é apenas aparência, design é sobre como as coisas funcionam._ - Steve Jobs
 
 ## Segurança
-Segurança é a característica central na lógica do algoritmo de Workflow. Para atender à este requisito, foram implementados diversos recursos críticos como o Registro de Eventos para monitorar as operações do software; instalação e atualização automáticas a partir do GitHub, projetadas para garantir controle, segurança, velocidade e confiabilidade na entrega de atualizações; e a Verificação de Integridade, incorporada para identificar e corrigir alterações ilegais no algoritmo, garantindo a constante integridade do software.
+A segurança está no núcleo do algoritmo de Workflow. Para atender a este requisito, foram implementados recursos críticos:
+
+- Registro de eventos: Monitora as operações do software, proporcionando transparência e controle.
+- Atualizações automáticas: Asseguram agilidade e confiabilidade na entrega de correções e melhorias.
+- Verificação de integridade: Identifica e corrige alterações ilegais no algoritmo, mantendo a integridade constante do software.
 
 ## Inteligência
-A adoção de inteligência artificial proporcionou um salto notável no aprendizado e desenvolvimento de Workflow, automatizando tarefas complexas e facilitando a tomada de decisões. Ao mesmo tempo, a inteligência natural humana desempenhou um papel crucial nos aprimoramentos constantes do software, garantindo que cada atualização do algoritmo não apenas aumentasse sua qualidade e confiabilidade, mas também mantivesse a visão e os objetivos originais do projeto. A combinação dessas inteligências resultou em um software robusto e adaptável às necessidades em constante evolução.
+A integração da inteligência artificial impulsionou o desenvolvimento do projeto, simplificando tarefas complexas e acelerando decisões. Simultaneamente a inteligência natural é essencial para refinar o software, garantindo que cada atualização do algoritmo preserve a visão e os objetivos originais. A combinação dessas inteligências resulta em um software poderoso e adaptável às necessidades em constante evolução.
 
 ## Lançamentos
-Workflow é constantemente redesenhado para introduzir e aprimorar recursos e funcionalidades enquanto mantém sua [Arquitetura Monolítica](https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareArchitecture.md). De forma geral, monólitos são convenientes por facilitar a sobrecarga cognitiva de gerenciamento de código e favorecer a velocidade em todas as etapas do software, do desenvolvimento à execução.
+Workflow é aprimorado continuamente para ampliar a compatibilidade, introduzir novos recursos e melhorar funcionalidades, utilizando tecnologias flexíveis, eficientes e robustas, com preferência por soluções de código aberto. Tudo isso mantendo a simplicidade de uma [Arquitetura Monolítica][Arquitetura Monolítica].
+
+De forma geral, monólitos são convenientes por reduzir a sobrecarga cognitiva, acelerar o desenvolvimento e a execução do software.
 
 |Sprint|Versão    |Data      |Suporte|Arquiteturas       |Sistemas       |Crescimento|
 |:----:|:--------:|:--------:|:-----:|:-----------------:|:-------------:|:---------:|
+|74    |24.11.1   |03/11/2024|Sim    |x86/x64/ARM32/ARM64|Windows/Linux  |+11,21%    |
 |73    |24.10.1   |06/10/2024|Sim    |x86/x64/ARM32/ARM64|Windows/Linux  |+09,93%    |
 |72    |24.09.1   |01/09/2024|Sim    |x86/x64/ARM32/ARM64|Windows        |+00,36%    |
-|71    |24.08.1   |04/08/2024|Sim    |x86/x64/ARM32/ARM64|Windows        |-03,80%    |
+|71    |24.08.1   |04/08/2024|Não    |x86/x64/ARM32/ARM64|Windows        |-03,80%    |
 |70    |24.07.1   |07/07/2024|Não    |x86/x64/ARM32/ARM64|Windows        |+01,28%    |
 |69    |24.06.1   |02/06/2024|Não    |x86/x64/ARM32/ARM64|Windows        |+00,11%    |
 |68    |24.05.1   |05/05/2024|Não    |x86/x64/ARM32/ARM64|Windows        |-04,03%    |
@@ -51,6 +56,12 @@ Workflow é constantemente redesenhado para introduzir e aprimorar recursos e fu
 |66    |24.03.1   |03/03/2024|Não    |x86/x64/ARM32/ARM64|Windows        |+09,08%    |
 |65    |24.02.1   |04/02/2024|Não    |x86/x64/ARM32/ARM64|Windows        |+04,57%    |
 |64    |24.01.1   |02/01/2024|Não    |x86/x64/ARM32/ARM64|Windows        |+05,27%    |
+
+<details>
+<summary>Mais</summary>
+
+|Sprint|Versão    |Data      |Suporte|Arquiteturas       |Sistemas       |Crescimento|
+|:----:|:--------:|:--------:|:-----:|:-----------------:|:-------------:|:---------:|
 |63    |23.340.1  |06/12/2023|Não    |x86/x64/ARM32/ARM64|Windows        |+04,34%    |
 |62    |23.310.1  |06/11/2023|Não    |x86/x64/ARM32/ARM64|Windows        |-01,54%    |
 |61    |23.280.1  |07/10/2023|Não    |x86/x64/ARM32/ARM64|Windows        |-03,82%    |
@@ -115,4 +126,14 @@ Workflow é constantemente redesenhado para introduzir e aprimorar recursos e fu
 |2     |1.7.0-001 |2021/2    |Não    |x86/x64            |Windows        |-12,38%    |
 |1     |0.9.0-001 |2021/2    |Não    |x86/x64            |Windows        |+100%      |
 
-> Verifique a [Política de Suporte](https://github.com/2uj1m28ohz/Workflow/blob/main/SUPPORT.md) para mais informações.
+</details>
+
+> Verifique a [Política de Suporte][Política de Suporte] para mais informações.
+
+[Codificação de Caracteres]: https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/CharacterEncoding.md
+[Metodologias Ágeis]: https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/AgileMethodologies.md
+[Clean Code]: https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareDesign.md
+[Versionamento de Software]: https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareVersioning.md
+[Interface]: https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/Interface.md
+[Arquitetura Monolítica]: https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareArchitecture.md
+[Política de Suporte]: /SUPPORT.md
