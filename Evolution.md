@@ -12,12 +12,12 @@ O desenvolvimento de Workflow incluiu a tradução do código-fonte do Portuguê
 O sistema de [Versionamento de Software][Versionamento de Software] semântico foi substituído pelo de calendário, simplificando a identificação de versões e refletindo a evolução do projeto.
 
 ```
-────────── 20.6.0-001 ───────────────────── › ────────── 21.311.1 ───────────────────── › ────────── 24.01.1 ─────────────────
-SemVer      ┬ ┬ ┬  ┬                          CalVer V1   ┬  ┬  ┬                         CalVer V2   ┬  ┬ ┬
-            │ │ │  │                                      │  │  │                                     │  │ │
-            │ │ │  └─┤ Build                              │  │  └─┤ Revisão                           │  │ └─┤ Revisão
-            │ │ └────┤ Patch                              │  └────┤ Dia absoluto                      │  └───┤ Mês
-            │ └──────┤ Minor                              └───────┤ Ano                               └──────┤ Ano
+────────── 20.6.0-001 ─────────────── › ────────── 21.311.1 ──────────────────── › ────────── 24.01.1 ────────────────────
+SemVer      ┬ ┬ ┬  ┬                    CalVer V1   ┬  ┬  ┬                        CalVer V2   ┬  ┬ ┬
+            │ │ │  │                                │  │  │                                    │  │ │
+            │ │ │  └─┤ Build                        │  │  └─┤ Revisão                          │  │ └─┤ Revisão
+            │ │ └────┤ Patch                        │  └────┤ Dia absoluto                     │  └───┤ Mês
+            │ └──────┤ Minor                        └───────┤ Ano                              └──────┤ Ano
             └────────┤ Major
 ```
 
@@ -35,6 +35,9 @@ A segurança está no núcleo do algoritmo de Workflow. Para atender a este requ
 - Atualizações automáticas: Asseguram agilidade e confiabilidade na entrega de correções e melhorias.
 - Verificação de integridade: Identifica e corrige alterações ilegais no algoritmo, mantendo a integridade constante do software.
 
+## Resiliência
+Workflow foi projetado para garantir uma operação contínua, implementando uma arquitetura resiliente que utiliza múltiplos métodos de execução em diversos recursos e funcionalidades. Caso o método primário falhe, métodos de fallback são acionados automaticamente para manter a continuidade da execução sem interrupções significativas. Esse design inteligente previne cenários de falhas críticas, criando um software que não apenas responde a imprevistos, mas também se adapta e recupera rapidamente, preservando a confiabilidade das operações.
+
 ## Inteligência
 A integração da inteligência artificial impulsionou o desenvolvimento do projeto, simplificando tarefas complexas e acelerando decisões. Simultaneamente a inteligência natural é essencial para refinar o software, garantindo que cada atualização do algoritmo preserve a visão e os objetivos originais. A combinação dessas inteligências resulta em um software poderoso e adaptável às necessidades em constante evolução.
 
@@ -45,9 +48,10 @@ De forma geral, monólitos são convenientes por reduzir a sobrecarga cognitiva,
 
 |Sprint|Versão    |Data      |Suporte|Arquiteturas       |Sistemas       |Crescimento|
 |:----:|:--------:|:--------:|:-----:|:-----------------:|:-------------:|:---------:|
+|75    |24.12.1   |01/12/2024|Sim    |x86/x64/ARM32/ARM64|Windows/Linux  |+04,27%    |
 |74    |24.11.1   |03/11/2024|Sim    |x86/x64/ARM32/ARM64|Windows/Linux  |+11,21%    |
 |73    |24.10.1   |06/10/2024|Sim    |x86/x64/ARM32/ARM64|Windows/Linux  |+09,93%    |
-|72    |24.09.1   |01/09/2024|Sim    |x86/x64/ARM32/ARM64|Windows        |+00,36%    |
+|72    |24.09.1   |01/09/2024|Não    |x86/x64/ARM32/ARM64|Windows        |+00,36%    |
 |71    |24.08.1   |04/08/2024|Não    |x86/x64/ARM32/ARM64|Windows        |-03,80%    |
 |70    |24.07.1   |07/07/2024|Não    |x86/x64/ARM32/ARM64|Windows        |+01,28%    |
 |69    |24.06.1   |02/06/2024|Não    |x86/x64/ARM32/ARM64|Windows        |+00,11%    |
