@@ -50,7 +50,8 @@ Home
 │   │       │   ├─ Músicas
 │   │       │   ├─ Downloads
 │   │       │   ├─ Vault
-│   │       │   └─ Projetos
+│   │       │   ├─ Projetos
+│   │       │   └─ Softwares
 │   │       ├─ Nuvem
 │   │       │   ├─ OneDrive
 │   │       │   ├─ Google Drive
@@ -109,6 +110,17 @@ Home
 │   ├─ Iniciar Backup
 │   ├─ Iniciar Réplica
 │   └─ Testar Backup
+├─ Diagnóstico
+│   └─ Relatório da Bateria
+├─ Manutenção
+│   ├─ Gerenciar Aplicativos
+│   │   ├─ Listar
+│   │   ├─ Atualizar
+│   │   └─ Exportar
+│   └─ Desfragmentar
+│       ├─ Analisar
+│       ├─ Otimizar
+│       └─ Trim
 ├─ Configurações
 │   ├─ Backup
 │   │   ├─ Parâmetros
@@ -118,15 +130,20 @@ Home
 │   │   │   ├─ Nível de Compressão
 │   │   │   └─ Replicação Automática
 │   │   └─ Conteúdo
-│   │       └─ Usuário
-│   │           ├─ Desktop
-│   │           ├─ Documentos
-│   │           ├─ Imagens
-│   │           ├─ Vídeos
-│   │           ├─ Músicas
-│   │           ├─ Downloads
-│   │           ├─ Vault
-│   │           └─ Projetos
+│   │       ├─ Usuário
+│   │       │   ├─ Desktop
+│   │       │   ├─ Documentos
+│   │       │   ├─ Imagens
+│   │       │   ├─ Vídeos
+│   │       │   ├─ Músicas
+│   │       │   ├─ Downloads
+│   │       │   ├─ Vault
+│   │       │   ├─ Projetos
+│   │       │   └─ Softwares
+│   │       ├─ Nuvem
+│   │       │   └─ Dropbox
+│   │       └─ Sistema
+│   │           └─ Fontes
 │   ├─ Temas
 │   │   ├─ Violeta
 │   │   ├─ Azul
