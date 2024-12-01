@@ -6,9 +6,9 @@ O suporte ao software abrange a instalação, atualização, uso e remoção de 
 
 Após o término do suporte, o software não receberá mais suporte ou atualizações. Embora você possa continuar usando o software, ele estará sujeito a erros, instabilidades e incompatibilidades.
 
-Utilize [Discussions][Discussions] para obter suporte adicional.
+Verifique como entrar em contato com o [Suporte][Suporte].
 
-> [!NOTE]
+> [!TIP]
 > Alterações no status de desenvolvimento do projeto serão exibidas no software e no repositório.
 
 ## Política de Atualização
@@ -20,6 +20,6 @@ O ciclo de vida de softwares de terceiros é definido por seus desenvolvedores. 
 > [!IMPORTANT]
 > Projetos legados, softwares descontinuados e versões de software sem suporte podem ser removidos após o término do seu ciclo de vida.
 
-[Discussions]: https://github.com/2uj1m28ohz/Workflow/discussions
+[Suporte]: /CONTRIBUTING.md
 [Ajuda]: /Help.md
 [endoflife.date]: https://endoflife.date
