@@ -64,7 +64,7 @@ Mantenha-se online e execute o software mensalmente para receber atualizações 
 </details>
 
 <details>
-<summary>Erro de de incompatibilidade de hash</summary>
+<summary>Erro de integridade comprometida</summary>
 
 Esse erro pode ocorrer em diferentes situações e resulta nos seguintes efeitos:
 - Instalação ou atualização de software: pacotes inválidos não serão aplicados.
@@ -92,7 +92,7 @@ Se o software não foi executado por um longo período, pode ter perdido suporte
 <details>
 <summary>Posso escolher o que incluir no backup?</summary>
 
-Sim. Siga para `Configurações` > `Backup` > `Conteúdo`
+Sim. Siga para `Configurações` `>` `Backup` `>` `Conteúdo`
 
 </details>
 
@@ -133,7 +133,6 @@ O Vault é uma pasta dentro do diretório do usuário para armazenar informaçõ
 
 - Reparar: Aciona o DISM para reparar automaticamente a integridade da imagem do sistema utilizando arquivos de reparo disponíveis localmente ou baixando-os dos servidores da Microsoft.
 
-> [!NOTE]
 > A disponibilidade de recursos e funcionalidades pode variar conforme a plataforma.
 
 </details>
@@ -145,7 +144,6 @@ O Vault é uma pasta dentro do diretório do usuário para armazenar informaçõ
 
 - Consolidar: Aciona o DISM para limpar e otimizar a imagem do sistema, removendo componentes obsoletos e versões antigas, liberando espaço de armazenamento e melhorando a eficiência geral do sistema.
 
-> [!NOTE]
 > A disponibilidade de recursos e funcionalidades pode variar conforme a plataforma.
 
 </details>
@@ -155,21 +153,21 @@ O Vault é uma pasta dentro do diretório do usuário para armazenar informaçõ
 <details>
 <summary>Desabilitar notificações</summary>
 
-Siga para `Configurações` > `Notificações`
+Siga para `Configurações` `>` `Notificações`
 
 </details>
 
 <details>
 <summary>Desabilitar o Registro de Eventos</summary>
 
-Siga para `Configurações` > `Registro de Eventos` > `Status`
+Siga para `Configurações` `>` `Registro de Eventos` `>` `Status`
 
 </details>
 
 <details>
 <summary>Alterar período de retenção do Registro de Eventos</summary>
 
-Siga para `Configurações` > `Registro de Eventos` > `Período de Retenção`
+Siga para `Configurações` `>` `Registro de Eventos` `>` `Período de Retenção`
 
 </details>
 
@@ -184,11 +182,11 @@ Habilite o Registro de Eventos para exportar hashes de empacotamento.
 <summary>Backup das configurações de software</summary>
 
 - Windows
-    - Siga para `Configurações` > `Gerenciar` > `Exportar`
+    - Siga para `Configurações` `>` `Gerenciar` `>` `Exportar`
     - Utilize `WIN+R` e acesse `%UserProfile%\Downloads`
     - Faça backup de `WorkflowSettingsBackup.json`
 - Linux
-    - Siga para `Configurações` > `Gerenciar` > `Exportar`
+    - Siga para `Configurações` `>` `Gerenciar` `>` `Exportar`
     - Utilize `ALT+F2` e acesse `~/Downloads`
     - Faça backup de `WorkflowSettingsBackup.json`
 
@@ -199,26 +197,25 @@ Habilite o Registro de Eventos para exportar hashes de empacotamento.
 
 - Windows
     - No dispositivo antigo:
-        - Siga para `Configurações` > `Gerenciar` > `Exportar`
+        - Siga para `Configurações` `>` `Gerenciar` `>` `Exportar`
         - Utilize `WIN+R` e acesse `%UserProfile%\Downloads`
         - Copie o arquivo `WorkflowSettingsBackup.json`
     - No dispositivo novo:
         - Instale o software
         - Utilize `WIN+R` e acesse `%UserProfile%\Downloads`
         - Cole o arquivo `WorkflowSettingsBackup.json`
-        - Siga para `Configurações` > `Gerenciar` > `Importar`
+        - Siga para `Configurações` `>` `Gerenciar` `>` `Importar`
 - Linux
     - No dispositivo antigo:
-        - Siga para `Configurações` > `Gerenciar` > `Exportar`
+        - Siga para `Configurações` `>` `Gerenciar` `>` `Exportar`
         - Utilize `ALT+F2` e acesse `~/Downloads`
         - Copie o arquivo `WorkflowSettingsBackup.json`
     - No dispositivo novo:
         - Instale o software
         - Utilize `ALT+F2` e acesse `~/Downloads`
         - Cole o arquivo `WorkflowSettingsBackup.json`
-        - Siga para `Configurações` > `Gerenciar` > `Importar`
+        - Siga para `Configurações` `>` `Gerenciar` `>` `Importar`
 
-> [!NOTE]
 > Informações de identificação e segurança não podem ser transferidas.
 
 </details>
@@ -246,12 +243,37 @@ Não é possível desativá-lo manualmente.
 
 </details>
 
-## Acesso a Pastas Controladas
+## Softwares de terceiros
+
+<details>
+<summary>Windows: Acesso a Pastas Controladas</summary>
+
 Alguns recursos precisam de acesso a pastas de usuário ou aplicativos. Adicione o PowerShell e o 7-Zip ao Acesso a Pastas Controladas nas configurações de segurança do Windows.
 
-> [!NOTE]
-> Aplicável apenas ao Windows.
+</details>
+
+<details>
+<summary>7-Zip: Como instalar</summary>
+
+- Windows
+    - Acesse o [repositório do projeto][7-Zip]
+    - Baixe o pacote compatível com a arquitetura do seu dispositivo
+    - Execute o instalador
+
+- Linux
+    - Método 1 (Desenvolvedor oficial)
+        - Acesse o [repositório do projeto][7-Zip]
+        - Baixe o pacote compatível com a arquitetura do seu dispositivo
+        - Abra o Terminal
+        - Descomprima o pacote `tar --extract --file nome_do_pacote.tar.xz`
+        - Mova os binários para o diretório do sistema `sudo mv 7zzs 7zz /usr/local/bin/`
+    - Método 2 (Desenvolvedor independente)
+        - Abra o Terminal
+        - Instale o pacote `sudo apt install 7zip`
+
+</details>
 
 [Evolução]: /Evolution.md
 [Política de Suporte]: /SUPPORT.md
 [Estrutura]: /Structure.md
+[7-Zip]: https://github.com/ip7z/7zip
