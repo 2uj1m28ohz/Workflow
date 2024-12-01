@@ -10,7 +10,7 @@ Criado para gerenciar backups e rotinas de manutenção do sistema com extrema e
 Características intrínsicas à arquitetura de Workflow permitem tamanho de armazenamento mínimo, tempo de inicialização extremamente curto, consumo de recursos consideravelmente inferior, menor superfície de ataque e exposição a vulnerabilidades, sem custo de licenciamento.
 
 ## :sparkles: Funcionalidades
-- **Backup:** Workflow redefine a maneira de realizar backups, proporcionando uma interface simples e comandos intuitivos que permitem selecionar facilmente seus dados pessoais, armazenamento em nuvem, fontes e drivers de sistema. Com poderosas opções de personalização, o usuário pode ajustar níveis de compressão, escolher o drive de destino, definir o período de retenção e replicação automática. Tudo isso com a garantia de uma réplica exata, permitindo restaurações precisas a qualquer momento. Seus dados estão sempre seguros e acessíveis, exatamente como você os deixou.
+- **Backup:** Workflow redefine a maneira de realizar backups, proporcionando uma interface simples e comandos intuitivos que permitem selecionar facilmente seus dados pessoais, armazenamento em nuvem, fontes e drivers de sistema. Com poderosas opções de personalização, o usuário pode ajustar níveis de compressão, escolher o drive de destino, definir o período de retenção e habilitar a replicação automática. Faça restaurações precisas a qualquer momento. Seus dados estão sempre seguros e acessíveis, exatamente como você os deixou.
 
 - **Depuração:** A depuração inteligente de Workflow mantém seu sistema sempre limpo e otimizado. Automatize a remoção de arquivos temporários obsoletos, liberando espaço de armazenamento e garantindo que seu dispositivo funcione com desempenho máximo. Seja na camada de sistema, softwares ou usuário, Workflow proporciona uma experiência de uso mais rápida e fluida.
 
@@ -45,8 +45,8 @@ Características intrínsicas à arquitetura de Workflow permitem tamanho de arm
 - [Doar][Doar]
 
 ## :point_up: Informações
-
-> Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
+- Pull Requests via repositório não são aceitos. Verifique a documentação.
+- Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários.
 
 [FAQ]: /FAQ.md
 [Ajuda]: /Help.md
