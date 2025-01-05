@@ -61,21 +61,24 @@ Home
 │   │           ├─ Fontes
 │   │           └─ Drivers
 │   ├─ Depuração
-│   │   ├─ Arquivos de Sistema
-│   │   │   ├─ Diretório Temporário
-│   │   │   ├─ Diretório Prefetch
-│   │   │   ├─ Windows Update
-│   │   │   ├─ Reporte de Erros
-│   │   │   └─ Cache DNS
-│   │   ├─ Arquivos de Software
-│   │   │   ├─ Microsoft Edge
-│   │   │   ├─ OneDrive
-│   │   │   └─ Epic Games
-│   │   └─ Arquivos de Usuário
-│   │       ├─ Diretório Temporário
-│   │       ├─ Downloads
-│   │       ├─ Screenshots
-│   │       └─ Lixeira
+│   │   ├─ Parâmetros
+│   │   │   └─ Período de Retenção
+│   │   └─ Conteúdo
+|   │       ├─ Arquivos de Sistema
+│   │       │   ├─ Diretório Temporário
+│   │       │   ├─ Diretório Prefetch
+│   │       │   ├─ Windows Update
+│   │       │   ├─ Reporte de Erros
+│   │       │   └─ Cache DNS
+│   │       ├─ Arquivos de Software
+│   │       │   ├─ Microsoft Edge
+│   │       │   ├─ OneDrive
+│   │       │   └─ Epic Games
+│   │       └─ Arquivos de Usuário
+│   │           ├─ Diretório Temporário
+│   │           ├─ Downloads
+│   │           ├─ Screenshots
+│   │           └─ Lixeira
 │   ├─ Temas
 │   │   ├─ Violeta
 │   │   ├─ Azul
@@ -110,6 +113,7 @@ Home
 │   ├─ Iniciar Backup
 │   ├─ Iniciar Réplica
 │   └─ Testar Backup
+├─ Depuração
 ├─ Diagnóstico
 │   └─ Relatório da Bateria
 ├─ Manutenção
@@ -144,6 +148,17 @@ Home
 │   │       │   └─ Dropbox
 │   │       └─ Sistema
 │   │           └─ Fontes
+│   ├─ Depuração
+│   │   ├─ Parâmetros
+│   │   │   └─ Período de Retenção
+│   │   └─ Conteúdo
+|   │       ├─ Arquivos de Sistema
+│   │       │   ├─ Diretório Temporário
+│   │       │   └─ Reporte de Erros
+│   │       └─ Arquivos de Usuário
+│   │           ├─ Downloads
+│   │           ├─ Screenshots
+│   │           └─ Lixeira
 │   ├─ Temas
 │   │   ├─ Violeta
 │   │   ├─ Azul
