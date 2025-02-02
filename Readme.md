@@ -20,7 +20,7 @@
   </a>
 </p>
 
-<br><br>
+<br>
 
 <p align="center">
   <a href="/Help.md">Ajuda</a>
