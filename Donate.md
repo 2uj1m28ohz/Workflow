@@ -1,6 +1,6 @@
-# :heart_on_fire: Torne-se um apoiador
+# Torne-se um apoiador
 
-<img align="right" height="250px" src="/Donate.png"/>
+<img align="right" height="250px" src="/Images/Donate.png"/>
 
 Gostou de Workflow? Considere fazer uma doação para apoiar o seu desenvolvimento contínuo! Este é um projeto independente, e sua ajuda é valiosa para mantê-lo ativo e em constante evolução. Sua contribuição permitirá:
 

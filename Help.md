@@ -1,4 +1,4 @@
-# :parachute: Ajuda
+# Ajuda
 Um guia para instalação e execução de software. Encontre soluções para problemas comuns, instruções de atualização, configuração e dicas para o uso de funcionalildades.
 
 ## Instalação
@@ -50,7 +50,7 @@ Você está executando uma versão de software sem suporte. Utilize a versão ma
 <details>
 <summary>Atalho ausente no diretório do usuário</summary>
 
-Se o atalho `Workflow.ps1` estiver ausente no diretório `$Home`, verifique a seção **Acesso a Pastas Controladas** abaixo. Em seguida execute Workflow manualmente a partir do diretório de instalação de software. Utilize [Estrutura][Estrutura] para mais informações. O atalho será recriado automaticamente.
+Se o atalho `Workflow.ps1` estiver ausente no diretório `$Home`, verifique o tópico **Acesso a Pastas Controladas** na seção **Software de Terceiros**. Em seguida execute Workflow manualmente a partir do diretório de instalação de software. O atalho será recriado automaticamente. Verifique a seção **Estrutura** para mais informações.
 
 </details>
 
@@ -243,24 +243,24 @@ Nenhum dado é enviado para a internet.
 
 </details>
 
-## Modo Rollback
+## Modo de Reversão
 
 <details>
-<summary>O que é o Modo Rollback?</summary>
+<summary>O que é o Modo de Reversão?</summary>
 
 Protege suas configurações ao executar versões anteriores de software. Todas as alterações são descartadas ao encerrar.
 
 </details>
 
 <details>
-<summary>Como ativar o Modo Rollback?</summary>
+<summary>Como ativar o Modo de Reversão?</summary>
 
 Ativado automaticamente ao executar uma versão anterior.
 
 </details>
 
 <details>
-<summary>Como desativar o Modo Rollback?</summary>
+<summary>Como desativar o Modo de Reversão?</summary>
 
 Não é possível desativá-lo manualmente.
 
@@ -312,14 +312,289 @@ Para um design agradável, moderno e sofisticado no terminal, prefira a fonte [J
         - Clique com o botão direito do mouse no arquivo de fonte
         - Clique em Instalar
     - Método 2
-        - Copie a fonte para o diretório do sistema: `sudo cp * /usr/local/share/fonts`
+        - Copie a fonte para o diretório do sistema `sudo cp * /usr/local/share/fonts`
         - Atualize o cache de fontes do sistema `sudo fc-cache --force --verbose`
+
+</details>
+
+## Navegação
+Uma visão da árvore de menus da versão mais recente de software.
+
+<details>
+<summary>Windows</summary>
+
+```
+Home
+├─ Backup
+│   ├─ Iniciar Backup
+│   ├─ Iniciar Réplica
+│   └─ Testar Backup
+├─ Depuração
+├─ Diagnóstico
+│   ├─ Relatório da Bateria
+│   ├─ Verificar Saúde dos Drives
+│   └─ Verificar Sistema de Arquivos
+├─ Manutenção
+│   ├─ Gerenciar Aplicativos
+│   │   ├─ Listar
+│   │   ├─ Atualizar
+│   │   ├─ Importar
+│   │   └─ Exportar
+│   ├─ Desfragmentar
+│   │   ├─ Analisar
+│   │   ├─ Otimizar
+│   │   └─ Trim
+│   ├─ Gerenciar Administrador
+│   │   ├─ Ativar
+│   │   └─ Desativar
+│   ├─ Verificar Imagem do Sistema
+│   │   ├─ Verificar
+│   │   └─ Reparar
+│   └─ Verificar Instalação do Sistema
+│       ├─ Verificar
+│       └─ Consolidar
+├─ Configurações
+│   ├─ Backup
+│   │   ├─ Parâmetros
+│   │   │   ├─ Drive de Backup
+│   │   │   ├─ Drive de Réplica
+│   │   │   ├─ Período de Retenção
+│   │   │   ├─ Nível de Compressão
+│   │   │   ├─ Formatação Automática
+│   │   │   └─ Replicação Automática
+│   │   └─ Conteúdo
+│   │       ├─ Usuário
+│   │       │   ├─ Desktop
+│   │       │   ├─ Documentos
+│   │       │   ├─ Imagens
+│   │       │   ├─ Vídeos
+│   │       │   ├─ Músicas
+│   │       │   ├─ Downloads
+│   │       │   ├─ Vault
+│   │       │   ├─ Projetos
+│   │       │   └─ Softwares
+│   │       ├─ Nuvem
+│   │       │   ├─ OneDrive
+│   │       │   ├─ Google Drive
+│   │       │   ├─ iCloud Drive
+│   │       │   └─ Dropbox
+│   │       └─ Sistema
+│   │           ├─ Fontes
+│   │           └─ Drivers
+│   ├─ Depuração
+│   │   ├─ Parâmetros
+│   │   │   └─ Período de Retenção
+│   │   └─ Conteúdo
+|   │       ├─ Arquivos de Sistema
+│   │       │   ├─ Diretório Temporário
+│   │       │   ├─ Diretório Prefetch
+│   │       │   ├─ Windows Update
+│   │       │   ├─ Reporte de Erros
+│   │       │   └─ Cache DNS
+│   │       ├─ Arquivos de Software
+│   │       │   ├─ Microsoft Edge
+│   │       │   ├─ OneDrive
+│   │       │   └─ Epic Games
+│   │       └─ Arquivos de Usuário
+│   │           ├─ Diretório Temporário
+│   │           ├─ Downloads
+│   │           ├─ Screenshots
+│   │           └─ Lixeira
+│   ├─ Temas
+│   │   ├─ Violeta
+│   │   ├─ Azul
+│   │   ├─ Verde
+│   │   ├─ Amarelo
+│   │   ├─ Vermelho
+│   │   ├─ Cosmos
+│   │   ├─ Sunrise
+│   │   ├─ Sunset
+│   │   └─ Aqua
+│   ├─ Notificações
+│   │   ├─ Software
+│   │   └─ Sistema
+│   ├─ Registro de Eventos
+│   │   ├─ Status
+│   │   ├─ Período de Retenção
+│   │   └─ Exibir
+│   ├─ Gerenciar
+│   │   ├─ Importar
+│   │   ├─ Exportar
+│   │   └─ Redefinir
+│   ├─ Empacotar
+│   └─ Desinstalar
+├─ Sobre
+└─ Encerrar
+```
+
+</details>
+
+<details>
+<summary>Linux</summary>
+
+```
+Home
+├─ Backup
+│   ├─ Iniciar Backup
+│   ├─ Iniciar Réplica
+│   └─ Testar Backup
+├─ Depuração
+├─ Diagnóstico
+│   └─ Relatório da Bateria
+├─ Manutenção
+│   ├─ Gerenciar Aplicativos
+│   │   ├─ Listar
+│   │   ├─ Atualizar
+│   │   └─ Exportar
+│   └─ Desfragmentar
+│       ├─ Analisar
+│       ├─ Otimizar
+│       └─ Trim
+├─ Configurações
+│   ├─ Backup
+│   │   ├─ Parâmetros
+│   │   │   ├─ Drive de Backup
+│   │   │   ├─ Drive de Réplica
+│   │   │   ├─ Período de Retenção
+│   │   │   ├─ Nível de Compressão
+│   │   │   └─ Replicação Automática
+│   │   └─ Conteúdo
+│   │       ├─ Usuário
+│   │       │   ├─ Desktop
+│   │       │   ├─ Documentos
+│   │       │   ├─ Imagens
+│   │       │   ├─ Vídeos
+│   │       │   ├─ Músicas
+│   │       │   ├─ Downloads
+│   │       │   ├─ Vault
+│   │       │   ├─ Projetos
+│   │       │   └─ Softwares
+│   │       ├─ Nuvem
+│   │       │   └─ Dropbox
+│   │       └─ Sistema
+│   │           └─ Fontes
+│   ├─ Depuração
+│   │   ├─ Parâmetros
+│   │   │   └─ Período de Retenção
+│   │   └─ Conteúdo
+|   │       ├─ Arquivos de Sistema
+│   │       │   ├─ Diretório Temporário
+│   │       │   └─ Reporte de Erros
+│   │       └─ Arquivos de Usuário
+│   │           ├─ Downloads
+│   │           ├─ Screenshots
+│   │           └─ Lixeira
+│   ├─ Temas
+│   │   ├─ Violeta
+│   │   ├─ Azul
+│   │   ├─ Verde
+│   │   ├─ Amarelo
+│   │   ├─ Vermelho
+│   │   ├─ Cosmos
+│   │   ├─ Sunrise
+│   │   ├─ Sunset
+│   │   └─ Aqua
+│   ├─ Notificações
+│   │   ├─ Software
+│   │   └─ Sistema
+│   ├─ Registro de Eventos
+│   │   ├─ Status
+│   │   ├─ Período de Retenção
+│   │   └─ Exibir
+│   ├─ Gerenciar
+│   │   ├─ Importar
+│   │   ├─ Exportar
+│   │   └─ Redefinir
+│   ├─ Empacotar
+│   └─ Desinstalar
+├─ Sobre
+└─ Encerrar
+```
+
+</details>
+
+## Estrutura
+A estrutura de diretórios de software e backup é projetada para proporcionar a separação lógica dos dados, simplificando a manutenção e escalabilidade. Novos componentes, dispositivos e usuários podem ser facilmente integrados sem perturbar a estrutura existente.
+
+<details>
+<summary>Windows</summary>
+
+### Software
+```
+[Usuário] ─┐
+           └─ AppData ─┐
+                       └─ Local ─┐
+                                 └─ DC ─┐                                      | Diretório raiz
+                                        └─ Workflow ─┐                         | Diretório de instalação
+                                                     ├─ Software               | Diretório de software
+                                                     ├─ Events                 | Diretório de registro de eventos
+                                                     └─ Cache                  | Diretório de armazenamento temporário
+```
+
+### Backup
+```
+[Drive] ─┐
+         └─ Workflow ─┐                                                        | Diretório raiz
+                      └─ [Dispositivo] ─┐                                      | Diretório de controle
+                                        └─ [Usuário] ─┐                        | Diretório de controle
+                                                      └─ {+}                   | Dados
+```
+
+</details>
+
+<details>
+<summary>Linux</summary>
+
+### Software
+```
+[Usuário] ─┐
+           └─ .DC ─┐                                                           | Diretório raiz
+                   └─ Workflow ─┐                                              | Diretório de instalação
+                                ├─ Software                                    | Diretório de software
+                                ├─ Events                                      | Diretório de registro de eventos
+                                └─ Cache                                       | Diretório de armazenamento temporário
+```
+
+### Backup
+```
+[Drive] ─┐
+         └─ Workflow ─┐                                                        | Diretório raiz
+                      └─ [Dispositivo] ─┐                                      | Diretório de controle
+                                        └─ [Usuário] ─┐                        | Diretório de controle
+                                                      └─ {+}                   | Dados
+```
+
+</details>
+
+## Código-fonte
+Prepare-se para uma jornada emocionante pelo universo do software livre.
+
+<details>
+<summary>Fundamentos da licença GPL</summary>
+
+- `Liberdade 0`: Execute o software como quiser, para qualquer finalidade.
+- `Liberdade 1`: Explore e ajuste o software conforme suas necessidades.
+- `Liberdade 2`: Compartilhe o software para ajudar outras pessoas.
+- `Liberdade 3`: Melhore o software e compartilhe suas inovações com a comunidade.
+
+> Verifique [SPDX.org][SPDX.org] para mais informações.
+
+</details>
+
+<details>
+<summary>Acesso ao código-fonte</summary>
+
+- Baixe a versão mais recente do software.
+- Extraia o pacote com um software compatível.
+- Abra o arquivo **ps1** em seu editor de texto ou IDE preferido.
+- Aproveite a experiência!
+
+[SPDX.org]: https://spdx.org/licenses/GPL-3.0-or-later.html
 
 </details>
 
 [Evolução]: /Evolution.md
 [Política de Suporte]: /SUPPORT.md
-[Estrutura]: /Structure.md
 [7-Zip]: https://github.com/ip7z/7zip
 [JetBrains Mono]: https://github.com/JetBrains/JetBrainsMono
 [Cascadia Code]: https://github.com/microsoft/cascadia-code
