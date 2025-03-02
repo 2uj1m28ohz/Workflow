@@ -53,11 +53,18 @@ De forma geral, monólitos são convenientes por reduzir a sobrecarga cognitiva,
 
 | Sprint | Versão     | Data       | Suporte | Arquiteturas        | Sistemas        | Crescimento |
 | :----: | :--------: | :--------: | :-----: | :-----------------: | :-------------: | :---------: |
+| 78     | 25.03.0    | 02/03/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +03,49%     |
 | 77     | 25.02.0    | 02/02/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +00,40%     |
 | 76     | 25.01.0    | 05/01/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +04,51%     |
-| 75     | 24.12.1    | 01/12/2024 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +04,27%     |
+| 75     | 24.12.1    | 01/12/2024 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +04,27%     |
 | 74     | 24.11.1    | 03/11/2024 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +11,21%     |
 | 73     | 24.10.1    | 06/10/2024 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +09,93%     |
+
+<details>
+<summary>Mais</summary>
+
+| Sprint | Versão     | Data       | Suporte | Arquiteturas        | Sistemas        | Crescimento |
+| :----: | :--------: | :--------: | :-----: | :-----------------: | :-------------: | :---------: |
 | 72     | 24.09.1    | 01/09/2024 | Não     | x86/x64/ARM32/ARM64 | Windows         | +00,36%     |
 | 71     | 24.08.1    | 04/08/2024 | Não     | x86/x64/ARM32/ARM64 | Windows         | -03,80%     |
 | 70     | 24.07.1    | 07/07/2024 | Não     | x86/x64/ARM32/ARM64 | Windows         | +01,28%     |
@@ -65,12 +72,6 @@ De forma geral, monólitos são convenientes por reduzir a sobrecarga cognitiva,
 | 68     | 24.05.1    | 05/05/2024 | Não     | x86/x64/ARM32/ARM64 | Windows         | -04,03%     |
 | 67     | 24.04.1    | 07/04/2024 | Não     | x86/x64/ARM32/ARM64 | Windows         | -08,97%     |
 | 66     | 24.03.1    | 03/03/2024 | Não     | x86/x64/ARM32/ARM64 | Windows         | +09,08%     |
-
-<details>
-<summary>Mais</summary>
-
-| Sprint | Versão     | Data       | Suporte | Arquiteturas        | Sistemas        | Crescimento |
-| :----: | :--------: | :--------: | :-----: | :-----------------: | :-------------: | :---------: |
 | 65     | 24.02.1    | 04/02/2024 | Não     | x86/x64/ARM32/ARM64 | Windows         | +04,57%     |
 | 64     | 24.01.1    | 02/01/2024 | Não     | x86/x64/ARM32/ARM64 | Windows         | +05,27%     |
 | 63     | 23.340.1   | 06/12/2023 | Não     | x86/x64/ARM32/ARM64 | Windows         | +04,34%     |
@@ -147,4 +148,4 @@ De forma geral, monólitos são convenientes por reduzir a sobrecarga cognitiva,
 [Versionamento de Software]: https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareVersioning.md
 [Interface]: https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/Interface.md
 [Arquitetura Monolítica]: https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareArchitecture.md
-[Política de Suporte]: /SUPPORT.md
+[Política de Suporte]: /Support.md

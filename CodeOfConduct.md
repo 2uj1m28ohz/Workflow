@@ -34,7 +34,7 @@ A liderança da comunidade tem o direito e a responsabilidade de remover, editar
 Este Código de Conduta se aplica dentro de todos os espaços da comunidade e também se aplica quando uma pessoa estiver representando oficialmente a comunidade em espaços públicos. Exemplos de representação da nossa comunidade incluem usar um endereço de e-mail oficial, postar em contas oficiais de mídias sociais ou atuar como uma pessoa indicada como representante em um evento online ou offline.
 
 ## Aplicação
-Ocorrências de comportamentos abusivos, de assédio ou que sejam inaceitáveis por qualquer outro motivo poderão ser reportadas para a liderança da comunidade, responsável pela aplicação, via mensagem direta (DM) no [Discord][Discord]. Todas as reclamações serão revisadas e investigadas imediatamente e de maneira justa.
+Ocorrências de comportamentos abusivos, de assédio ou que sejam inaceitáveis por qualquer outro motivo poderão ser reportadas para a liderança da comunidade, responsável pela aplicação, via mensagem direta (DM) no [BlueSky][BlueSky]. Todas as reclamações serão revisadas e investigadas imediatamente e de maneira justa.
 
 A liderança da comunidade tem a obrigação de respeitar a privacidade e a segurança de quem reportar qualquer incidente.
 
@@ -69,7 +69,7 @@ As Diretrizes de Impacto na Comunidade foram inspiradas pela
 
 Para obter respostas a perguntas comuns sobre este código de conduta, veja a página de Perguntas Frequentes (FAQ) em [https://www.contributor-covenant.org/faq][FAQ]. Traduções estão disponíveis em [https://www.contributor-covenant.org/translations][translations].
 
-[Discord]: https://discord.gg/7KYupMXAnD
+[BlueSky]: https://bsky.app/profile/o9rikwm5s3.bsky.social
 [homepage]: https://www.contributor-covenant.org
 [v2.1]: https://www.contributor-covenant.org/version/2/1/code_of_conduct.html
 [Mozilla CoC]: https://github.com/mozilla/diversity

@@ -2,7 +2,7 @@
 Obrigado por se interessar em contribuir para Workflow! No momento, contribuições diretas não são aceitas, mas sua participação é altamente apreciada.
 
 ## Participe da discussão
-Seja bem-vindo ao nosso servidor no [Discord][Discord]:
+Seja bem-vindo à nossa [Comunidade][Comunidade]:
 
 - **Reporte problemas:** Se você identificou um problema reproduzível ou acredita que o software não está funcionando como esperado, descreva o problema detalhadamente para que possa ser verificado. Pode ser necessário compartilhar o log do Registro de Eventos do software para uma análise precisa.
 
@@ -23,5 +23,5 @@ Sua contribuição é essencial para o crescimento contínuo deste projeto. Toda
 ## Apoie o projeto
 Gostou do projeto? Considere fazer uma doação para apoiar o seu desenvolvimento! Workflow é um projeto independente, e sua ajuda é valiosa para mantê-lo ativo e em constante evolução. Verifique como [Doar][Doar].
 
-[Discord]: https://discord.gg/7KYupMXAnD
+[Comunidade]: https://github.com/2uj1m28ohz/workflow/discussions
 [Doar]: /Donate.md

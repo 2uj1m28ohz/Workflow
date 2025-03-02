@@ -266,57 +266,6 @@ Não é possível desativá-lo manualmente.
 
 </details>
 
-## Softwares de terceiros
-
-<details>
-<summary>Windows: Acesso a Pastas Controladas</summary>
-
-Alguns recursos precisam de acesso a pastas de usuário ou aplicativos. Adicione o PowerShell e o 7-Zip ao Acesso a Pastas Controladas nas configurações de segurança do Windows.
-
-</details>
-
-<details>
-<summary>7-Zip: Como instalar</summary>
-
-- Windows
-    - Acesse o [repositório do projeto][7-Zip]
-    - Baixe o pacote compatível com a arquitetura do seu dispositivo
-    - Execute o instalador
-
-- Linux
-    - Método 1 (Desenvolvedor oficial)
-        - Acesse o [repositório do projeto][7-Zip]
-        - Baixe o pacote compatível com a arquitetura do seu dispositivo
-        - Abra o Terminal
-        - Descomprima o pacote `tar --extract --file nome_do_pacote.tar.xz`
-        - Mova os binários para o diretório do sistema `sudo mv 7zzs 7zz /usr/local/bin/`
-    - Método 2 (Desenvolvedor independente)
-        - Abra o Terminal
-        - Instale o pacote `sudo apt install 7zip`
-
-</details>
-
-<details>
-<summary>Fontes: Como instalar</summary>
-
-Para um design agradável, moderno e sofisticado no terminal, prefira a fonte [JetBrains Mono][JetBrains Mono]. Adicionalmente você pode utilizar a [Cascadia Code][Cascadia Code] ou a [Ubuntu Family][Ubuntu Family].
-
-- Windows
-    - Método 1
-        - Clique com o botão direito do mouse no arquivo de fonte
-        - Clique em Instalar
-    - Método 2 (Windows 10 ou superior)
-        - Copie a fonte para o diretório do sistema `C:\Windows\Fonts`
-- Linux
-    - Método 1
-        - Clique com o botão direito do mouse no arquivo de fonte
-        - Clique em Instalar
-    - Método 2
-        - Copie a fonte para o diretório do sistema `sudo cp * /usr/local/share/fonts`
-        - Atualize o cache de fontes do sistema `sudo fc-cache --force --verbose`
-
-</details>
-
 ## Navegação
 Uma visão da árvore de menus da versão mais recente de software.
 
@@ -412,7 +361,11 @@ Home
 │   │   └─ Aqua
 │   ├─ Notificações
 │   │   ├─ Software
-│   │   └─ Sistema
+│   │   ├─ Backup
+│   │   ├─ Conversão
+│   │   ├─ Depuração
+│   │   ├─ Diagnóstico
+│   │   └─ Manutenção
 │   ├─ Registro de Eventos
 │   │   ├─ Status
 │   │   ├─ Período de Retenção
@@ -438,6 +391,9 @@ Home
 │   ├─ Iniciar Backup
 │   ├─ Iniciar Réplica
 │   └─ Testar Backup
+├─ Conversão
+│   ├─ 7Z
+│   └─ WEBP
 ├─ Depuração
 ├─ Diagnóstico
 │   └─ Relatório da Bateria
@@ -473,6 +429,9 @@ Home
 │   │       │   └─ Dropbox
 │   │       └─ Sistema
 │   │           └─ Fontes
+│   ├─ Conversão
+│   │   ├─ Reprocessar arquivos convertidos
+│   │   └─ Preservar originais
 │   ├─ Depuração
 │   │   ├─ Parâmetros
 │   │   │   └─ Período de Retenção
@@ -496,7 +455,11 @@ Home
 │   │   └─ Aqua
 │   ├─ Notificações
 │   │   ├─ Software
-│   │   └─ Sistema
+│   │   ├─ Backup
+│   │   ├─ Conversão
+│   │   ├─ Depuração
+│   │   ├─ Diagnóstico
+│   │   └─ Manutenção
 │   ├─ Registro de Eventos
 │   │   ├─ Status
 │   │   ├─ Período de Retenção
@@ -524,20 +487,20 @@ A estrutura de diretórios de software e backup é projetada para proporcionar a
 [Usuário] ─┐
            └─ AppData ─┐
                        └─ Local ─┐
-                                 └─ DC ─┐                                      | Diretório raiz
-                                        └─ Workflow ─┐                         | Diretório de instalação
-                                                     ├─ Software               | Diretório de software
-                                                     ├─ Events                 | Diretório de registro de eventos
-                                                     └─ Cache                  | Diretório de armazenamento temporário
+                                 └─ DC ─┐                                 | Diretório raiz
+                                        └─ Workflow ─┐                    | Diretório de instalação
+                                                     ├─ Software          | Diretório de software
+                                                     ├─ Events            | Diretório de registro de eventos
+                                                     └─ Cache             | Diretório de armazenamento temporário
 ```
 
 ### Backup
 ```
 [Drive] ─┐
-         └─ Workflow ─┐                                                        | Diretório raiz
-                      └─ [Dispositivo] ─┐                                      | Diretório de controle
-                                        └─ [Usuário] ─┐                        | Diretório de controle
-                                                      └─ {+}                   | Dados
+         └─ Workflow ─┐                                                   | Diretório raiz
+                      └─ [Dispositivo] ─┐                                 | Diretório de controle
+                                        └─ [Usuário] ─┐                   | Diretório de controle
+                                                      └─ {+}              | Dados
 ```
 
 </details>
@@ -548,20 +511,20 @@ A estrutura de diretórios de software e backup é projetada para proporcionar a
 ### Software
 ```
 [Usuário] ─┐
-           └─ .DC ─┐                                                           | Diretório raiz
-                   └─ Workflow ─┐                                              | Diretório de instalação
-                                ├─ Software                                    | Diretório de software
-                                ├─ Events                                      | Diretório de registro de eventos
-                                └─ Cache                                       | Diretório de armazenamento temporário
+           └─ .DC ─┐                                                      | Diretório raiz
+                   └─ Workflow ─┐                                         | Diretório de instalação
+                                ├─ Software                               | Diretório de software
+                                ├─ Events                                 | Diretório de registro de eventos
+                                └─ Cache                                  | Diretório de armazenamento temporário
 ```
 
 ### Backup
 ```
 [Drive] ─┐
-         └─ Workflow ─┐                                                        | Diretório raiz
-                      └─ [Dispositivo] ─┐                                      | Diretório de controle
-                                        └─ [Usuário] ─┐                        | Diretório de controle
-                                                      └─ {+}                   | Dados
+         └─ Workflow ─┐                                                   | Diretório raiz
+                      └─ [Dispositivo] ─┐                                 | Diretório de controle
+                                        └─ [Usuário] ─┐                   | Diretório de controle
+                                                      └─ {+}              | Dados
 ```
 
 </details>
@@ -593,9 +556,94 @@ Prepare-se para uma jornada emocionante pelo universo do software livre.
 
 </details>
 
+## Softwares de terceiros
+
+<details>
+<summary>PowerShell: Como instalar</summary>
+
+- Windows
+    - Abra o terminal
+    - Instale o pacote `winget install --id Microsoft.PowerShell --source winget`
+
+- Linux
+    - Abra o terminal
+    - Instale o pacote `snap install powershell`
+
+</details>
+
+<details>
+<summary>7-Zip: Como instalar</summary>
+
+- Windows
+    - Acesse o [repositório do projeto][7-Zip]
+    - Baixe o pacote compatível com a arquitetura do seu dispositivo
+    - Execute o instalador
+
+- Linux
+    - Método 1 (Desenvolvedor independente)
+        - Abra o terminal
+        - Instale o pacote `sudo apt install 7zip`
+    - Método 2 (Desenvolvedor oficial)
+        - Acesse o [repositório do projeto][7-Zip]
+        - Baixe o pacote compatível com a arquitetura do seu dispositivo
+        - Abra o terminal
+        - Descomprima o pacote `tar --extract --file nome_do_pacote.tar.xz`
+        - Navegue até o diretório do pacote `cd nome_do_pacote`
+        - Copie os binários para o diretório do sistema `sudo cp 7zzs 7zz /usr/local/bin/`
+
+</details>
+
+<details>
+<summary>WebP: Como instalar</summary>
+
+- Linux
+    - Método 1
+        - Abra o terminal
+        - Instale o pacote `sudo apt install webp`
+    - Método 2
+        - Acesse o [repositório do projeto][WebP]
+        - Baixe o pacote compatível com a arquitetura do seu dispositivo
+        - Abra o terminal
+        - Descomprima o pacote `tar --extract --file nome_do_pacote.tar.gz`
+        - Navegue até o diretório do pacote `cd nome_do_pacote`
+        - Copie o conteúdo do diretório `bin` para o diretório do sistema `sudo cp --recursive bin/* /usr/local/bin/`
+        - Copie o conteúdo do diretório `include` para o diretório do sistema `sudo cp --recursive include/* /usr/local/include/`
+        - Copie o conteúdo do diretório `lib` para o diretório do sistema `sudo cp --recursive lib/* /usr/local/lib/`
+
+</details>
+
+<details>
+<summary>Fontes: Como instalar</summary>
+
+Para um design agradável, moderno e sofisticado no terminal, prefira a fonte [JetBrains Mono][JetBrains Mono]. Adicionalmente você pode utilizar a [Cascadia Code][Cascadia Code] ou a [Ubuntu Family][Ubuntu Family].
+
+- Windows
+    - Método 1
+        - Clique com o botão direito do mouse no arquivo de fonte
+        - Clique em Instalar
+    - Método 2 (Windows 10 ou superior)
+        - Copie a fonte para o diretório do sistema `C:\Windows\Fonts`
+- Linux
+    - Método 1
+        - Clique com o botão direito do mouse no arquivo de fonte
+        - Clique em Instalar
+    - Método 2
+        - Copie a fonte para o diretório do sistema `sudo cp * /usr/local/share/fonts`
+        - Atualize o cache de fontes do sistema `sudo fc-cache --force --verbose`
+
+</details>
+
+<details>
+<summary>Windows: Acesso a Pastas Controladas</summary>
+
+Alguns recursos precisam de acesso a pastas de usuário ou aplicativos. Adicione o PowerShell e o 7-Zip ao Acesso a Pastas Controladas nas configurações de segurança do Windows.
+
+</details>
+
 [Evolução]: /Evolution.md
 [Política de Suporte]: /SUPPORT.md
 [7-Zip]: https://github.com/ip7z/7zip
+[WebP]: https://developers.google.com/speed/webp/docs/precompiled
 [JetBrains Mono]: https://github.com/JetBrains/JetBrainsMono
 [Cascadia Code]: https://github.com/microsoft/cascadia-code
 [Ubuntu Family]: https://design.ubuntu.com/font
