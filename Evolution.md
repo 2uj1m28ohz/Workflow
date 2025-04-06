@@ -1,15 +1,15 @@
 # Evolução
-Workflow é desenvolvido para simplificar a execução de backups e rotinas de manutenção do sistema. Com uma abordagem ágil e centralizada, otimiza a segurança dos dados e a resiliência do sistema. A automação intrínseca maximiza a eficiência, promovendo operações fluidas e confiáveis. Com o PowerShell, Workflow proporciona flexibilidade extraordinária, permitindo a criação de funcionalidades que se adaptam a diversas arquiteturas, sistemas e necessidades.
+Workflow é desenvolvido para simplificar a conversão de arquivos, execução de backups e rotinas de manutenção do sistema. Com uma abordagem ágil e centralizada, otimiza a segurança dos dados e a resiliência do sistema. A automação intrínseca ao software maximiza a eficiência, promovendo operações fluidas e confiáveis.
 
 ## Tecnologias
-Inicialmente escrito em Bash Script para o legado Prompt de Comando, Workflow foi reescrito e portado para PowerShell Script. Essa transição envolveu a substituição da [Codificação de Caracteres][Codificação de Caracteres], resultando em uma melhoria significativa na compatibilidade e confiabilidade do software.
+Inicialmente escrito em Shell Script para o legado Prompt de Comando, Workflow foi reescrito e portado para o PowerShell, uma linguagem orientada a objetos que amplia significativamente as possibilidades de desenvolvimento. Ao adotar um paradigma orientado a objetos, o projeto se beneficia de conceitos como modelagem do mundo real, encapsulamento e polimorfismo, permitindo a criação de componentes modulares, reutilizáveis e de fácil manutenção. Essa abordagem melhora a organização e abstração do código, proporcionando uma flexibilidade extraordinária para a implementação de novas funcionalidades e adaptações para diversas arquiteturas, sistemas e necessidades.
 
-O suporte ao 7-Zip foi adicionado, integrando recursos avançados de compressão de dados com algoritmos modernos e formatos eficientes. Isso inclui análise de arquivos, aplicação de filtros e compressão sólida, otimizando significativamente o tamanho dos backups e o empacotamento de software.
+Essa transição envolveu ainda a substituição da [Codificação de Caracteres][Codificação de Caracteres], resultando em uma melhoria significativa na compatibilidade e confiabilidade do software.
 
 ## Métodos
-O desenvolvimento de Workflow incluiu a tradução do código-fonte do Português (PT-BR) para o Inglês (EN-US) e a implementação de [Metodologias Ágeis][Metodologias Ágeis] como o Extreme Programming e Scrum, alinhando-se aos princípios da filosofia [Clean Code][Clean Code]. Esses métodos proporcionaram um processo dinâmico e iterativo, elevando a qualidade do código.
+O desenvolvimento contínuo de Workflow incluiu a tradução do código-fonte do idioma PT-BR para EN-US e a implementação de [Metodologias Ágeis][Metodologias Ágeis] como o Extreme Programming e Scrum, alinhando-se aos princípios da filosofia [Clean Code][Clean Code]. Esses métodos proporcionaram um processo dinâmico e iterativo, elevando a qualidade do código.
 
-O sistema de [Versionamento de Software][Versionamento de Software] semântico foi substituído pelo de calendário, simplificando a identificação de versões e refletindo a evolução do projeto.
+Para simplificar a identificação de versões e refletir a evolução do projeto, o sistema de [Versionamento de Software][Versionamento de Software] semântico foi substituído pelo de calendário.
 
 ```
 ───────── 20.6.0-001 ─────────────── ─ ───────── 21.311.1 ─────────────── ─ ───────── 24.01.1 ───────────────
@@ -24,16 +24,27 @@ SEMVER      ┬ ┬ ┬  ┬                   CALVER V1  ┬  ┬  ┬         
 ## Design
 A [Interface][Interface] de Workflow foi inspirada no universo de Tron, criado por Steven Lisberger, incorporando easter eggs no algoritmo e interface das versões iniciais. O design atual segue as Diretrizes de Interface, priorizando intuitividade, unidade e minimalismo para uma experiência fluida, guiando elementos, fluxos e conceitos.
 
-A análise da paleta de cores do terminal foi essencial para construir um layout consistente e agradável. Atualizações recentes introduziram novos temas, elevando a flexibilidade da interface.
+A análise da paleta de cores do terminal foi essencial para construir um layout consistente e agradável. Atualizações posteriores introduziram novos temas, elevando a flexibilidade da interface.
 
 > _Design não é apenas aparência, design é sobre como as coisas funcionam._ - Steve Jobs
+
+## Extensões
+Workflow possibilita a integração com extensões de alto nível que operam em perfeita harmonia com o controle e automação do software. Cada ferramenta foi escolhida para transformar a manipulação de arquivos em uma experiência poderosa e intuitiva.
+
+- **7‑Zip:** Com tecnologia avançada de compressão e descompressão, o 7‑Zip eleva a eficiência do backup de dados e empacotamento de software, otimizando tamanho e performance.
+- **WebP:** Ideal para converter e otimizar imagens, o WebP gera arquivos de alta qualidade em tamanhos compactos – perfeito para web e armazenamento inteligente.
+- **FFmpeg:** Essencial para processamento multimídia, o FFmpeg facilita a conversão, transcodificação e manipulação de áudio e vídeo, integrando essas funções de forma fluida.
+
+Ao possibilitar o acoplamento de extensões, Workflow expande suas funcionalidades para oferecer uma solução completa, versátil e poderosa. Essa abordagem permite que Workflow atenda a uma ampla variedade de necessidades e contextos, proporcionando uma experiência superior para todos os usuários.
+
+> A disponibilidade de recursos e funcionalidades pode variar conforme a plataforma.
 
 ## Segurança
 A segurança está no núcleo do algoritmo de Workflow. Para atender a este requisito, foram implementados recursos críticos:
 
-- Registro de eventos: Monitora as operações do software, proporcionando transparência e controle.
-- Atualizações automáticas: Asseguram agilidade e confiabilidade na entrega de correções e melhorias.
-- Verificação de integridade: Identifica e corrige alterações ilegais no algoritmo, mantendo a integridade constante do software.
+- **Registro de eventos:** Monitora as operações do software, proporcionando transparência e controle.
+- **Atualizações automáticas:** Asseguram agilidade e confiabilidade na entrega de correções e melhorias.
+- **Verificação de integridade:** Identifica e corrige alterações ilegais no algoritmo, mantendo a integridade constante do software.
 
 ## Resiliência
 Workflow foi projetado para garantir uma operação contínua, implementando uma arquitetura resiliente que utiliza múltiplos métodos de execução em diversos recursos e funcionalidades. Caso o método primário falhe, métodos de fallback são acionados automaticamente para manter a continuidade da execução sem interrupções significativas. Esse design inteligente previne cenários de falhas críticas, criando um software que não apenas responde a imprevistos, mas também se adapta e recupera rapidamente, preservando a confiabilidade das operações.
@@ -53,9 +64,10 @@ De forma geral, monólitos são convenientes por reduzir a sobrecarga cognitiva,
 
 | Sprint | Versão     | Data       | Suporte | Arquiteturas        | Sistemas        | Crescimento |
 | :----: | :--------: | :--------: | :-----: | :-----------------: | :-------------: | :---------: |
+| 79     | 25.04.0    | 06/04/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +09,51%     |
 | 78     | 25.03.0    | 02/03/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +03,49%     |
 | 77     | 25.02.0    | 02/02/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +00,40%     |
-| 76     | 25.01.0    | 05/01/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +04,51%     |
+| 76     | 25.01.0    | 05/01/2025 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +04,51%     |
 | 75     | 24.12.1    | 01/12/2024 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +04,27%     |
 | 74     | 24.11.1    | 03/11/2024 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +11,21%     |
 | 73     | 24.10.1    | 06/10/2024 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +09,93%     |
@@ -148,4 +160,4 @@ De forma geral, monólitos são convenientes por reduzir a sobrecarga cognitiva,
 [Versionamento de Software]: https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareVersioning.md
 [Interface]: https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/Interface.md
 [Arquitetura Monolítica]: https://github.com/2uj1m28ohz/Database/blob/main/SoftwareDevelopment/SoftwareArchitecture.md
-[Política de Suporte]: /Support.md
+[Política de Suporte]: /Policies.md

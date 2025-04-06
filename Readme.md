@@ -25,21 +25,15 @@
 	·
 	<a href="/Evolution.md">Evolução</a>
 	·
-	<a href="/Support.md">Política de Suporte</a>
+	<a href="/Policies.md">Políticas</a>
 	·
-	<a href="/Contributing.md">Contribuindo</a>
-	·
-	<a href="/CodeOfConduct.md">Código de Conduta</a>
-	·
-	<a href="/License.md">Licenciamento</a>
-	·
-	<a href="/Donate.md">Doar</a>
+	<a href="/License.md">Licenças</a>
 </p>
 
 <h1></h1>
 
 <p align="center">
 	<sub>
-		Ilustração <a href="https://basicappleguy.com/basicappleblog/os-x-rancho-cucamonga">Rancho Cucamonga</a> por BasicAppleGuy. Pull Requests via repositório não são aceitos. Verifique a documentação. A disponibilidade de recursos e funcionalidades pode variar conforme a plataforma. Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários. Copyright © 2021-2025 David Camargo. Consulte informações detalhadas sobre o licenciamento deste projeto.
+		Ilustração <a href="https://basicappleguy.com/basicappleblog/os-x-rancho-cucamonga">Rancho Cucamonga</a> por BasicAppleGuy. Pull Requests via repositório não são aceitos. A disponibilidade de recursos e funcionalidades pode variar conforme a plataforma. Todas as outras marcas mencionadas são de propriedade de seus respectivos proprietários. Copyright © 2021-2025 David Camargo. Este projeto possui componentes sob <a href="/License.md">licenças</a> distintas, verifique a documentação para mais detalhes.
 	</sub>
 </p>

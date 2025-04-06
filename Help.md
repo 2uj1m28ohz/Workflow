@@ -124,6 +124,24 @@ O Vault é uma pasta dentro do diretório do usuário para armazenar informaçõ
 
 </details>
 
+## Conversão
+
+<details>
+<summary>Formato 7z</summary>
+
+7z é um formato moderno e eficiente que utiliza algoritmos avançados, como o LZMA e o LZMA2, para oferecer uma compressão de alta performance e reduzir significativamente o tamanho dos arquivos. Com filtros avançados e compressão sólida – que agrupa arquivos semelhantes para uma compactação mais otimizada – além do suporte à tecnologia multi-threading, o 7z acelera todo o processo, mesmo com arquivos de grande volume. Por ser um formato aberto e gratuito, ele reúne performance e flexibilidade em uma única solução.
+
+</details>
+
+<details>
+<summary>Formato WebP</summary>
+
+WebP é um formato moderno e versátil que oferece compressão lossless, resultando em arquivos menores sem perda de qualidade. Suporta transparência e animações, substituindo de forma eficiente formatos tradicionais como BMP, TIF, JPG, PNG e GIF. Por ser um formato aberto e gratuito, não há custos com licenciamento ou royalties. Além disso, seu amplo suporte em sistemas operacionais, navegadores e ferramentas de edição o torna uma escolha inteligente em comparação com formatos mais recentes.
+
+> Os formatos AVIF e JXL foram depreciados pela funcionalidade de conversão neste momento pois tem um custo computacional elevado e/ou não são amplamente suportados. Esses e outros formatos são constantemente revisados e podem ser implementados posteriormente.
+
+</details>
+
 ## Manutenção
 
 <details>
@@ -160,7 +178,7 @@ Siga para `Configurações` `>` `Notificações`
 <details>
 <summary>Desabilitar o Registro de Eventos</summary>
 
-Siga para `Configurações` `>` `Registro de Eventos` `>` `Status`
+Siga para `Configurações` `>` `Registro de Eventos` `>` `Estado`
 
 </details>
 
@@ -278,6 +296,8 @@ Home
 │   ├─ Iniciar Backup
 │   ├─ Iniciar Réplica
 │   └─ Testar Backup
+├─ Conversão
+│   └─ Pacotes
 ├─ Depuração
 ├─ Diagnóstico
 │   ├─ Relatório da Bateria
@@ -330,6 +350,10 @@ Home
 │   │       └─ Sistema
 │   │           ├─ Fontes
 │   │           └─ Drivers
+│   ├─ Conversão
+│   │   ├─ Diretório de conversão
+│   │   ├─ Reprocessar arquivos convertidos
+│   │   └─ Preservar arquivos originais
 │   ├─ Depuração
 │   │   ├─ Parâmetros
 │   │   │   └─ Período de Retenção
@@ -367,9 +391,12 @@ Home
 │   │   ├─ Diagnóstico
 │   │   └─ Manutenção
 │   ├─ Registro de Eventos
-│   │   ├─ Status
+│   │   ├─ Estado
 │   │   ├─ Período de Retenção
 │   │   └─ Exibir
+│   ├─ Extensões
+│   │   ├─ Instalar
+│   │   └─ Atualizar
 │   ├─ Gerenciar
 │   │   ├─ Importar
 │   │   ├─ Exportar
@@ -392,8 +419,8 @@ Home
 │   ├─ Iniciar Réplica
 │   └─ Testar Backup
 ├─ Conversão
-│   ├─ 7Z
-│   └─ WEBP
+│   ├─ Pacotes
+│   └─ Imagens
 ├─ Depuração
 ├─ Diagnóstico
 │   └─ Relatório da Bateria
@@ -430,8 +457,9 @@ Home
 │   │       └─ Sistema
 │   │           └─ Fontes
 │   ├─ Conversão
+│   │   ├─ Diretório de conversão
 │   │   ├─ Reprocessar arquivos convertidos
-│   │   └─ Preservar originais
+│   │   └─ Preservar arquivos originais
 │   ├─ Depuração
 │   │   ├─ Parâmetros
 │   │   │   └─ Período de Retenção
@@ -461,9 +489,12 @@ Home
 │   │   ├─ Diagnóstico
 │   │   └─ Manutenção
 │   ├─ Registro de Eventos
-│   │   ├─ Status
+│   │   ├─ Estado
 │   │   ├─ Período de Retenção
 │   │   └─ Exibir
+│   ├─ Extensões
+│   │   ├─ Instalar
+│   │   └─ Atualizar
 │   ├─ Gerenciar
 │   │   ├─ Importar
 │   │   ├─ Exportar
@@ -557,6 +588,14 @@ Prepare-se para uma jornada emocionante pelo universo do software livre.
 </details>
 
 ## Softwares de terceiros
+### Requisitos
+
+<details>
+<summary>Windows: Acesso a Pastas Controladas</summary>
+
+Alguns recursos precisam de acesso a pastas de usuário ou aplicativos. Adicione o PowerShell e o 7-Zip ao Acesso a Pastas Controladas nas configurações de segurança do Windows.
+
+</details>
 
 <details>
 <summary>PowerShell: Como instalar</summary>
@@ -571,25 +610,27 @@ Prepare-se para uma jornada emocionante pelo universo do software livre.
 
 </details>
 
+### Extensões
+
 <details>
 <summary>7-Zip: Como instalar</summary>
 
 - Windows
-    - Acesse o [repositório do projeto][7-Zip]
-    - Baixe o pacote compatível com a arquitetura do seu dispositivo
-    - Execute o instalador
-
-- Linux
-    - Método 1 (Desenvolvedor independente)
-        - Abra o terminal
-        - Instale o pacote `sudo apt install 7zip`
-    - Método 2 (Desenvolvedor oficial)
+    - Método automatizado
+        - Siga para `Configurações` `>` `Extensões` `>` `Instalar`
+    - Método manual
         - Acesse o [repositório do projeto][7-Zip]
         - Baixe o pacote compatível com a arquitetura do seu dispositivo
+        - Execute o instalador
+
+- Linux
+    - Método automatizado
+        - Siga para `Configurações` `>` `Extensões` `>` `Instalar`
+    - Método manual
         - Abra o terminal
-        - Descomprima o pacote `tar --extract --file nome_do_pacote.tar.xz`
-        - Navegue até o diretório do pacote `cd nome_do_pacote`
-        - Copie os binários para o diretório do sistema `sudo cp 7zzs 7zz /usr/local/bin/`
+        - Instale o pacote `sudo apt install 7zip`
+
+> Na maioria das vezes, o método automatizado garante a instalação da versão mais recente disponibilizada pelo desenvolvedor, superando a do repositório da distribuição.
 
 </details>
 
@@ -597,20 +638,29 @@ Prepare-se para uma jornada emocionante pelo universo do software livre.
 <summary>WebP: Como instalar</summary>
 
 - Linux
-    - Método 1
+    - Método automatizado
+        - Siga para `Configurações` `>` `Extensões` `>` `Instalar`
+    - Método manual
         - Abra o terminal
         - Instale o pacote `sudo apt install webp`
-    - Método 2
-        - Acesse o [repositório do projeto][WebP]
-        - Baixe o pacote compatível com a arquitetura do seu dispositivo
-        - Abra o terminal
-        - Descomprima o pacote `tar --extract --file nome_do_pacote.tar.gz`
-        - Navegue até o diretório do pacote `cd nome_do_pacote`
-        - Copie o conteúdo do diretório `bin` para o diretório do sistema `sudo cp --recursive bin/* /usr/local/bin/`
-        - Copie o conteúdo do diretório `include` para o diretório do sistema `sudo cp --recursive include/* /usr/local/include/`
-        - Copie o conteúdo do diretório `lib` para o diretório do sistema `sudo cp --recursive lib/* /usr/local/lib/`
+
+> Na maioria das vezes, o método automatizado garante a instalação da versão mais recente disponibilizada pelo desenvolvedor, superando a do repositório da distribuição.
 
 </details>
+
+<details>
+<summary>FFmpeg: Como instalar</summary>
+
+- Linux
+    - Método automatizado
+        - Siga para `Configurações` `>` `Extensões` `>` `Instalar`
+    - Método manual
+        - Abra o terminal
+        - Instale o pacote `sudo apt install ffmpeg`
+
+</details>
+
+### Outros
 
 <details>
 <summary>Fontes: Como instalar</summary>
@@ -633,15 +683,8 @@ Para um design agradável, moderno e sofisticado no terminal, prefira a fonte [J
 
 </details>
 
-<details>
-<summary>Windows: Acesso a Pastas Controladas</summary>
-
-Alguns recursos precisam de acesso a pastas de usuário ou aplicativos. Adicione o PowerShell e o 7-Zip ao Acesso a Pastas Controladas nas configurações de segurança do Windows.
-
-</details>
-
 [Evolução]: /Evolution.md
-[Política de Suporte]: /SUPPORT.md
+[Política de Suporte]: /Policies.md
 [7-Zip]: https://github.com/ip7z/7zip
 [WebP]: https://developers.google.com/speed/webp/docs/precompiled
 [JetBrains Mono]: https://github.com/JetBrains/JetBrainsMono
