@@ -2,21 +2,22 @@
 Encontre informações sobre as políticas de suporte, atualização e ciclo de vida do software. Isso inclui informações detalhadas sobre o fornecimento de suporte e a gestão das atualizações de software.
 
 ## Política de Suporte
-O suporte ao software abrange a instalação, atualização, uso e remoção de software, disponível para os três lançamentos recentes. Caso o software seja descontinuado, o suporte será mantido por 30 dias após o encerramento do desenvolvimento, limitado ao lançamento mais recente.
-
-Após o término do suporte, o software não receberá mais suporte ou atualizações. Embora você possa continuar usando o software, ele estará sujeito a erros, instabilidades e incompatibilidades.
-
-> [!TIP]
-> Alterações no status de desenvolvimento do projeto serão exibidas no software e no repositório.
+O suporte ao software abrange a instalação, atualização, uso e remoção do software por meio da documentação disponível.
 
 ## Política de Atualização
-Novas versões de software são lançadas periodicamente, incluindo correções de erros, melhorias de compatibilidade, estabilidade, desempenho e novos recursos. Verifique [Ajuda][Ajuda] para mais informações.
+Novas versões de software são lançadas periodicamente, incluindo correções de erros, melhorias de compatibilidade, estabilidade, desempenho e novos recursos.
 
 ## Política de Ciclo de Vida
-O ciclo de vida de softwares de terceiros é definido por seus desenvolvedores. Nosso suporte é ajustado conforme esses cronogramas, e pode ser removido quando o software sair de seu ciclo principal de suporte. Nem sempre esses cronogramas estão alinhados com o nosso. Em alguns casos, prolongamos o suporte a versões de softwares de terceiros para ajudar os usuários na transição para versões mais recentes. A documentação é constantemente atualizada para garantir que você tenha informações seguras. Verifique [endoflife.date][endoflife.date] para mais informações.
+O suporte e a garantia de atualização de software estão limitados aos três lançamentos recentes. Caso o software seja descontinuado, o suporte e atualizações serão mantido por 30 dias após o encerramento do desenvolvimento. Além desse período, não haverá novas atualizações ou correções, tornando o software suscetível a erros, instabilidades e incompatibilidades.
+
+Workflow é executado em vários sistemas operacionais e arquiteturas. O suporte ao Workflow termina quando qualquer uma das seguintes condições é atendida:
+- O sistema operacional ou shell atinge o fim da vida útil, conforme definido pelo proprietário da plataforma
+- A versão específica de Workflow atinge o fim da vida útil
+
+Após uma versão de Workflow atingir o fim da vida útil, nenhuma atualização adicional, incluindo atualizações de segurança, será fornecida. É recomendado atualizar para continuar recebendo atualizações e suporte.
+
+> [!TIP]
+> Alterações no status de desenvolvimento do software serão exibidas no software e no repositório.
 
 > [!IMPORTANT]
 > Projetos legados, softwares descontinuados e versões de software sem suporte podem ser removidos após o término do seu ciclo de vida.
-
-[Ajuda]: /Help.md
-[endoflife.date]: https://endoflife.date

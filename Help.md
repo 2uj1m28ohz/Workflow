@@ -54,6 +54,13 @@ Se o atalho `Workflow.ps1` estiver ausente no diretório `$Home`, verifique o t�
 
 </details>
 
+<details>
+<summary>Como desinstalar</summary>
+
+Siga para `Configurações` `>` `Desinstalar`
+
+</details>
+
 ## Atualização
 
 <details>
@@ -129,16 +136,28 @@ O Vault é uma pasta dentro do diretório do usuário para armazenar informaçõ
 <details>
 <summary>Formato 7z</summary>
 
-7z é um formato moderno e eficiente que utiliza algoritmos avançados, como o LZMA e o LZMA2, para oferecer uma compressão de alta performance e reduzir significativamente o tamanho dos arquivos. Com filtros avançados e compressão sólida – que agrupa arquivos semelhantes para uma compactação mais otimizada – além do suporte à tecnologia multi-threading, o 7z acelera todo o processo, mesmo com arquivos de grande volume. Por ser um formato aberto e gratuito, ele reúne performance e flexibilidade em uma única solução.
+7z é um formato moderno e eficiente que utiliza algoritmos avançados, como o LZMA e o LZMA2, para oferecer uma compressão de alta performance e reduzir significativamente o tamanho dos arquivos. Com filtros avançados e compressão sólida – que agrupa arquivos semelhantes para uma compactação mais otimizada – além do suporte à tecnologia multi-threading, o 7z acelera todo o processo, mesmo com arquivos de grande volume. Por ser um formato aberto e gratuito, ele reúne performance e flexibilidade em uma única solução. [Saiba mais][7Zip].
+
+> O formato ZST não foi implementado nas funcionalidades de backup, conversão e empacotamento pois não é amplamente suportado e requer etapas adicionais de compilação para todas as plataformas e arquiteturas. Esse e outros formatos são constantemente revisados e podem ser implementados posteriormente.
 
 </details>
 
 <details>
 <summary>Formato WebP</summary>
 
-WebP é um formato moderno e versátil que oferece compressão lossless, resultando em arquivos menores sem perda de qualidade. Suporta transparência e animações, substituindo de forma eficiente formatos tradicionais como BMP, TIF, JPG, PNG e GIF. Por ser um formato aberto e gratuito, não há custos com licenciamento ou royalties. Além disso, seu amplo suporte em sistemas operacionais, navegadores e ferramentas de edição o torna uma escolha inteligente em comparação com formatos mais recentes.
+WebP é um formato moderno e versátil que oferece compressão lossless, resultando em arquivos menores sem perda de qualidade. Suporta transparência e animações, substituindo de forma eficiente formatos tradicionais como GIF, BMP, TIF, JPG e PNG. Por ser um formato aberto e gratuito, não há custos com licenciamento ou royalties. Além disso, seu amplo suporte em sistemas operacionais, navegadores e ferramentas de edição o torna uma escolha inteligente em comparação com formatos mais recentes. [Saiba mais][WebP].
 
-> Os formatos AVIF e JXL foram depreciados pela funcionalidade de conversão neste momento pois tem um custo computacional elevado e/ou não são amplamente suportados. Esses e outros formatos são constantemente revisados e podem ser implementados posteriormente.
+> Os formatos AVIF e JXL não foram implementados na funcionalidade de conversão pois tem um custo computacional elevado e/ou não são amplamente suportados. Esses e outros formatos são constantemente revisados e podem ser implementados posteriormente.
+
+</details>
+
+<details>
+<summary>Como instalar extensões</summary>
+
+Verifique como instalar extensões na seção **Softwares de Terceiros**.
+
+> [!IMPORTANT]
+> A partir da versão **25.05.0** de Workflow, as extensões foram movidas para a estrutura de diretórios de software em ambiente **Linux**. Workflow não utilizará os binários das extensões disponíveis no `$PATH` do sistema, com exceção da extensão FFmpeg. Essa mudança permite um controle preciso de instalação, atualização e versionamento de extensões a partir do repositório ou site oficial, sem interferir nos binários instalados via APT e reduzindo a necessidade de elevação de privilégios para a instalação de softwares adicionais.
 
 </details>
 
@@ -250,7 +269,7 @@ O Registro de Eventos coleta e armazena localmente informações sobre o ambient
 <details>
 <summary>Uso de dados</summary>
 
-Os dados do Registro de Eventos ajudam a monitorar o desempenho, diagnosticar problemas e otimizar o software. Eles permitem identificar padrões de uso, aprimorar a experiência do usuário e manter a cronologia das atividades de software, facilitando a análise retroativa e a recuperação de informações. Os dados do Registro de Eventos podem ser solicitados caso você entre em contato com o [Suporte][Política de Suporte].
+Os dados do Registro de Eventos permitem identificar padrões de uso, ajudam a monitorar o desempenho, diagnosticar problemas e manter a cronologia das atividades de software, facilitando a análise retroativa e a recuperação de informações.
 
 </details>
 
@@ -352,8 +371,7 @@ Home
 │   │           └─ Drivers
 │   ├─ Conversão
 │   │   ├─ Diretório de conversão
-│   │   ├─ Reprocessar arquivos convertidos
-│   │   └─ Preservar arquivos originais
+│   │   └─ Preservar originais
 │   ├─ Depuração
 │   │   ├─ Parâmetros
 │   │   │   └─ Período de Retenção
@@ -458,8 +476,7 @@ Home
 │   │           └─ Fontes
 │   ├─ Conversão
 │   │   ├─ Diretório de conversão
-│   │   ├─ Reprocessar arquivos convertidos
-│   │   └─ Preservar arquivos originais
+│   │   └─ Preservar originais
 │   ├─ Depuração
 │   │   ├─ Parâmetros
 │   │   │   └─ Período de Retenção
@@ -521,6 +538,7 @@ A estrutura de diretórios de software e backup é projetada para proporcionar a
                                  └─ DC ─┐                                 | Diretório raiz
                                         └─ Workflow ─┐                    | Diretório de instalação
                                                      ├─ Software          | Diretório de software
+                                                     ├─ Extensions        | Diretório de extensões
                                                      ├─ Events            | Diretório de registro de eventos
                                                      └─ Cache             | Diretório de armazenamento temporário
 ```
@@ -545,6 +563,7 @@ A estrutura de diretórios de software e backup é projetada para proporcionar a
            └─ .DC ─┐                                                      | Diretório raiz
                    └─ Workflow ─┐                                         | Diretório de instalação
                                 ├─ Software                               | Diretório de software
+                                ├─ Extensions                             | Diretório de extensões
                                 ├─ Events                                 | Diretório de registro de eventos
                                 └─ Cache                                  | Diretório de armazenamento temporário
 ```
@@ -566,10 +585,10 @@ Prepare-se para uma jornada emocionante pelo universo do software livre.
 <details>
 <summary>Fundamentos da licença GPL</summary>
 
-- `Liberdade 0`: Execute o software como quiser, para qualquer finalidade.
-- `Liberdade 1`: Explore e ajuste o software conforme suas necessidades.
-- `Liberdade 2`: Compartilhe o software para ajudar outras pessoas.
-- `Liberdade 3`: Melhore o software e compartilhe suas inovações com a comunidade.
+- **Liberdade 0:** Execute o software como quiser, para qualquer finalidade.
+- **Liberdade 1:** Explore e ajuste o software conforme suas necessidades.
+- **Liberdade 2:** Compartilhe o software para ajudar outras pessoas.
+- **Liberdade 3:** Melhore o software e compartilhe suas inovações com a comunidade.
 
 > Verifique [SPDX.org][SPDX.org] para mais informações.
 
@@ -578,12 +597,10 @@ Prepare-se para uma jornada emocionante pelo universo do software livre.
 <details>
 <summary>Acesso ao código-fonte</summary>
 
-- Baixe a versão mais recente do software.
+- [Baixe][Download] a versão mais recente de software.
 - Extraia o pacote com um software compatível.
 - Abra o arquivo **ps1** em seu editor de texto ou IDE preferido.
 - Aproveite a experiência!
-
-[SPDX.org]: https://spdx.org/licenses/GPL-3.0-or-later.html
 
 </details>
 
@@ -608,6 +625,8 @@ Alguns recursos precisam de acesso a pastas de usuário ou aplicativos. Adicione
     - Abra o terminal
     - Instale o pacote `snap install powershell`
 
+> Pode requerer elevação de privilégios
+
 </details>
 
 ### Extensões
@@ -615,48 +634,23 @@ Alguns recursos precisam de acesso a pastas de usuário ou aplicativos. Adicione
 <details>
 <summary>7-Zip: Como instalar</summary>
 
-- Windows
-    - Método automatizado
-        - Siga para `Configurações` `>` `Extensões` `>` `Instalar`
-    - Método manual
-        - Acesse o [repositório do projeto][7-Zip]
-        - Baixe o pacote compatível com a arquitetura do seu dispositivo
-        - Execute o instalador
-
-- Linux
-    - Método automatizado
-        - Siga para `Configurações` `>` `Extensões` `>` `Instalar`
-    - Método manual
-        - Abra o terminal
-        - Instale o pacote `sudo apt install 7zip`
-
-> Na maioria das vezes, o método automatizado garante a instalação da versão mais recente disponibilizada pelo desenvolvedor, superando a do repositório da distribuição.
+Siga para `Configurações` `>` `Extensões` `>` `Instalar`
 
 </details>
 
 <details>
 <summary>WebP: Como instalar</summary>
 
-- Linux
-    - Método automatizado
-        - Siga para `Configurações` `>` `Extensões` `>` `Instalar`
-    - Método manual
-        - Abra o terminal
-        - Instale o pacote `sudo apt install webp`
-
-> Na maioria das vezes, o método automatizado garante a instalação da versão mais recente disponibilizada pelo desenvolvedor, superando a do repositório da distribuição.
+Siga para `Configurações` `>` `Extensões` `>` `Instalar`
 
 </details>
 
 <details>
 <summary>FFmpeg: Como instalar</summary>
 
-- Linux
-    - Método automatizado
-        - Siga para `Configurações` `>` `Extensões` `>` `Instalar`
-    - Método manual
-        - Abra o terminal
-        - Instale o pacote `sudo apt install ffmpeg`
+Siga para `Configurações` `>` `Extensões` `>` `Instalar`
+
+> Pode requerer elevação de privilégios
 
 </details>
 
@@ -685,8 +679,10 @@ Para um design agradável, moderno e sofisticado no terminal, prefira a fonte [J
 
 [Evolução]: /Evolution.md
 [Política de Suporte]: /Policies.md
-[7-Zip]: https://github.com/ip7z/7zip
-[WebP]: https://developers.google.com/speed/webp/docs/precompiled
+[7zip]: https://www.7-zip.org/7z.html
+[WebP]: https://developers.google.com/speed/webp
+[SPDX.org]: https://spdx.org/licenses/GPL-3.0-or-later.html
+[Download]: https://github.com/2uj1m28ohz/workflow/releases
 [JetBrains Mono]: https://github.com/JetBrains/JetBrainsMono
 [Cascadia Code]: https://github.com/microsoft/cascadia-code
 [Ubuntu Family]: https://design.ubuntu.com/font

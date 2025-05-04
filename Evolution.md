@@ -64,9 +64,10 @@ De forma geral, monólitos são convenientes por reduzir a sobrecarga cognitiva,
 
 | Sprint | Versão     | Data       | Suporte | Arquiteturas        | Sistemas        | Crescimento |
 | :----: | :--------: | :--------: | :-----: | :-----------------: | :-------------: | :---------: |
-| 79     | 25.04.0    | 06/04/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +09,51%     |
+| 80     | 25.05.0    | 04/05/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +00,15%     |
+| 79     | 25.04.0    | 06/04/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +09,73%     |
 | 78     | 25.03.0    | 02/03/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +03,49%     |
-| 77     | 25.02.0    | 02/02/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +00,40%     |
+| 77     | 25.02.0    | 02/02/2025 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +00,40%     |
 | 76     | 25.01.0    | 05/01/2025 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +04,51%     |
 | 75     | 24.12.1    | 01/12/2024 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +04,27%     |
 | 74     | 24.11.1    | 03/11/2024 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +11,21%     |
