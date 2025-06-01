@@ -92,7 +92,7 @@ Verifique os requisitos de sistema na página de download e tente novamente apó
 
 Se o software não foi executado por um longo período, pode ter perdido suporte e está impossibilitado de receber atualizações automaticamente. Prossiga com a desinstalação manual e a instalação da versão de software mais recente.
 
-</details> 
+</details>
 
 ## Backup
 
@@ -138,16 +138,16 @@ O Vault é uma pasta dentro do diretório do usuário para armazenar informaçõ
 
 7z é um formato moderno e eficiente que utiliza algoritmos avançados, como o LZMA e o LZMA2, para oferecer uma compressão de alta performance e reduzir significativamente o tamanho dos arquivos. Com filtros avançados e compressão sólida – que agrupa arquivos semelhantes para uma compactação mais otimizada – além do suporte à tecnologia multi-threading, o 7z acelera todo o processo, mesmo com arquivos de grande volume. Por ser um formato aberto e gratuito, ele reúne performance e flexibilidade em uma única solução. [Saiba mais][7Zip].
 
-> O formato ZST não foi implementado nas funcionalidades de backup, conversão e empacotamento pois não é amplamente suportado e requer etapas adicionais de compilação para todas as plataformas e arquiteturas. Esse e outros formatos são constantemente revisados e podem ser implementados posteriormente.
-
 </details>
 
 <details>
 <summary>Formato WebP</summary>
 
-WebP é um formato moderno e versátil que oferece compressão lossless, resultando em arquivos menores sem perda de qualidade. Suporta transparência e animações, substituindo de forma eficiente formatos tradicionais como GIF, BMP, TIF, JPG e PNG. Por ser um formato aberto e gratuito, não há custos com licenciamento ou royalties. Além disso, seu amplo suporte em sistemas operacionais, navegadores e ferramentas de edição o torna uma escolha inteligente em comparação com formatos mais recentes. [Saiba mais][WebP].
+WebP é um formato moderno e versátil que oferece compressão lossless, resultando em arquivos menores sem perda de qualidade. Suporta transparência e animações, substituindo de forma eficiente formatos tradicionais como BMP, TIFF, PNG e GIF. Por ser um formato aberto e gratuito, não há custos com licenciamento ou royalties. Além disso, seu amplo suporte em sistemas operacionais, navegadores e ferramentas de edição o torna uma escolha inteligente em comparação com formatos mais recentes. [Saiba mais][WebP].
 
-> Os formatos AVIF e JXL não foram implementados na funcionalidade de conversão pois tem um custo computacional elevado e/ou não são amplamente suportados. Esses e outros formatos são constantemente revisados e podem ser implementados posteriormente.
+> O suporte ao formato JPEG foi removido na versão **25.06.0** pois não foram identificados ganhos reais em eficiência de compressão.
+
+> O suporte aos formatos AVIF e JXL foi postergado devido ao custo computacional elevado e/ou baixa compatibilidade dos sistemas operacionais.
 
 </details>
 
@@ -156,8 +156,15 @@ WebP é um formato moderno e versátil que oferece compressão lossless, resulta
 
 Verifique como instalar extensões na seção **Softwares de Terceiros**.
 
-> [!IMPORTANT]
-> A partir da versão **25.05.0** de Workflow, as extensões foram movidas para a estrutura de diretórios de software em ambiente **Linux**. Workflow não utilizará os binários das extensões disponíveis no `$PATH` do sistema, com exceção da extensão FFmpeg. Essa mudança permite um controle preciso de instalação, atualização e versionamento de extensões a partir do repositório ou site oficial, sem interferir nos binários instalados via APT e reduzindo a necessidade de elevação de privilégios para a instalação de softwares adicionais.
+> As extensões foram movidas para a estrutura de diretórios de software em ambiente **Linux** na versão **25.05.0**. Workflow não utilizará os binários das extensões disponíveis no `$PATH` do sistema, com exceção da extensão FFmpeg. Essa mudança permite um controle preciso de instalação, atualização e versionamento de extensões a partir do repositório ou site oficial, sem interferir nos binários instalados via APT e reduzindo a necessidade de elevação de privilégios para a instalação de softwares adicionais.
+
+</details>
+
+<details>
+
+<summary>Como atualizar extensões</summary>
+
+Verifique como instalar extensões na seção **Softwares de Terceiros**.
 
 </details>
 
@@ -312,12 +319,11 @@ Uma visão da árvore de menus da versão mais recente de software.
 ```
 Home
 ├─ Backup
-│   ├─ Iniciar Backup
-│   ├─ Iniciar Réplica
-│   └─ Testar Backup
+│   ├─ Iniciar
+│   ├─ Replicar
+│   └─ Restaurar
 ├─ Conversão
 │   └─ Pacotes
-├─ Depuração
 ├─ Diagnóstico
 │   ├─ Relatório da Bateria
 │   ├─ Verificar Saúde dos Drives
@@ -348,7 +354,6 @@ Home
 │   │   │   ├─ Drive de Réplica
 │   │   │   ├─ Período de Retenção
 │   │   │   ├─ Nível de Compressão
-│   │   │   ├─ Formatação Automática
 │   │   │   └─ Replicação Automática
 │   │   └─ Conteúdo
 │   │       ├─ Usuário
@@ -370,42 +375,16 @@ Home
 │   │           ├─ Fontes
 │   │           └─ Drivers
 │   ├─ Conversão
-│   │   ├─ Diretório de conversão
-│   │   └─ Preservar originais
-│   ├─ Depuração
-│   │   ├─ Parâmetros
-│   │   │   └─ Período de Retenção
-│   │   └─ Conteúdo
-|   │       ├─ Arquivos de Sistema
-│   │       │   ├─ Diretório Temporário
-│   │       │   ├─ Diretório Prefetch
-│   │       │   ├─ Windows Update
-│   │       │   ├─ Reporte de Erros
-│   │       │   └─ Cache DNS
-│   │       ├─ Arquivos de Software
-│   │       │   ├─ Microsoft Edge
-│   │       │   ├─ OneDrive
-│   │       │   └─ Epic Games
-│   │       └─ Arquivos de Usuário
-│   │           ├─ Diretório Temporário
-│   │           ├─ Downloads
-│   │           ├─ Screenshots
-│   │           └─ Lixeira
-│   ├─ Temas
-│   │   ├─ Violeta
-│   │   ├─ Azul
-│   │   ├─ Verde
-│   │   ├─ Amarelo
-│   │   ├─ Vermelho
-│   │   ├─ Cosmos
-│   │   ├─ Sunrise
-│   │   ├─ Sunset
-│   │   └─ Aqua
+│   │   ├─ Diretório de Conversão
+│   │   └─ Preservar Originais
+│   ├─ Interface
+│   │   ├─ Cor Primária
+│   │   ├─ Cor Secundária
+│   │   └─ Cor Terciária
 │   ├─ Notificações
 │   │   ├─ Software
 │   │   ├─ Backup
 │   │   ├─ Conversão
-│   │   ├─ Depuração
 │   │   ├─ Diagnóstico
 │   │   └─ Manutenção
 │   ├─ Registro de Eventos
@@ -414,7 +393,8 @@ Home
 │   │   └─ Exibir
 │   ├─ Extensões
 │   │   ├─ Instalar
-│   │   └─ Atualizar
+│   │   ├─ Atualizar
+│   │   └─ Desinstalar
 │   ├─ Gerenciar
 │   │   ├─ Importar
 │   │   ├─ Exportar
@@ -433,13 +413,12 @@ Home
 ```
 Home
 ├─ Backup
-│   ├─ Iniciar Backup
-│   ├─ Iniciar Réplica
-│   └─ Testar Backup
+│   ├─ Iniciar
+│   ├─ Replicar
+│   └─ Restaurar
 ├─ Conversão
 │   ├─ Pacotes
 │   └─ Imagens
-├─ Depuração
 ├─ Diagnóstico
 │   └─ Relatório da Bateria
 ├─ Manutenção
@@ -475,34 +454,16 @@ Home
 │   │       └─ Sistema
 │   │           └─ Fontes
 │   ├─ Conversão
-│   │   ├─ Diretório de conversão
-│   │   └─ Preservar originais
-│   ├─ Depuração
-│   │   ├─ Parâmetros
-│   │   │   └─ Período de Retenção
-│   │   └─ Conteúdo
-|   │       ├─ Arquivos de Sistema
-│   │       │   ├─ Diretório Temporário
-│   │       │   └─ Reporte de Erros
-│   │       └─ Arquivos de Usuário
-│   │           ├─ Downloads
-│   │           ├─ Screenshots
-│   │           └─ Lixeira
-│   ├─ Temas
-│   │   ├─ Violeta
-│   │   ├─ Azul
-│   │   ├─ Verde
-│   │   ├─ Amarelo
-│   │   ├─ Vermelho
-│   │   ├─ Cosmos
-│   │   ├─ Sunrise
-│   │   ├─ Sunset
-│   │   └─ Aqua
+│   │   ├─ Diretório de Conversão
+│   │   └─ Preservar Originais
+│   ├─ Interface
+│   │   ├─ Cor Primária
+│   │   ├─ Cor Secundária
+│   │   └─ Cor Terciária
 │   ├─ Notificações
 │   │   ├─ Software
 │   │   ├─ Backup
 │   │   ├─ Conversão
-│   │   ├─ Depuração
 │   │   ├─ Diagnóstico
 │   │   └─ Manutenção
 │   ├─ Registro de Eventos
@@ -511,7 +472,8 @@ Home
 │   │   └─ Exibir
 │   ├─ Extensões
 │   │   ├─ Instalar
-│   │   └─ Atualizar
+│   │   ├─ Atualizar
+│   │   └─ Desinstalar
 │   ├─ Gerenciar
 │   │   ├─ Importar
 │   │   ├─ Exportar
@@ -632,23 +594,18 @@ Alguns recursos precisam de acesso a pastas de usuário ou aplicativos. Adicione
 ### Extensões
 
 <details>
-<summary>7-Zip: Como instalar</summary>
+<summary>Como instalar</summary>
 
 Siga para `Configurações` `>` `Extensões` `>` `Instalar`
+
+> Pode requerer elevação de privilégios
 
 </details>
 
 <details>
-<summary>WebP: Como instalar</summary>
+<summary>Como atualizar</summary>
 
-Siga para `Configurações` `>` `Extensões` `>` `Instalar`
-
-</details>
-
-<details>
-<summary>FFmpeg: Como instalar</summary>
-
-Siga para `Configurações` `>` `Extensões` `>` `Instalar`
+Siga para `Configurações` `>` `Extensões` `>` `Atualizar`
 
 > Pode requerer elevação de privilégios
 
@@ -659,7 +616,7 @@ Siga para `Configurações` `>` `Extensões` `>` `Instalar`
 <details>
 <summary>Fontes: Como instalar</summary>
 
-Para um design agradável, moderno e sofisticado no terminal, prefira a fonte [JetBrains Mono][JetBrains Mono]. Adicionalmente você pode utilizar a [Cascadia Code][Cascadia Code] ou a [Ubuntu Family][Ubuntu Family].
+Para um design agradável, moderno e sofisticado no terminal, prefira a fonte [JetBrains Mono][JetBrains Mono]. Adicionalmente você pode utilizar [Cascadia Code][Cascadia Code], [Ubuntu Family][Ubuntu Family] ou [Noto Sans Mono][Noto Sans Mono].
 
 - Windows
     - Método 1
@@ -686,3 +643,4 @@ Para um design agradável, moderno e sofisticado no terminal, prefira a fonte [J
 [JetBrains Mono]: https://github.com/JetBrains/JetBrainsMono
 [Cascadia Code]: https://github.com/microsoft/cascadia-code
 [Ubuntu Family]: https://design.ubuntu.com/font
+[Noto Sans Mono]: https://fonts.google.com/noto/specimen/Noto+Sans+Mono

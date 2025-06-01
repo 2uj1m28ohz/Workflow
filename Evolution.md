@@ -21,10 +21,14 @@ SEMVER      ┬ ┬ ┬  ┬                   CALVER V1  ┬  ┬  ┬         
             └────────┤ Major
 ```
 
-## Design
-A [Interface][Interface] de Workflow foi inspirada no universo de Tron, criado por Steven Lisberger, incorporando easter eggs no algoritmo e interface das versões iniciais. O design atual segue as Diretrizes de Interface, priorizando intuitividade, unidade e minimalismo para uma experiência fluida, guiando elementos, fluxos e conceitos.
+## Interface
+Workflow apresenta uma [Interface][Interface] construída com precisão seguindo princípios da intuitividade, unidade e minimalismo para proporcionar uma experiência fluida, guiando elementos, fluxos e conceitos.
 
-A análise da paleta de cores do terminal foi essencial para construir um layout consistente e agradável. Atualizações posteriores introduziram novos temas, elevando a flexibilidade da interface.
+Aplicado ao contexto de CLIs, o Atomic Design organiza a interface em níveis progressivos de complexidade, promovendo modularidade, consistência visual e reutilização de componentes.
+
+No nível atômico, são definidos elementos fundamentais como paleta de cores, elementos e mensagens padrão, centralizados e reutilizáveis em todo o software. Moléculas combinam átomos em unidades funcionais, como mensagens de erro padronizadas com elemento, cor e formatação. Organismos agrupam moléculas em blocos maiores e interativos, representando fluxos completos da interface.
+
+Essa arquitetura facilita a escalabilidade do software, acelera o desenvolvimento de novas funcionalidades e assegura uma experiência coesa. Cada componente pode ser desenvolvido, testado e mantido de forma independente, sem comprometer o alinhamento com o design ou comportamento global do software.
 
 > _Design não é apenas aparência, design é sobre como as coisas funcionam._ - Steve Jobs
 
@@ -64,9 +68,10 @@ De forma geral, monólitos são convenientes por reduzir a sobrecarga cognitiva,
 
 | Sprint | Versão     | Data       | Suporte | Arquiteturas        | Sistemas        | Crescimento |
 | :----: | :--------: | :--------: | :-----: | :-----------------: | :-------------: | :---------: |
+| 81     | 25.06.0    | 01/06/2025 | Sim     | x64/ARM64           | Windows/Linux   | -22,16%     |
 | 80     | 25.05.0    | 04/05/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +00,15%     |
 | 79     | 25.04.0    | 06/04/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +09,73%     |
-| 78     | 25.03.0    | 02/03/2025 | Sim     | x86/x64/ARM32/ARM64 | Windows/Linux   | +03,49%     |
+| 78     | 25.03.0    | 02/03/2025 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +03,49%     |
 | 77     | 25.02.0    | 02/02/2025 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +00,40%     |
 | 76     | 25.01.0    | 05/01/2025 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +04,51%     |
 | 75     | 24.12.1    | 01/12/2024 | Não     | x86/x64/ARM32/ARM64 | Windows/Linux   | +04,27%     |
