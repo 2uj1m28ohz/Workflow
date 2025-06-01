@@ -1,6 +1,6 @@
 {
 	"DevelopmentStatus": "1",
-	"UpdateNumber": "25.06.0",
+	"UpdateNumber": "25.05.0",
 	"Releases": [
 		{
 			"ReleaseNumber": "25.06.0",
@@ -58,7 +58,7 @@
 		}
 	],
 	"Development": "1",
-	"Update": "25.06.0",
+	"Update": "25.05.0",
 	"Version": [
 		{
 			"Release": "25.06.0",
